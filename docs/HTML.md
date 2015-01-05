@@ -11,3 +11,7 @@ Table
 ```
 <table>
 ```
+Table Folder
+```
+<tfoot>
+```
