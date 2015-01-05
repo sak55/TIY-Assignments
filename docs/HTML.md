@@ -31,3 +31,7 @@ Long ("block") quotation
 ```
 <blockquote>
 ```
+Definition description
+```
+<dd>
+```
