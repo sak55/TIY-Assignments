@@ -1,9 +1,3 @@
-### 10 block-level HTML elements 
-
-Preformated text
-```
-<pre>
-```
 Table
 ```
 <table>
@@ -91,16 +85,24 @@ Section or Page Header
 </form></h1>
 
 
-### 2. `<h2>` -- Page Heading, Level 2
+### 2. `<pre>` -- Preformatted Text, Level 2
 
 * *type:* block-level
 * *content:* phrasing content[1]
-* *support:* all browsers
+* *support:* Desktop Basic, Mobile Basic
 * *example:*
 ```
-<h2>Search</h2>
+<pre>
+body {
+  color:red;
+}
+</pre>
 ```
-<h2>Search</h2>
+<pre>
+body {
+  color:red;
+}
+</pre>
 
 ### 3. `<p>` -- Paragraph
 
