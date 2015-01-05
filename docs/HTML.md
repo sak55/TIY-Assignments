@@ -3,7 +3,7 @@ Input form
 ```
 <form> 
 ```
-Preformatted text
+Preformated text
 ```
 <pre>
 ```
