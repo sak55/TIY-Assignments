@@ -1,8 +1,5 @@
 ### 10 block-level HTML elements 
-Input form
-```
-<form> 
-```
+
 Preformated text
 ```
 <pre>
@@ -42,16 +39,56 @@ Section or Page Header
 ### _Reading HTML_
 
 ----
-### 1. `<h1>` -- Page Heading, Level 1
+### 1. `<form>` -- Input Form, Level 1
 
 * *type:* block-level
-* *content:* phrasing content[1]
-* *support:* all browsers
+* *content:* Flow content, but not containing <form> elements
+* *support:* DeskTop - Basic:Chrome 1.0, Firefox 1.0, IE, Opera, Safari, novalidate attribute: Chrome1.0, Firefox 4.0, IE 10.0, Opera ?, Safari ? Mobile - Basic support Chrome, Firefox 1.0, IE, Opera, Safari, novalidate attribute: Chrome ?, Firefox 4.0, IE, Opera ?, Safari ?
 * *example:*
 ```
-<h1>The Iron Yard | Orlando</h1>
+<!-- Simple form which will send a GET request -->
+<form action="">
+  <label for="GET-name">Name:</label>
+  <input id="GET-name" type="text" name="name">
+  <input type="submit" value="Save">
+</form>
+
+<!-- Simple form which will send a POST request -->
+<form action="" method="post">
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="name">
+  <input type="submit" value="Save">
+</form>
+
+<!-- Form with fieldset, legend, and label -->
+<form action="" method="post">
+  <fieldset>
+    <legend>Title</legend>
+    <input type="radio" name="radio" id="radio"> <label for="radio">Click me</label>
+  </fieldset>
+</form>
 ```
-<h1>The Iron Yard | Orlando</h1>
+<h1><!-- Simple form which will send a GET request -->
+<form action="">
+  <label for="GET-name">Name:</label>
+  <input id="GET-name" type="text" name="name">
+  <input type="submit" value="Save">
+</form>
+
+<!-- Simple form which will send a POST request -->
+<form action="" method="post">
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="name">
+  <input type="submit" value="Save">
+</form>
+
+<!-- Form with fieldset, legend, and label -->
+<form action="" method="post">
+  <fieldset>
+    <legend>Title</legend>
+    <input type="radio" name="radio" id="radio"> <label for="radio">Click me</label>
+  </fieldset>
+</form></h1>
 
 
 ### 2. `<h2>` -- Page Heading, Level 2
