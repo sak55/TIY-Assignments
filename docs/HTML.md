@@ -15,3 +15,7 @@ Table Folder
 ```
 <tfoot>
 ```
+Video Player
+```
+<video>
+```
