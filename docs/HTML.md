@@ -7,3 +7,7 @@ Preformated text
 ```
 <pre>
 ```
+Table
+```
+<table>
+```
