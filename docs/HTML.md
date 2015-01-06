@@ -1,67 +1,62 @@
 
-### _Reading HTML_
+### Format for _Reading HTML_
+
+Use the following format for your own "Reading HTML" file: `docs/HTML.md`. Please take careful note of the lack of line breaks after the _example_ bullet, if you want your formatting to look like mine. Anything unexpected in the way Github renders your Markdown file? Add it to your _WIP Issue_ as a comment so we can discuss it in class.
 
 ----
-### 1. `<form>` -- Input Form, Level 1
-
-* *type:* block-level
-* *content:* Flow content, but not containing <form> elements
-* *support:* DeskTop - Basic:Chrome 1.0, Firefox 1.0, IE, Opera, Safari, novalidate attribute: Chrome1.0, Firefox 4.0, IE 10.0, Opera ?, Safari ? Mobile - Basic support Chrome, Firefox 1.0, IE, Opera, Safari, novalidate attribute: Chrome ?, Firefox 4.0, IE, Opera ?, Safari ?
-* *example:*
-```
-<form action="">
-  <label for="GET-name">Name:</label>
-  <input id="GET-name" type="text" name="name">
-  <input type="submit" value="Save">
-</form>
-```
-<h1><!-- Simple form which will send a GET request -->
-<form action="">
-  <label for="GET-name">Name:</label>
-  <input id="GET-name" type="text" name="name">
-  <input type="submit" value="Save">
-</form>
-
-### 2. `<pre>` -- Preformatted Text, Level 2
-
-* *type:* block-level
-* *content:* phrasing content[1]
-* *support:* Desktop Basic, Mobile Basic
-* *example:*
-```
-<pre>
-body {
-  color:red;
-}
-</pre>
-```
-<pre>
-body {
-  color:red;
-}
-</pre>
-
-### 3. `<p>` -- Paragraph
+### 1. `<h1>` -- Page Heading, Level 1
 
 * *type:* block-level
 * *content:* phrasing content[1]
 * *support:* all browsers
 * *example:*
 ```
-<p> The quick brown fox jumped over the lazy dog. </p>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit enim id massa auctor, in rhoncus tellus tincidunt. Praesent non convallis ligula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ante nulla, auctor eget accumsan a, malesuada ac elit. </p>
-<p> Lines
-don't
-matter. </p>
+<h1>The Iron Yard | Orlando</h1>
 ```
-<p> The quick brown fox jumped over the lazy dog. </p>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit enim id massa auctor, in rhoncus tellus tincidunt. Praesent non convallis ligula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ante nulla, auctor eget accumsan a, malesuada ac elit. </p>
-<p> Lines
-don't
-matter. </p>
+<h1>The Iron Yard | Orlando</h1>
+
+
+### 2. `<header>` -- Header, Level 2
+
+* *type:* block-level
+* *content:* flow content[1]
+* *support:* Desktop Basic, Mobile Basic
+* *example:*
+```
+<header>I am a header </header>
+```
+<header>I am a header </header>
+
+### 3. `<address>` -- Address
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
 
 ### Footnotes:
 
 1. [phrasing content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content)
 
 ----
+
+## Additional Resources
+
+* [Learn to :heart: `git`](http://j.mp/1GX4FFD)
+* [Learn to :heart: HTML](http://j.mp/1rRr6dK)
+* [Learn to :heart: Markdown](http://j.mp/1rRsxZu)
+* [Notes for 2015-01-05](../Notes/2015-01-05.md)
