@@ -91,26 +91,34 @@ USA</br>
 <hr>
 <p>Below the line.</p>
 
-### 7. `<address>` -- Address
+### 7. `<table>` -- Table
 
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
 * *example:*
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<table>
+  <tr>
+    <td>First Name</td>
+    <td>Last Name</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Doe</td>
+  </tr>
+</table>
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<table>
+  <tr>
+    <td>First Name</td>
+    <td>Last Name</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Doe</td>
+  </tr>
+</table>
 
 ### 8. `<address>` -- Address
 
