@@ -200,4 +200,40 @@ these words are big(er) than the line before
 <big>
 these words are big(er) than the line before
 </big>
+  
+### 13. `<small>` -- Makes text size one size smaller
 
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<small>
+these words are small(er) than the line before
+  </small>
+```
+<small>
+these words are small(er) than the line before
+  </small>
+  
+### 14. `<abbr>` -- Makes abbreviations
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *example:*
+```
+I was born in <abbr title="Florida">FL</abbr>
+```
+I was born in <abbr title="Florida">FL</abbr>
+
+### 15. `<code>` -- adds code to regular text
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *example:*
+```
+blah blah blah <code>Code lives here</code> blah blah blah
+```
+blah blah blah <code>Code lives here</code> blah blah blah
