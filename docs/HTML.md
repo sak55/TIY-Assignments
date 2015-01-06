@@ -1,35 +1,4 @@
-Table
-```
-<table>
-```
-Table Folder
-```
-<tfoot>
-```
-Video Player
-```
-<video>
-```
-Field Set Label
-```
-<fieldset>
-```
-Contact Information
-```
-<address>
-```
-Long ("block") quotation
-```
-<blockquote>
-```
-Definition description
-```
-<dd>
-```
-Section or Page Header
-```
-<header>
-```
+
 ### _Reading HTML_
 
 ----
@@ -40,26 +9,10 @@ Section or Page Header
 * *support:* DeskTop - Basic:Chrome 1.0, Firefox 1.0, IE, Opera, Safari, novalidate attribute: Chrome1.0, Firefox 4.0, IE 10.0, Opera ?, Safari ? Mobile - Basic support Chrome, Firefox 1.0, IE, Opera, Safari, novalidate attribute: Chrome ?, Firefox 4.0, IE, Opera ?, Safari ?
 * *example:*
 ```
-<!-- Simple form which will send a GET request -->
 <form action="">
   <label for="GET-name">Name:</label>
   <input id="GET-name" type="text" name="name">
   <input type="submit" value="Save">
-</form>
-
-<!-- Simple form which will send a POST request -->
-<form action="" method="post">
-  <label for="POST-name">Name:</label>
-  <input id="POST-name" type="text" name="name">
-  <input type="submit" value="Save">
-</form>
-
-<!-- Form with fieldset, legend, and label -->
-<form action="" method="post">
-  <fieldset>
-    <legend>Title</legend>
-    <input type="radio" name="radio" id="radio"> <label for="radio">Click me</label>
-  </fieldset>
 </form>
 ```
 <h1><!-- Simple form which will send a GET request -->
@@ -68,22 +21,6 @@ Section or Page Header
   <input id="GET-name" type="text" name="name">
   <input type="submit" value="Save">
 </form>
-
-<!-- Simple form which will send a POST request -->
-<form action="" method="post">
-  <label for="POST-name">Name:</label>
-  <input id="POST-name" type="text" name="name">
-  <input type="submit" value="Save">
-</form>
-
-<!-- Form with fieldset, legend, and label -->
-<form action="" method="post">
-  <fieldset>
-    <legend>Title</legend>
-    <input type="radio" name="radio" id="radio"> <label for="radio">Click me</label>
-  </fieldset>
-</form></h1>
-
 
 ### 2. `<pre>` -- Preformatted Text, Level 2
 
