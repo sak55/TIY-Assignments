@@ -1,7 +1,11 @@
 
 ### Format for _Reading HTML_
 
-Use the following format for your own "Reading HTML" file: `docs/HTML.md`. Please take careful note of the lack of line breaks after the _example_ bullet, if you want your formatting to look like mine. Anything unexpected in the way Github renders your Markdown file? Add it to your _WIP Issue_ as a comment so we can discuss it in class.
+Use the following format for your own "Reading HTML" file: `docs/HTML.md`. 
+Please take careful note of the lack of line breaks after the _example_ bullet, 
+if you want your formatting to look like mine. Anything unexpected in the way 
+Github renders your Markdown file? Add it to your _WIP Issue_ as a comment so 
+we can discuss it in class.
 
 ----
 ### 1. `<h1>` -- Page Heading, Level 1
@@ -167,15 +171,33 @@ USA</br>
 </tr>
   </tfoot>
   
-### Footnotes:
+### 11. `<tfoot>` -- Table Footer
 
-1. [phrasing content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content)
+* *type:* block-level
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<pre>
+these words are not pre formatted
+  </pre>
+```
+<pre>
+these words are not pre formatted
+  </pre>
+  
+### 12. `<big>` -- Makes text size one size bigger
 
-----
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<big>
+these words are big(er) than the line before
+  </big>
+```
+<big>
+these words are big(er) than the line before
+</big>
 
-## Additional Resources
-
-* [Learn to :heart: `git`](http://j.mp/1GX4FFD)
-* [Learn to :heart: HTML](http://j.mp/1rRr6dK)
-* [Learn to :heart: Markdown](http://j.mp/1rRsxZu)
-* [Notes for 2015-01-05](../Notes/2015-01-05.md)
