@@ -48,26 +48,22 @@ Orlando, FL<br/>
 USA</br>
 </address>
 
-### 4. `<address>` -- Address
+### 4. `<article>` -- Article
 
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
 * *example:*
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<article>
+  <h4>Article about nothing</h4>
+  <p>Here is where the text would be about this article if it was about something.</p>
+</article>
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<article>
+  <h4>Article about nothing</h4>
+  <p>Here is where the text would be about this article if it was about something.</p>
+</article>
 
 ### 5. `<address>` -- Address
 
