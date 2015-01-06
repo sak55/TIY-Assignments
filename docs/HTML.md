@@ -260,3 +260,43 @@ blah blah blah <strong>start listening to me</strong> blah blah blah
 ```
 blah blah blah <strong>start listening to me</strong> blah blah blah
 
+### 18. `<a>` --  Element to define a hyperlink
+
+* *type:* inline
+* *content:* transparent
+* *support:* all browsers Basic Support
+* *example:*
+```
+blah blah blah <a href="https://en.wikipedia.org/wiki/Hyperlink/"> HyperLink </a> blah blah blah
+```
+blah blah blah <a href="https://en.wikipedia.org/wiki/Hyperlink/"> HyperLink </a> blah blah blah
+
+### 19. `<q>` --  indicates that the enclosed text is a short inline quotation
+
+* *type:* inline
+* *content:* phrasing
+* *support:* all browsers Basic Support
+* *example:*
+```
+blah blah blah, <q>That is what I said.</q> blah blah blah
+```
+blah blah blah, <q>That is what I said.</q> blah blah blah
+
+### 20. `<select>` --  indicates that the enclosed text is a short inline quotation
+
+* *type:* inline
+* *content:* phrasing
+* *support:* all browsers Basic Support
+* *example:*
+```
+blah blah blah, I <select name="select">
+  <option value="love you">love you</option> 
+  <option value="hate you" selected>hate you</option>
+  <option value="am hungry">am hungry</option>
+</select> blah blah blah
+```
+blah blah blah, I <select name="select">
+  <option value="love you">love you</option> 
+  <option value="hate you" selected>hate you</option>
+  <option value="am hungry">am hungry</option>
+</select> blah blah blah
