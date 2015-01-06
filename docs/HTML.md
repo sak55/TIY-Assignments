@@ -120,26 +120,16 @@ USA</br>
   </tr>
 </table>
 
-### 8. `<address>` -- Address
+### 8. `<h1>` -- Heading Level1
 
 * *type:* block-level
-* *content:* Flow content
+* *content:* Phrasing content
 * *support:* all browsers Basic Support
 * *example:*
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<h1>I am the Header to all headers</h1>
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<h1>I am the Header to all headers</h1>
 
 ### 9. `<address>` -- Address
 
