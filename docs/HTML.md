@@ -237,3 +237,26 @@ I was born in <abbr title="Florida">FL</abbr>
 blah blah blah <code>Code lives here</code> blah blah blah
 ```
 blah blah blah <code>Code lives here</code> blah blah blah
+
+### 16. `<em>` --  element marks text that has stress emphasis.
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *example:*
+```
+blah blah blah <em>are you paying attention</em> blah blah blah
+```
+blah blah blah <em>are you paying attention</em> blah blah blah
+
+### 17. `<strong>` --  Strong Element gives text strong importance, and is typically displayed in bold.
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *example:*
+```
+blah blah blah <strong>start listening to me</strong> blah blah blah
+```
+blah blah blah <strong>start listening to me</strong> blah blah blah
+
