@@ -76,26 +76,20 @@ USA</br>
 ```
 <aside>This is a side comment to the article that wasnt written.</aside>
 
-### 6. `<address>` -- Address
+### 6. `<hr>` -- Horizontal rule
 
 * *type:* block-level
-* *content:* Flow content
+* *content:* empty element
 * *support:* all browsers Basic Support
 * *example:*
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<p>Above the line</p>
+<hr>
+<p>Below the line.</p>
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<p>Above the line</p>
+<hr>
+<p>Below the line.</p>
 
 ### 7. `<address>` -- Address
 
