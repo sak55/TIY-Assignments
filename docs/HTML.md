@@ -131,26 +131,20 @@ USA</br>
 ```
 <h1>I am the Header to all headers</h1>
 
-### 9. `<address>` -- Address
+### 9. `<footer>` -- Footer
 
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
 * *example:*
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<footer>
+  Some copyright info... NOT!!!!
+</footer>
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<footer>
+  Some copyright info... NOT!!!!
+</footer>
 
 ### 10. `<address>` -- Address
 
