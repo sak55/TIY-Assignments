@@ -48,6 +48,152 @@ Orlando, FL<br/>
 USA</br>
 </address>
 
+### 4. `<address>` -- Address
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+
+### 5. `<address>` -- Address
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+
+### 6. `<address>` -- Address
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+
+### 7. `<address>` -- Address
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+
+### 8. `<address>` -- Address
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+
+### 9. `<address>` -- Address
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+
+### 10. `<address>` -- Address
+
+* *type:* block-level
+* *content:* Flow content
+* *support:* all browsers Basic Support
+* *example:*
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
+```
+<address>
+The Iron Yard</br>
+101 S Garland Ave.</br>
+Orlando, FL<br/>
+USA</br>
+</address>
 ### Footnotes:
 
 1. [phrasing content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content)
