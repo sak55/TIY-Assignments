@@ -65,26 +65,16 @@ USA</br>
   <p>Here is where the text would be about this article if it was about something.</p>
 </article>
 
-### 5. `<address>` -- Address
+### 5. `<aside>` -- Aside Comment
 
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
 * *example:*
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<aside>This is a side comment to the article that wasnt written.</aside>
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<aside>This is a side comment to the article that wasnt written.</aside>
 
 ### 6. `<address>` -- Address
 
