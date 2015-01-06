@@ -146,26 +146,27 @@ USA</br>
   Some copyright info... NOT!!!!
 </footer>
 
-### 10. `<address>` -- Address
+### 10. `<tfoot>` -- Table Footer
 
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
 * *example:*
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<tfoot>
+<tr>
+<td>last line 1</td>
+<td>Last line 2</td>
+</tr>
+  </tfoot>
 ```
-<address>
-The Iron Yard</br>
-101 S Garland Ave.</br>
-Orlando, FL<br/>
-USA</br>
-</address>
+<tfoot>
+<tr>
+<td>last line 1</td>
+<td>Last line 2</td>
+</tr>
+  </tfoot>
+  
 ### Footnotes:
 
 1. [phrasing content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content)
