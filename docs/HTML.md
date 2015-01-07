@@ -140,7 +140,7 @@ USA</br>
 * *type:* block-level
 * *content:* empty element
 * *support:* all browsers Basic Support
-* *attributes:* Global 
+* *attributes:* Align, Color, noshade, size, width 
 * *example:*
 ```
 <p>Above the line</p>
@@ -156,7 +156,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
-* *attributes:* Global 
+* *attributes:* align, bgcolor, border, cellpadding, cellspacing, frame, rules, summary, width
 * *example:*
 ```
 <table>
@@ -198,7 +198,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
-* *attributes:* Global 
+* *attributes:* align, bgcolor, charr, charroff, valign, 
 * *example:*
 ```
 <footer>
