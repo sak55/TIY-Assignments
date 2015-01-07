@@ -3,10 +3,11 @@
 
 ### Global Attributes
 
-### 1. `accesskey` -- hint for generating short key
+### 1. `accesskey` -- hint for generating shortcuts
 
 * *values:* ?
 * *support:* all browsers
+* *attributes:* Global 
 * *examples:* on Chrome for Mac Control + Alt + a key
 
 
