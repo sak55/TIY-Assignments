@@ -1,11 +1,51 @@
 
 ### Format for _Reading HTML_
 
-Use the following format for your own "Reading HTML" file: `docs/HTML.md`. 
-Please take careful note of the lack of line breaks after the _example_ bullet, 
-if you want your formatting to look like mine. Anything unexpected in the way 
-Github renders your Markdown file? Add it to your _WIP Issue_ as a comment so 
-we can discuss it in class.
+### Common Attributes
+
+#### `class` -- element class names
+
+* *values:* space-separated list of class names
+* *support:* all browsers
+* *examples:*
+```html
+<aside class="page--column">
+  <!-- . . . -->
+</aside> <!-- .page--column -->
+<section class="page--column">
+  <!-- . . . -->
+</section> <!-- .page--column -->
+```
+
+### `id` -- unique element identifier
+
+* *values:* single letter character followed by any number of letters, digits, hyphens, underscores, colons or periods
+* *support:* all browsers
+* *examples:*
+```html
+<form class="search" id="site-search">
+  <!-- . . . -->
+</form> <!-- .search#site-search -->
+```
+
+### `<form>` -- interactive controls
+
+* *type:* block-level
+* *content:* flow content but not `<form>`
+* *support:* all browsers
+* *examples:* ...
+
+#### `action` -- form submission URL
+
+* *values:* URL of a program that processes a form submission
+* *support:* all browsers
+* *examples:*
+```html
+<form action="http://lmgtfy.com/">
+  <input name="q">
+</form>
+```
+
 
 ----
 ### 1. `<h1>` -- Page Heading, Level 1
