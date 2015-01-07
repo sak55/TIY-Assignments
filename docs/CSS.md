@@ -26,3 +26,35 @@ default. What does that mean, anyway?
 * `initial` -- changes all properties of the element to their initial value
 * `inherit` -- changes all properties of the element to their parent value
 * `unset` -- changes all properties of the element to their parent value if they are inheritable or to their initial value if not
+
+### 3. `background-color`
+
+* *elements:* all
+* *inherited:* no
+
+#### Values
+
+* ```<color>```
+
+### 4. `border`
+
+* *elements:* all
+* *inherited:* no
+
+#### Values
+
+* ```<br-width>``` -- Default value medium is used if absent
+* ```<br-style>``` -- Default value none is used if absent.
+* ```<color>``` 
+
+### 5. `clear`
+
+* *elements:* block-level
+* *inherited:* no
+
+#### Values
+
+* `none` -- The element is not moved down to clear past floating elements.
+* `left` -- The element is moved down to clear past left floats.
+* `right` -- The element is moved down to clear past right floats.
+* `both`-- The element is moved down to clear past both left and right floats.
