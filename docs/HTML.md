@@ -7,7 +7,6 @@
 
 * *values:* ?
 * *support:* all browsers
-* *attributes:* Global 
 * *examples:* on Chrome for Mac Control + Alt + a key
 
 
@@ -64,6 +63,7 @@
 * *type:* block-level
 * *content:* phrasing content[1]
 * *support:* all browsers
+* *attributes:* Global 
 * *example:*
 ```
 <h1>The Iron Yard | Orlando</h1>
@@ -76,6 +76,7 @@
 * *type:* block-level
 * *content:* flow content[1]
 * *support:* Desktop Basic, Mobile Basic
+* *attributes:* Global 
 * *example:*
 ```
 <header>I am a header </header>
@@ -87,6 +88,7 @@
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <address>
@@ -108,6 +110,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <article>
@@ -125,6 +128,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <aside>This is a side comment to the article that wasnt written.</aside>
@@ -136,6 +140,7 @@ USA</br>
 * *type:* block-level
 * *content:* empty element
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <p>Above the line</p>
@@ -151,6 +156,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <table>
@@ -180,6 +186,7 @@ USA</br>
 * *type:* block-level
 * *content:* Phrasing content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <h1>I am the Header to all headers</h1>
@@ -191,6 +198,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <footer>
@@ -206,6 +214,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <tfoot>
