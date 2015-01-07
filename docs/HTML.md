@@ -1,6 +1,16 @@
 
 ### Format for _Reading HTML_
 
+### Global Attributes
+
+### 1. `accesskey` -- hint for generating short key
+
+* *values:* ?
+* *support:* all browsers
+* *examples:* on Chrome for Mac Control + Alt + a key
+
+
+
 ### Common Attributes
 
 #### `class` -- element class names
