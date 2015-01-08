@@ -1,7 +1,61 @@
 
 ### Format for _Reading HTML_
 
-Use the following format for your own "Reading HTML" file: `docs/HTML.md`. Please take careful note of the lack of line breaks after the _example_ bullet, if you want your formatting to look like mine. Anything unexpected in the way Github renders your Markdown file? Add it to your _WIP Issue_ as a comment so we can discuss it in class.
+### Global Attributes
+
+### 1. `accesskey` -- hint for generating shortcuts
+
+* *values:* ?
+* *support:* all browsers
+* *examples:* on Chrome for Mac Control + Alt + a key
+
+
+
+### Common Attributes
+
+#### `class` -- element class names
+
+* *values:* space-separated list of class names
+* *support:* all browsers
+* *examples:*
+```html
+<aside class="page--column">
+  <!-- . . . -->
+</aside> <!-- .page--column -->
+<section class="page--column">
+  <!-- . . . -->
+</section> <!-- .page--column -->
+```
+
+### `id` -- unique element identifier
+
+* *values:* single letter character followed by any number of letters, digits, hyphens, underscores, colons or periods
+* *support:* all browsers
+* *examples:*
+```html
+<form class="search" id="site-search">
+  <!-- . . . -->
+</form> <!-- .search#site-search -->
+```
+
+### `<form>` -- interactive controls
+
+* *type:* block-level
+* *content:* flow content but not `<form>`
+* *support:* all browsers
+* *examples:* ...
+
+#### `action` -- form submission URL
+
+* *values:* URL of a program that processes a form submission
+* *support:* all browsers
+* *examples:*
+```html
+<form action="http://lmgtfy.com/">
+  <input name="q">
+</form>
+```
+
 
 ----
 ### 1. `<h1>` -- Page Heading, Level 1
@@ -9,6 +63,7 @@ Use the following format for your own "Reading HTML" file: `docs/HTML.md`. Pleas
 * *type:* block-level
 * *content:* phrasing content[1]
 * *support:* all browsers
+* *attributes:* Global 
 * *example:*
 ```
 <h1>The Iron Yard | Orlando</h1>
@@ -21,6 +76,7 @@ Use the following format for your own "Reading HTML" file: `docs/HTML.md`. Pleas
 * *type:* block-level
 * *content:* flow content[1]
 * *support:* Desktop Basic, Mobile Basic
+* *attributes:* Global 
 * *example:*
 ```
 <header>I am a header </header>
@@ -32,6 +88,7 @@ Use the following format for your own "Reading HTML" file: `docs/HTML.md`. Pleas
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <address>
@@ -53,6 +110,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <article>
@@ -70,6 +128,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <aside>This is a side comment to the article that wasnt written.</aside>
@@ -81,6 +140,7 @@ USA</br>
 * *type:* block-level
 * *content:* empty element
 * *support:* all browsers Basic Support
+* *attributes:* Align, Color, noshade, size, width 
 * *example:*
 ```
 <p>Above the line</p>
@@ -96,6 +156,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* align, bgcolor, border, cellpadding, cellspacing, frame, rules, summary, width
 * *example:*
 ```
 <table>
@@ -125,6 +186,7 @@ USA</br>
 * *type:* block-level
 * *content:* Phrasing content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <h1>I am the Header to all headers</h1>
@@ -136,6 +198,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* align, bgcolor, charr, charroff, valign, 
 * *example:*
 ```
 <footer>
@@ -151,6 +214,7 @@ USA</br>
 * *type:* block-level
 * *content:* Flow content
 * *support:* all browsers Basic Support
+* *attributes:* Global 
 * *example:*
 ```
 <tfoot>
@@ -167,15 +231,142 @@ USA</br>
 </tr>
   </tfoot>
   
-### Footnotes:
+### 11. `<tfoot>` -- Table Footer
 
-1. [phrasing content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content)
+* *type:* block-level
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *attributes:* align, bgcolor, charr, charroff, valign, 
+* *example:*
+```
+<pre>
+these words are not pre formatted
+  </pre>
+```
+<pre>
+these words are not pre formatted
+  </pre>
+  
+### 12. `<big>` -- Makes text size one size bigger
 
-----
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *attributes:* Global
+* *example:*
+```
+<big>
+these words are big(er) than the line before
+  </big>
+```
+<big>
+these words are big(er) than the line before
+</big>
+  
+### 13. `<small>` -- Makes text size one size smaller
 
-## Additional Resources
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *attributes:* Global
+* *example:*
+```
+<small>
+these words are small(er) than the line before
+  </small>
+```
+<small>
+these words are small(er) than the line before
+  </small>
+  
+### 14. `<abbr>` -- Makes abbreviations
 
-* [Learn to :heart: `git`](http://j.mp/1GX4FFD)
-* [Learn to :heart: HTML](http://j.mp/1rRr6dK)
-* [Learn to :heart: Markdown](http://j.mp/1rRsxZu)
-* [Notes for 2015-01-05](../Notes/2015-01-05.md)
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *attributes:* Global
+* *example:*
+```
+I was born in <abbr title="Florida">FL</abbr>
+```
+I was born in <abbr title="Florida">FL</abbr>
+
+### 15. `<code>` -- adds code to regular text
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *attributes:* Global
+* *example:*
+```
+blah blah blah <code>Code lives here</code> blah blah blah
+```
+blah blah blah <code>Code lives here</code> blah blah blah
+
+### 16. `<em>` --  element marks text that has stress emphasis.
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *attributes:* Global
+* *example:*
+```
+blah blah blah <em>are you paying attention</em> blah blah blah
+```
+blah blah blah <em>are you paying attention</em> blah blah blah
+
+### 17. `<strong>` --  Strong Element gives text strong importance, and is typically displayed in bold.
+
+* *type:* inline
+* *content:* Phrasing content
+* *support:* all browsers Basic Support
+* *attributes:* Global
+* *example:*
+```
+blah blah blah <strong>start listening to me</strong> blah blah blah
+```
+blah blah blah <strong>start listening to me</strong> blah blah blah
+
+### 18. `<a>` --  Element to define a hyperlink
+
+* *type:* inline
+* *content:* transparent
+* *support:* all browsers Basic Support
+* *attributes:* Global
+* *example:*
+```
+blah blah blah <a href="https://en.wikipedia.org/wiki/Hyperlink/"> HyperLink </a> blah blah blah
+```
+blah blah blah <a href="https://en.wikipedia.org/wiki/Hyperlink/"> HyperLink </a> blah blah blah
+
+### 19. `<q>` --  indicates that the enclosed text is a short inline quotation
+
+* *type:* inline
+* *content:* phrasing
+* *support:* all browsers Basic Support
+* *attributes:* Global
+* *example:*
+```
+blah blah blah, <q>That is what I said.</q> blah blah blah
+```
+blah blah blah, <q>That is what I said.</q> blah blah blah
+
+### 20. `<select>` --  indicates that the enclosed text is a short inline quotation
+
+* *type:* inline
+* *content:* phrasing
+* *support:* all browsers Basic Support
+* *attributes:* Global
+* *example:*
+```
+blah blah blah, I <select name="select">
+  <option value="love you">love you</option> 
+  <option value="hate you" selected>hate you</option>
+  <option value="am hungry">am hungry</option>
+</select> blah blah blah
+```
+blah blah blah, I <select name="select">
+  <option value="love you">love you</option> 
+  <option value="hate you" selected>hate you</option>
+  <option value="am hungry">am hungry</option>
+</select> blah blah blah
