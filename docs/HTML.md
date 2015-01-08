@@ -236,6 +236,7 @@ USA</br>
 * *type:* block-level
 * *content:* Phrasing content
 * *support:* all browsers Basic Support
+* *attributes:* align, bgcolor, charr, charroff, valign, 
 * *example:*
 ```
 <pre>
@@ -251,6 +252,7 @@ these words are not pre formatted
 * *type:* inline
 * *content:* Phrasing content
 * *support:* all browsers Basic Support
+* *attributes:* Global
 * *example:*
 ```
 <big>
@@ -266,6 +268,7 @@ these words are big(er) than the line before
 * *type:* inline
 * *content:* Phrasing content
 * *support:* all browsers Basic Support
+* *attributes:* Global
 * *example:*
 ```
 <small>
@@ -281,6 +284,7 @@ these words are small(er) than the line before
 * *type:* inline
 * *content:* Phrasing content
 * *support:* all browsers Basic Support
+* *attributes:* Global
 * *example:*
 ```
 I was born in <abbr title="Florida">FL</abbr>
@@ -292,6 +296,7 @@ I was born in <abbr title="Florida">FL</abbr>
 * *type:* inline
 * *content:* Phrasing content
 * *support:* all browsers Basic Support
+* *attributes:* Global
 * *example:*
 ```
 blah blah blah <code>Code lives here</code> blah blah blah
@@ -303,6 +308,7 @@ blah blah blah <code>Code lives here</code> blah blah blah
 * *type:* inline
 * *content:* Phrasing content
 * *support:* all browsers Basic Support
+* *attributes:* Global
 * *example:*
 ```
 blah blah blah <em>are you paying attention</em> blah blah blah
@@ -314,6 +320,7 @@ blah blah blah <em>are you paying attention</em> blah blah blah
 * *type:* inline
 * *content:* Phrasing content
 * *support:* all browsers Basic Support
+* *attributes:* Global
 * *example:*
 ```
 blah blah blah <strong>start listening to me</strong> blah blah blah
@@ -325,6 +332,7 @@ blah blah blah <strong>start listening to me</strong> blah blah blah
 * *type:* inline
 * *content:* transparent
 * *support:* all browsers Basic Support
+* *attributes:* Global
 * *example:*
 ```
 blah blah blah <a href="https://en.wikipedia.org/wiki/Hyperlink/"> HyperLink </a> blah blah blah
@@ -336,6 +344,7 @@ blah blah blah <a href="https://en.wikipedia.org/wiki/Hyperlink/"> HyperLink </a
 * *type:* inline
 * *content:* phrasing
 * *support:* all browsers Basic Support
+* *attributes:* Global
 * *example:*
 ```
 blah blah blah, <q>That is what I said.</q> blah blah blah
@@ -347,6 +356,7 @@ blah blah blah, <q>That is what I said.</q> blah blah blah
 * *type:* inline
 * *content:* phrasing
 * *support:* all browsers Basic Support
+* *attributes:* Global
 * *example:*
 ```
 blah blah blah, I <select name="select">
