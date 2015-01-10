@@ -87,7 +87,7 @@ hgroup{
 }
 
 .container: {
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 
@@ -103,7 +103,13 @@ hgroup{
     Margin-left:auto;
     width:37.5%;
     float: right;
+}
 
+ul{
+    display: inline;
+    color: black;
+    font-weight:800;
+    float:right;
 }
 
 .headernav{
