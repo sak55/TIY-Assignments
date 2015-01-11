@@ -65,74 +65,6 @@ img {
     height: auto;
 }
 
-header{
-    background-image:url("http://www.lorempixel.com/1440/400/");
-    height:400px;
-}
-
-
-h1{
-    margin-top:-100px;
-}
-
-h5{
-    margin-top:-25px;
-}
-
-hgroup{
-    text-align: center;
-    position:relative;
-    overflow: auto;
-    padding-top:110px;
-}
-
-.container: {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
-.column{
-}
-
-.column-main{
-    float:left;
-    width:62.5%;
-}
-
-.column-aside{
-    Margin-left:auto;
-    width:37.5%;
-    float: right;
-}
-
-ul{
-    display: inline;
-    color: black;
-    font-weight:800;
-    float:right;
-}
-
-.headernav{
-    float:top;
-}
-
-.bigcircle{
-    margin-left:10%;
-    margin-top: 10px;
-    border-radius:100px;
-}
-.subtext{
-
-}
-
-.articlenav{
-
-}
-
-.headshot {
-
-}
-
 .headingfont{
     font-family:'Oswald', sans-serif;
     font-size: 5em;
@@ -140,6 +72,107 @@ ul{
 
 .copyfont{
     font-family:'Open+Sans', sans-serif;
+    margin-top:-50px;
+}
+
+section{
+    width: 62.5%;
+    float: left;
+    background-color: blue;
+}
+
+.container{
+    padding-left:10%;
+    padding-right:10%;
+}
+
+
+div.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+
+.column-side {
+    width: 37.5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    border: 0px;
+    float: right;
+
+    /**
+    How do I set a:
+    - minimum width?
+    - maximum width?
+    **/
+}
+
+figcaption{
+    text-align: right;
+}
+
+.column-main {
+    margin-left: auto;
+    width: 100%;
+    background-color: red;
+    }
+
+article img {
+    width: 10%;
+    border-radius:100%;
+}
+
+.logo {
+    margin-left:10%;
+    border-radius:100px;
+}
+
+.logocaption{
+    margin-top: -20px;
+}
+
+header{
+    background-image:url("header.jpg");
+    height:400px;
+}
+
+hgroup{
+    text-align: center;
+    position:relative;
+    overflow: auto;
+    padding-top: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 40;
+}
+
+footer {
+    margin-top: 110px;
+    float: bottom;
+    height:400px;
+    background-color: yellow;
+}
+
+figure {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    display: inline;
+    color: black;
+    font-weight:800;
+    float:right;
+
+h1{
+    margin-top:-100px;
+    margin-bottom: 0px;
+}
+
+h5{
     margin-top:-50px;
 }
 
