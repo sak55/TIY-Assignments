@@ -84,6 +84,9 @@ section{
 .container{
     padding-left:10%;
     padding-right:10%;
+    margin-bottom:auto;
+    max-width: 1440px;
+    min-width:1440px;
 }
 
 
@@ -137,6 +140,7 @@ article img {
 header{
     background-image:url("header.jpg");
     height:400px;
+    max-width: 1440px;
 }
 
 hgroup{
@@ -146,13 +150,14 @@ hgroup{
     padding-top: 60px;
     color: white;
     font-weight: bold;
-    font-size: 40;
+    font-size: 80;
 }
 
 footer {
-    margin-top: 680px;
+    margin-top: 653px;
     margin-bottom: 0px;
     height:400px;
+    float: inherit;
     background-color: yellow;
 }
 
@@ -179,8 +184,8 @@ h5{
 }
 
 .footerbox {
+    max-width: 1440px;
     opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
     display:inline-block;
     border: 0px;
     color: white;
@@ -194,25 +199,27 @@ h5{
 
 .image {
    position: relative;
-   max-width: 100%; /* for IE 6 */
    border: 0px;
+   max-width: 25%;
 }
 
 h2 {
    position: absolute;
-   top: 180px;
+   top: 10px;
    padding: 10px;
    word-wrap: break-word;
 }
 
 #thumbs {
-  width: 1449px;
-  margin-top:280px;
+  width: 1440px;
+  margin-bottom: inherit;
   margin-left: auto;
   margin-right: auto;
 }
 
-
+nav {
+    margin-left: 10%;
+}
 
 
 
