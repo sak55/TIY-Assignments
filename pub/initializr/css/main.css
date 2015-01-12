@@ -196,14 +196,16 @@ textarea {
     position: relative;
     max-width: 100%;
     border: 0px;
+    display: inline;
 }
 
 h2 {
    position: absolute;
    top: 180px;
    padding: 10px;
-   word-wrap: break-word;
+   word-wrap: normal|break-word|initial|inherit;
    font-family: oswald;
+
 }
 
 #thumbs {
