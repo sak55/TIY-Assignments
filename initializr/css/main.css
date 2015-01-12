@@ -71,7 +71,7 @@ textarea {
         padding-left:10%;
         padding-right:10%;
         max-width: 1440px;
-        min-width:1440px;
+
     }
 
 
@@ -162,12 +162,11 @@ textarea {
         font-family: oswald;
         font-weight:800;
         float:right;
-        padding-right: 5%;
         padding-top:2%;
         background-color: none;
 
 
-    h1{
+    hgroup:h1{
         margin-top:-100px;
         margin-bottom: 0px;
     }
