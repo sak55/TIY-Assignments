@@ -60,94 +60,30 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-.page-container {
-    max-width: 1100px;
+.container {
+    max-width: 90%;
     margin:0 auto;
 }
 
-.side-column {
-    width: 250px;
-}
-
-.hcolumn {
-    width: 100%;
-    max-width: 1100px;
-}
-
-.side-blocks {
-    padding-left: 0;
-}
-
-.date-stamp {
-    width: 200px;
-    float: left;
-    padding-right: 50px;
-}
-
-.main-column {
-    max-width: 1200px;
-    padding-left: 100px;
-    border-left-color: #62acf6;
-    border-left-style: solid;
-    border-left-width: 2px;
-    height: 100px;
-}
-
-.verticallinepleasework {
-    overflow: hidden;
-    padding: 50px;
-    border-left-color: #62acf6;
-    border-left-style: solid;
-    border-left-width: 5px;
-    margin-left:280px;
-}
-
-
-
-article {
+.timeline {
     color: white;
-    margin-bottom: 15px;
-    margin-left: 320px;
-    padding: 20px;
-    max-width: 780px;
-    float: right;
-    margin-top: -60px;
-    border-radius: 5px;
+    display: inline-block;
 }
 
-.article-odd {
-    background-color: #62acf6;
-}
-
-.article-even {
+ journal-entry {
     background-color: #277fc2;
 }
 
-.odd {
-    color: #62acf6;
+.timeline > journal-entry:nth-child(odd) {
+    background-color: #afdcf8;
 }
 
-.even {
-    color: #277fc2;
+timeline > journal-entry > h3 {
+        border-bottom: 1px solid;
 }
 
-h1 {
-    text-align: right;
-    margin: 0;
-}
-
-h6 {
-    text-align: right;
-    margin: 0;
-    color: gray;
-}
-
-.article-heading {
-    border-bottom-color: white;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    padding-bottom: 10px;
+time {
+    position:absolute;
 }
 
 
