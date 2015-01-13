@@ -71,7 +71,6 @@ textarea {
     float: left;
     width: 250px;
 
-
 }
 
 .side-blocks{
@@ -94,6 +93,9 @@ textarea {
 
 article{
     color: white;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding: 20px;
 }
 
 .article-odd{
@@ -114,6 +116,8 @@ article{
 
 h3{
     border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
     padding-bottom: 10px;
 }
 
