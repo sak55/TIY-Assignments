@@ -67,7 +67,15 @@ textarea {
 }
 
 .timeline {
-display: inline;
+    display: inline;
+}
+
+.time-odd {
+    color: #62acf6;
+}
+
+.time-even {
+    color: #277fc2;
 }
 
 .journal-entry {
