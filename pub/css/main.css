@@ -66,6 +66,28 @@ textarea {
     margin:0 auto;
 }
 
+.timeline {
+display: inline;
+}
+
+.journal-entry {
+    border-radius: 5%;
+}
+
+.journal-entry-text {
+    color: white;
+}
+
+.odd-background {
+    background-color: #62acf6;
+}
+
+.even-background {
+    background-color: #277fc2;
+}
+
+
+/*
 .side-column {
     width: 250px;
 }
@@ -149,6 +171,7 @@ h6 {
     border-bottom-width: 1px;
     padding-bottom: 10px;
 }
+*/
 
 
 
