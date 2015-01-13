@@ -62,16 +62,43 @@ textarea {
    ========================================================================== */
 
 .page-container{
-    width: 80%;
+    width: 75%;
     margin:0 auto;
+
+.side-column{
+    float: left;
+    max-width: 250px;
+}
+
+
+.date-stamp{
+
+}
+
+.main-column{
+    max-width: 800px;
+    margin-left: 200px;
 }
 
 article{
-color: white;
+    color: white;
 }
 
+article-odd{
+    background-color: #62acf6;
+}
 
+article-even{
+    background-color: #277fc2;
+}
 
+.odd{
+    color: #62acf6;
+}
+
+.even{
+    color: #277fc2;
+}
 
 
 
