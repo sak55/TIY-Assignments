@@ -81,9 +81,10 @@ textarea {
 }
 
 .date-stamp{
-    width: 300px;
+    width: 200px;
     height: relative;
     float: left;
+    padding-right: 100px;
 }
 
 .main-column{
