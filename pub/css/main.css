@@ -81,18 +81,31 @@ textarea {
 
 .date-stamp{
     width: 200px;
-    height: relative;
+
     float: left;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 .main-column{
-    max-width: 1100px
+    max-width: 1200px;
+    padding-left: 100px;
+    border-left-color: #62acf6;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
 
-
+.verticallinepleasework
+{
+    overflow: hidden;
+    padding: 50px;
+    border-left-color: #62acf6;
+    border-left-style: solid;
+    border-left-width: 5px;
+    margin-left:280px;
 }
 
 article{
+    position:absolute;
     color: white;
     margin-bottom: 15px;
     margin-left: 320px;
@@ -100,7 +113,7 @@ article{
     max-width: 780px;
     float: right;
     margin-top: -60px;
-
+    border-radius: 5px;
 }
 
 .article-odd{
