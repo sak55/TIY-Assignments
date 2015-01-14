@@ -62,170 +62,63 @@ textarea {
    ========================================================================== */
 
 .page-container {
-    width: 50%;
-    margin: 0 auto;
+    min-width: 50em;
+    float: left;
+    width: 50%; /*90% for desktop*/
+    padding: 0 5%;
+    position: relative;
+    margin: auto;
 }
 
 .timeline {
-    border-left-style: solid;
-    border-left-width:  5px;
-    border-left-color: #62acf6;
-    list-style-type: none;
     display: block;
-    padding-left: 50px;  
-    margin-left: -200px;
+    margin:auto;
+    padding: auto;
 }
 
-.entry-title {
-    border-bottom: white solid 2px;
+.journal-entry{
     display: block;
-    font-weight: bold;
+    position: relative;
+    border: green solid 1px;
 }
 
-time {
-    position:absolute;
-    width: 25%;
-    display:block;
-    padding-right: 100px;
-}
-
-.time-odd {
-    color: #62acf6;
-}
-
-.time-even {
-    color: #277fc2;
-}
-
-.entry {
-    margin-left: 20%;
-    
-    padding: 2em;
-    border-radius: 3%;
-}
-.datecolor {
-    color:#bdd0db;
-    text-align: right;
-    padding-left: 40px;
-}
-
-.getcloser {
-    margin-top: 0;
-}
-
-big {
-    display: inline;
-    font-weight: bolder;
-    margin: 0;
-    font-size: 250%;
-    color: #6cbfee;
-    text-align: right;
-}
-
-.journal-entry {
-    border-radius: 5%;
-    margin-left: 30px;
-    margin-bottom: 10px;
+.timebox {
+    position: relative; /*hold icon on right side*/
+    top: 0;
+    left: 0;
     display: block;
-}
-
-.journal-entry-text {
-    color: white;
-}
-
-.odd-background {
-    background-color: #62acf6;
-}
-
-.even-background {
-    background-color: #277fc2;
-}
-
-
-/*
-.side-column {
-    width: 250px;
-}
-
-.hcolumn {
-    width: 100%;
-    max-width: 1100px;
-}
-
-.side-blocks {
-    padding-left: 0;
-}
-
-.date-stamp {
-    width: 200px;
-    float: left;
-    padding-right: 50px;
-}
-
-.main-column {
-    max-width: 1200px;
-    padding-left: 100px;
-    border-left-color: #62acf6;
-    border-left-style: solid;
-    border-left-width: 2px;
-    height: 100px;
-}
-
-.verticallinepleasework {
-    overflow: hidden;
-    padding: 50px;
-    border-left-color: #62acf6;
-    border-left-style: solid;
-    border-left-width: 5px;
-    margin-left:280px;
-}
-
-
-
-article {
-    color: white;
-    margin-bottom: 15px;
-    margin-left: 320px;
-    padding: 20px;
-    max-width: 780px;
-    float: right;
-    margin-top: -60px;
-    border-radius: 5px;
-}
-
-.article-odd {
-    background-color: #62acf6;
-}
-
-.article-even {
-    background-color: #277fc2;
-}
-
-.odd {
-    color: #62acf6;
-}
-
-.even {
-    color: #277fc2;
-}
-
-h1 {
-    text-align: right;
-    margin: 0;
-}
-
-h6 {
-    text-align: right;
-    margin: 0;
     color: gray;
 }
 
-.article-heading {
-    border-bottom-color: white;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    padding-bottom: 10px;
+big {
+    font-size:  2em
 }
+
+.iconic {
+    color: white;
+    background-color: dark-blue;
+    border-style: solid;
+    border-color: blue;
+    top: 0;
+    right:0;
+    position: absolute;
+    border-radius: 50%
+}
+
+.journal-text {
+    border: red solid 2px;
+    
+    color: white;
+}
+
+article .odd {
+    background-color: #62acf6;
+}
+
+article .even {
+    background-color: #277fc2;
+}
+
 */
 
 
