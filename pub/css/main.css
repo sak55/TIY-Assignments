@@ -98,13 +98,14 @@ time {
 
 .entry {
     margin-left: 20%;
-    position: relative;
+    
     padding: 2em;
     border-radius: 3%;
 }
 .datecolor {
     color:#bdd0db;
     text-align: right;
+    padding-left: 50px;
 }
 
 .getcloser {
