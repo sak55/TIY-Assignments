@@ -62,12 +62,30 @@ textarea {
    ========================================================================== */
 
 .page-container {
-    max-width: 1100px;
-    margin:0 auto;
+    width: 90%;
+    max-width: 69em;    
+    margin: 0 auto;
+    padding: 30px;
 }
 
 .timeline {
-    display: inline;
+    border-left-style: solid;
+    border-left-width:  2px;
+    border-left-color: #62acf6;
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.entry-title {
+    border-bottom: white solid 2px;
+}
+
+time {
+    position:absolute;
+    width: 25%;
+    display:block;
 }
 
 .time-odd {
@@ -78,12 +96,18 @@ textarea {
     color: #277fc2;
 }
 
+.datecolor {
+    color:#bdd0db;
+}
+
 .journal-entry {
     border-radius: 5%;
 }
 
 .journal-entry-text {
     color: white;
+    width: 1044px;
+    float: right;
 }
 
 .odd-background {
