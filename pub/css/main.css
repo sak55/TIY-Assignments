@@ -65,7 +65,7 @@ textarea {
     min-width: 50em;
     float: left;
     width: 50%; /*90% for desktop*/
-    padding: 0 5%;
+    padding: 0 5em;
     position: relative;
     margin: auto;
 }
@@ -94,9 +94,16 @@ big {
     font-size:  2em
 }
 
+big .odd {
+    color: #62acf6;
+}
+
+big .even {
+    color: #277fc2;
+}
 .iconic {
     color: white;
-    background-color: dark-blue;
+    background-color:#277fc2 ;
     border-style: solid;
     border-color: blue;
     top: 0;
@@ -107,16 +114,23 @@ big {
 
 .journal-text {
     border: red solid 2px;
-    
     color: white;
+    padding: 2ex;
+    border-radius: 1ex;
 }
 
-article .odd {
+.odd {
     background-color: #62acf6;
 }
 
-article .even {
+.even {
     background-color: #277fc2;
+}
+
+h3 {
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
 }
 
 */
