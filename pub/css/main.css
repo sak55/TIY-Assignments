@@ -73,6 +73,7 @@ textarea {
     list-style-type: none;
     display: block;
     padding-left: 50px;  
+    margin-left: -200px;
 }
 
 .entry-title {
@@ -83,7 +84,7 @@ textarea {
 
 time {
     position:absolute;
-    width: 10%;
+    width: 25%;
     display:block;
     padding-right: 100px;
 }
@@ -105,7 +106,7 @@ time {
 .datecolor {
     color:#bdd0db;
     text-align: right;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .getcloser {
