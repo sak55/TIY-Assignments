@@ -79,7 +79,6 @@ textarea {
 .journal-entry{
     display: block;
     position: relative;
-    border: green solid 1px;
     margin-bottom: 2em;
 }
 
@@ -120,17 +119,17 @@ big .even {
     line-height: em;
 }
 
-.carrots::before {
-    content: '';
-	position: absolute;
-	top: 0;
-	bottom: 0;
+.carrots {
+	position: relative;
 	width: 1em;
-	color: #277fc2;
-	left: 20%;
-	margin-left: -7em;
+	left: -1em;
     font-size: 2em;
     padding-left: 2em;
+    margin-bottom: 0;
+    padding-bottom: -20;
+    line-height: 50%;
+    display: block;
+    
 }
 .journal-text {
     color: white;
@@ -162,8 +161,8 @@ h3 {
 }
 
 
-@media <media-query> {
-    dispay width (755) <i class="fa-caret-up fa-lg"></i>
+@media screen (max-width:755px) {
+    
 }
 
 
