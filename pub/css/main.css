@@ -111,11 +111,28 @@ big .even {
     top: 1ex;
     right:0;
     position: absolute;
-    border-radius: 50%
+    border-radius: 5em;
+    padding: 1ex;
+    text-align: center;
+    border-width: thick;
+    font-size: 1.em;
+    width: 1.6em;
+    line-height: em;
 }
 
+.carrots::before {
+    content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 1em;
+	color: #277fc2;
+	left: 20%;
+	margin-left: -7em;
+    font-size: 2em;
+    padding-left: 2em;
+}
 .journal-text {
-    border: red solid 2px;
     color: white;
     padding: 2ex;
     border-radius: 1ex;
@@ -144,7 +161,10 @@ h3 {
     border-bottom-width: thin;
 }
 
-*/
+
+@media <media-query> {
+    dispay width (755) <i class="fa-caret-up fa-lg"></i>
+}
 
 
 
