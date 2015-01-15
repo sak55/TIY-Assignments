@@ -62,94 +62,161 @@ textarea {
    ========================================================================== */
 
 .page-container {
-    max-width: 1100px;
-    margin:0 auto;
+    
+    width: 50%; /*90% for desktop*/
+    padding: 0 5em 0 5em;
+    position: absolute;
+    margin: 0 25%;
+    max-width: 50em;
+    display: block;
 }
 
-.side-column {
-    width: 250px;
+.timeline {
+    display: block;
+    margin:auto;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
-.hcolumn {
-    width: 100%;
-    max-width: 1100px;
+.journal-entry{
+    display: block;
+    position: relative;
+    margin-bottom: 2em;
 }
 
-.side-blocks {
-    padding-left: 0;
-}
-
-.date-stamp {
-    width: 200px;
-    float: left;
-    padding-right: 50px;
-}
-
-.main-column {
-    max-width: 1200px;
-    padding-left: 100px;
-    border-left-color: #62acf6;
-    border-left-style: solid;
-    border-left-width: 2px;
-    height: 100px;
-}
-
-.verticallinepleasework {
-    overflow: hidden;
-    padding: 50px;
-    border-left-color: #62acf6;
-    border-left-style: solid;
-    border-left-width: 5px;
-    margin-left:280px;
-}
-
-
-
-article {
-    color: white;
-    margin-bottom: 15px;
-    margin-left: 320px;
-    padding: 20px;
-    max-width: 780px;
-    float: right;
-    margin-top: -60px;
-    border-radius: 5px;
-}
-
-.article-odd {
-    background-color: #62acf6;
-}
-
-.article-even {
-    background-color: #277fc2;
-}
-
-.odd {
-    color: #62acf6;
-}
-
-.even {
-    color: #277fc2;
-}
-
-h1 {
-    text-align: right;
-    margin: 0;
-}
-
-h6 {
-    text-align: right;
-    margin: 0;
+.timebox {
+    position: relative; /*hold icon on right side*/
+    top: 0;
+    left: 0;
+    display: block;
     color: gray;
 }
 
-.article-heading {
-    border-bottom-color: white;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    padding-bottom: 10px;
+
+big .odd {
+    color: #62acf6;
 }
 
+big .even {
+    color: #277fc2;
+}
+.iconic {
+    color: white;
+    background-color:#277fc2 ;
+    border-style: solid;
+    border-color: #62acf6;
+    border-bottom-width: 1ex;
+    top: 1ex;
+    right:0;
+    position: absolute;
+    border-radius: 5em;
+    padding: 1ex;
+    text-align: center;
+    border-width: thick;
+    font-size: 1.em;
+    width: 1.6em;
+}
+    
+
+.journal-text {
+    position: relative;
+    color: white;
+    padding: 2ex;
+    padding-left: 2ex;
+    padding-right: 2ex;
+    border-radius: 1ex;
+}
+
+.odd {
+    background-color: #62acf6;
+}
+
+.oddcolor {
+    color: #62acf6;
+}
+
+
+.evencolor {
+    color: #277fc2;
+}
+
+.even {
+    background-color: #277fc2;
+}
+
+h3 {
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+    big {
+        font-size:  2em
+    }
+}
+
+.carrots {
+        position: relative;
+        width: 1em;
+        left: -1em;
+        font-size: 2em;
+        padding-left: 2em;
+        margin-bottom: -1em;
+        padding-bottom: -20;
+        line-height: 50%;
+        display: block;
+    }
+
+@media screen and (min-width: 800px) {
+    .carrots {
+        position: relative;
+        width: 1em;
+        float: left;
+        font-size: 2em;
+        padding-left: 3.5em;
+        margin-left: -2.4em;
+        top: 2em;
+        padding-bottom: -20;
+        line-height: 50%;
+        display: block;
+        -webkit-transform: rotate(270deg); /* Safari and Chrome */
+        -moz-transform: rotate(270deg);   /* Firefox */
+        -ms-transform: rotate(270deg);   /* IE 9 */
+        -o-transform: rotate(270deg);   /* Opera */
+        transform: rotate(270deg);
+    }
+
+    .timeline {
+        border-left-color: #277fc2;
+        border-left-style: solid;
+        border-left-width: thick;
+        padding-left: 4em
+    }
+    
+    .timebox {
+        display: block;
+        position: absolute;
+        margin-left: -15em;
+        align-content: right;
+        margin-top: -0.5ex
+    }
+
+    .timebox > div {
+        float: right -2em;
+        text-align: right;
+    }
+    
+    .iconic {
+        display: absolute;
+        left: -5.6em;
+        margin-top: -2ex;
+    }
+}
+@media screen (max-width: 1110px) {
+   big {
+        font-size: 4em;
+    } 
+}
 
 
 
