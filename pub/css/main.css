@@ -74,7 +74,8 @@ textarea {
 .timeline {
     display: block;
     margin:auto;
-    padding: auto 40px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .journal-entry{
@@ -149,58 +150,71 @@ h3 {
     border-bottom-width: thin;
 }
 
-
-@media screen (min-width: 400px; max-width:755px) {
-    .carrots {
-        position: absolute;
-        width: 1em;
-        left: -2em;
-        font-size: 4em;
-        padding-left: 2em;
-        margin-bottom: 0;
-        padding-bottom: -20;
-        line-height: 50%;
-        display: block;
-    }
     big {
         font-size:  2em
     }
 }
 
-@media screen (min-width: 756px; max-width:900px) {
-    .carrots {
+.carrots {
         position: relative;
         width: 1em;
         left: -1em;
         font-size: 2em;
         padding-left: 2em;
-        margin-bottom: 0;
+        margin-bottom: -1em;
         padding-bottom: -20;
         line-height: 50%;
         display: block;
     }
 
-    big {
-        font-size:  4em;
-        }
-    }
+@media screen and (max-width:700px) {
+    
+    
+}
 
-@media screen (min-width: 900px) {
+@media screen and (min-width: 800px) {
     .carrots {
-        position: fixed;
-        top: -3em;
-        left: -8em;
+        position: relative;
+        width: 1em;
+        float: left;
         font-size: 2em;
         padding-left: 2em;
+        margin-left: -2.4em;
+        top: .4em;
         padding-bottom: -20;
         line-height: 50%;
-        display border-left: 
+        display: block;
     }
 
+    .timeline {
+        border-left-color: #277fc2;
+        border-left-style: solid;
+        border-left-width: thick;
+        padding-left: 4em
+    }
+    
+    .timebox {
+        display: block;
+        position: absolute;
+        margin-left: -15em;
+        margin-top: -5em
+        align-content: right;
+    }
 
-    big {
-    font-size:  4em;
+    .timebox > div {
+        float: right -2em;
+        text-align: right;
+    }
+    
+    .iconic {
+        display: absolute;
+        left: -5.6em;
+    }
 }
+@media screen (max-width: 1110px) {
+   big {
+        font-size: 4em;
+    } 
 }
 
 
