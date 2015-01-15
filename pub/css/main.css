@@ -167,23 +167,23 @@ h3 {
         display: block;
     }
 
-@media screen and (max-width:700px) {
-    
-    
-}
-
 @media screen and (min-width: 800px) {
     .carrots {
         position: relative;
         width: 1em;
         float: left;
         font-size: 2em;
-        padding-left: 2em;
+        padding-left: 3.5em;
         margin-left: -2.4em;
-        top: .4em;
+        top: 2em;
         padding-bottom: -20;
         line-height: 50%;
         display: block;
+        -webkit-transform: rotate(270deg); /* Safari and Chrome */
+        -moz-transform: rotate(270deg);   /* Firefox */
+        -ms-transform: rotate(270deg);   /* IE 9 */
+        -o-transform: rotate(270deg);   /* Opera */
+        transform: rotate(270deg);
     }
 
     .timeline {
@@ -197,8 +197,8 @@ h3 {
         display: block;
         position: absolute;
         margin-left: -15em;
-        margin-top: -5em
         align-content: right;
+        margin-top: -0.5ex
     }
 
     .timebox > div {
@@ -209,6 +209,7 @@ h3 {
     .iconic {
         display: absolute;
         left: -5.6em;
+        margin-top: -2ex;
     }
 }
 @media screen (max-width: 1110px) {
