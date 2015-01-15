@@ -62,18 +62,19 @@ textarea {
    ========================================================================== */
 
 .page-container {
-    min-width: 50em;
-    float: left;
+    
     width: 50%; /*90% for desktop*/
-    padding: 0 5em;
-    position: relative;
-    margin: auto;
+    padding: 0 5em 0 5em;
+    position: absolute;
+    margin: 0 25%;
+    max-width: 50em;
+    display: block;
 }
 
 .timeline {
     display: block;
     margin:auto;
-    padding: auto;
+    padding: auto 40px;
 }
 
 .journal-entry{
@@ -90,9 +91,6 @@ textarea {
     color: gray;
 }
 
-big {
-    font-size:  2em
-}
 
 big .odd {
     color: #62acf6;
@@ -116,24 +114,15 @@ big .even {
     border-width: thick;
     font-size: 1.em;
     width: 1.6em;
-    line-height: em;
 }
-
-.carrots {
-	position: relative;
-	width: 1em;
-	left: -1em;
-    font-size: 2em;
-    padding-left: 2em;
-    margin-bottom: 0;
-    padding-bottom: -20;
-    line-height: 50%;
-    display: block;
     
-}
+
 .journal-text {
+    position: relative;
     color: white;
     padding: 2ex;
+    padding-left: 2ex;
+    padding-right: 2ex;
     border-radius: 1ex;
 }
 
@@ -161,10 +150,58 @@ h3 {
 }
 
 
-@media screen (max-width:755px) {
-    
+@media screen (min-width: 400px; max-width:755px) {
+    .carrots {
+        position: absolute;
+        width: 1em;
+        left: -2em;
+        font-size: 4em;
+        padding-left: 2em;
+        margin-bottom: 0;
+        padding-bottom: -20;
+        line-height: 50%;
+        display: block;
+    }
+    big {
+        font-size:  2em
+    }
 }
 
+@media screen (min-width: 756px; max-width:900px) {
+    .carrots {
+        position: relative;
+        width: 1em;
+        left: -1em;
+        font-size: 2em;
+        padding-left: 2em;
+        margin-bottom: 0;
+        padding-bottom: -20;
+        line-height: 50%;
+        display: block;
+    }
+
+    big {
+        font-size:  4em;
+        }
+    }
+
+@media screen (min-width: 900px) {
+    .carrots {
+        position: fixed;
+        top: -3em;
+        left: -8em;
+        font-size: 2em;
+        padding-left: 2em;
+        padding-bottom: -20;
+        line-height: 50%;
+        display border-left: 
+    }
+
+
+    big {
+    font-size:  4em;
+}
+}
 
 
 
