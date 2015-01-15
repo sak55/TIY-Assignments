@@ -80,6 +80,7 @@ textarea {
     display: block;
     position: relative;
     border: green solid 1px;
+    margin-bottom: 2em;
 }
 
 .timebox {
@@ -105,8 +106,9 @@ big .even {
     color: white;
     background-color:#277fc2 ;
     border-style: solid;
-    border-color: blue;
-    top: 0;
+    border-color: #62acf6;
+    border-bottom-width: 1ex;
+    top: 1ex;
     right:0;
     position: absolute;
     border-radius: 50%
@@ -121,6 +123,15 @@ big .even {
 
 .odd {
     background-color: #62acf6;
+}
+
+.oddcolor {
+    color: #62acf6;
+}
+
+
+.evencolor {
+    color: #277fc2;
 }
 
 .even {
