@@ -91,6 +91,8 @@ header {
     border-width: 0.5ex;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .headertext {
@@ -103,11 +105,13 @@ header {
     color: white;
     font-size: 200%;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .subtitle {
     color: white;
     margin-top: 0;
+    margin-bottom: 0;
     font-size: 90%
     
 }
@@ -140,8 +144,14 @@ header {
 }
 
 .article-buttons {
-    
+    text-decoration: none;
+    color: white;
+    background-color: gray;
 }
+
+.article-buttons:hover {
+    color: darkblue;
+};
 
 .posting-date {
     
