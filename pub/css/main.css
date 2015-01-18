@@ -138,7 +138,7 @@ textarea {
 }
 
 .article-title {
-    font-size: xx-large;
+    font-size: 400%;
     color: #0B3451;
 }
 
@@ -216,6 +216,30 @@ time {
     text-decoration: none;
     color: #AFBDC8;
 
+}
+
+.ad-container {
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    padding-left: auto;
+    padding-right: auto;
+    width: inherit;
+}
+
+.most-popular-container {
+    
+}
+
+.popular-title {
+    text-align: center;
+    font-size: 240%;
+    color: #0B3452
+}
+
+.most-popular-container > li{
+    display: block;
 }
 
 footer {
