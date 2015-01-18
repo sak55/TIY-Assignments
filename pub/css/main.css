@@ -60,11 +60,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-header {
-    background-image: url(http://lorempixel.com/output/nature-q-g-1440-400-3.jpg);
-    width: 100%;
+.page-header {
+    background-image: url(http://lorempixel.com/output/nature-q-g-1440-400-10.jpg);
     padding-top: 1ex;
     padding-bottom: 1em;
+    width: 100%;
+    
 }
 
 .heading-container {
@@ -117,7 +118,9 @@ header {
 }
 
 .page-container {
-    
+    max-width: ;
+    min-width: ;
+    margin: 0 auto;
 }
 
 .main-section {
@@ -126,9 +129,6 @@ header {
     padding-right: 2em;
 }
 
-.side-column {
-    
-}
 
 .main-column {
     
@@ -186,19 +186,61 @@ time {
     background-color: #0B3451;
 }
 
+.side-column {
+    margin-top: 8em;
+}
+
+.profile-image-block {
+    margin: 0 auto;
+    width: 9.49em;
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+    color: #196BB3;
+    font-size: 150%;
+    margin-bottom: 0;
+}
+
+.aside-nav {
+    text-align: center;
+        color: #AFBDC8;
+
+}
+
+.social-media-links {
+    text-decoration: none;
+    color: #AFBDC8;
+
+}
+
 footer {
     background-color: #0B3451;
     color: #A4B4BF;
     text-align: center;
     text-decoration: none;
+    padding: 2em;
 }
 
-footer > nav > a {
-    color: #A4B4BF;
+.footer-nav-links {
     text-decoration: none;
+    color: #A4B4BF;
 }
 
+.footer-logo {
+    display:block;
+    margin-top: 2ex;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.footer-credits {
+    margin-top: 0
+}
 
 
 
