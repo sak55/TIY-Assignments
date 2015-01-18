@@ -79,20 +79,20 @@ header {
 }
 
 .headingnav > a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 
 .logo{
-    display: block;
+    border-color: white;
     border-radius: 50%;
     border-style: solid;
-    border-color: white;
     border-width: 0.5ex;
+    display: block;
+    margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5em;
-    margin-bottom: 0.5em;
 }
 
 .headertext {
@@ -120,6 +120,12 @@ header {
     
 }
 
+.main-section {
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .side-column {
     
 }
@@ -132,32 +138,65 @@ header {
 }
 
 .article-title {
-    
+    font-size: xx-large;
+    color: #0B3451;
+}
+
+time {
+    text-decoration-style: solid;
+    padding-bottom: 2em;
+    color: #B2BFC8;
+    text-decoration: underline;
 }
 
 .article-text {
-    
+    color: #9BA1A5;
+}
+
+.article-text > article-link {
+    color: #B2BFC8;
+}
+
+.article-text > article-link:rollover {
+    color: #5691C6;
+}
+
+
+.blockquote-div {
+    border-left: thin;
+    border-left-color: #D3D3D3;
+    border-left-style: solid;
+    padding-left: 1em;
+    color: #0D5EAE;
+    font-size: 3ex; 
 }
 
 .article-footer {
     
 }
 
-.article-buttons {
+.article-buttons > a {
     text-decoration: none;
     color: white;
-    background-color: gray;
+    background-color: #5C696E;
+    padding: 1ex
 }
 
-.article-buttons:hover {
-    color: darkblue;
-};
-
-.posting-date {
-    
+.article-buttons > a:hover {
+    background-color: #0B3451;
 }
 
+footer {
+    background-color: #0B3451;
+    color: #A4B4BF;
+    text-align: center;
+    text-decoration: none;
+}
 
+footer > nav > a {
+    color: #A4B4BF;
+    text-decoration: none;
+}
 
 
 
