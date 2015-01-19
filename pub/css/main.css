@@ -238,8 +238,23 @@ time {
     color: #0B3452
 }
 
-.most-popular-container > li{
+.most-popular-container {
+    
+}
+
+li {
     display: block;
+    font-size: 200%;
+    background-image: url(http://lorempixel.com/output/nature-q-g-460-350-10.jpg)
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    color: white;
+    
+li:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    color: blue;
+}
 }
 
 footer {
