@@ -9,6 +9,7 @@ Using the MDN JavaScript Reference
 Remember to link the title of each entry to a corresponding page in the documentation, as you'll be adding more to it later!
 
 ##[Primitive](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
+
     A primitive (primitive value, primitive data type) is data that is not an Object and does not have any methods.
 
 * In depth
@@ -26,7 +27,7 @@ In JavaScript, there are 6 primitive data types:
 
 ### [Primative: Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
 
-The value null is a JavaScript literal representing null or an "empty" value, <strong>i.e. no object value is present.</strong> It is one of JavaScript's primitive values. A special keyword denoting a null value; null is also a primitive value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant
+    The value null is a JavaScript literal representing null or an "empty" value, <strong>i.e. no object value is present.</strong> It is one of JavaScript's primitive values. A special keyword denoting a null value; null is also a primitive value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant
 
 * _symbol_: `null`
 * _pronunciation_: "null", "null value", "is null"
@@ -37,7 +38,7 @@ null // how exciting
 
 ### [Primative: Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Boolean_literals)
 
-Do not confuse the primitive Boolean values true and false with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See Boolean Object for more information.
+    Do not confuse the primitive Boolean values true and false with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See Boolean Object for more information.
 
 * _symbol: `true` and `false`
 * _pronunciation_: "boo-lee-ann", 
@@ -50,7 +51,7 @@ Do not confuse the primitive Boolean values true and false with the true and fal
 
 ### [Primative: Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
-The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor.
+    The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor.
 
 * _symbol: `0123456789`
 * _pronunciation_: "integer", "the number", "the operant" 
@@ -62,7 +63,8 @@ The Number JavaScript object is a wrapper object allowing you to work with numer
 ```
 
 ### [Primative: String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
-The String global object is a constructor for strings, or a sequence of characters.
+
+    The String global object is a constructor for strings, or a sequence of characters.
 
 * _symbol: `"anything between double quotes"` or `'single quotes'`
 * _pronunciation_: "the string", 'asdf1234fghj',' "12345" 
@@ -73,11 +75,30 @@ The String global object is a constructor for strings, or a sequence of characte
 ```
 
 ## [Build in Values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
+
     The term "global objects" (or standard built-in objects) here is not to be confused with the global object. Here, global objects refer to objects in the global scope (but only if ECMAScript 5 strict mode is not used! Otherwise it returns undefined). The global object itself can be accessed by the this operator in the global scope. In fact, the global scope consists of the properties of the global object (including inherited properties, if any).
 
-Other objects in the global scope are either created by the user script or provided by the host application. The host objects available in browser contexts are documented in the API reference. For more information about the distinction between the DOM and core JavaScript, see JavaScript technologies overview.
+    Other objects in the global scope are either created by the user script or provided by the host application. The host objects available in browser contexts are documented in the API reference. For more information about the distinction between the DOM and core JavaScript, see JavaScript technologies overview.
 
-Infinity, NaN, and undefined
+### [Infinity](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity)
+
+    The global Infinity property is a numeric value representing infinity.
+    Infinity is a property of the global object, i.e. it is a variable in global scope.
+    The initial value of Infinity is Number.POSITIVE_INFINITY. The value Infinity (positive infinity) is greater than any other number. This value behaves mathematically like infinity; for example, any positive number multiplied by Infinity is Infinity, and anything divided by Infinity is 0.
+    Infinity is displayed when a number exceeds the upper limit of the floating point numbers, which is 1.797693134862315E+308.
+    Infinity is displayed when a number exceeds the lower limit of the floating point numbers, which is -1.797693134862316E+308.
+    
+* _symbol: `Infinity`
+* _pronunciation_: "", "", 
+* _examples_:
+```javascript
+1/0  // Infinity
+Infinity*2 //Infinity
+```
+    
+### [NaN]()
+
+### [undefined]()
 
 
 ### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
