@@ -195,8 +195,13 @@ NaN % 2 // NaN
 * _pronunciation_: "plus", "added to"
 * _examples_:
 ```javascript
-1 + 2 + 3 // 6, of course
-'1' + 2 + 3 // '123',
+// Postfix 
+var x = 3;
+y = x++; // y = 3, x = 4
+
+// Prefix
+var a = 2;
+b = ++a; // a = 3, b = 3
 ```
 
 ### [Operator: Decrement]()
