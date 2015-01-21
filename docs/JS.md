@@ -89,17 +89,44 @@ null // how exciting
     Infinity is displayed when a number exceeds the lower limit of the floating point numbers, which is -1.797693134862316E+308.
     
 * _symbol: `Infinity`
-* _pronunciation_: "", "", 
+* _pronunciation_: "Positve infinity is greater than any other number", "Infinity is like 1, any positive number multiplied by it is infinity", 
 * _examples_:
 ```javascript
 1/0  // Infinity
 Infinity*2 //Infinity
 ```
     
-### [NaN]()
+### [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
 
-### [undefined]()
+    The global NaN property is a value representing Not-A-Number.
+    NaN is a property of the global object.
+    The initial value of NaN is Not-A-Number — the same as the value of Number.NaN. In modern browsers, NaN is a non-configurable, non-writable property. Even when this is not the case, avoid overriding it.
+    It is rather rare to use NaN in a program. It is the returned value when Math functions fail (Math.sqrt(-1)) or when a function trying to parse a number fails (parseInt("blabla")).
+    Testing against NaN
+    Equality operator (== and ===) cannot be used to test a value against NaN. Use Number.isNaN() or isNaN() instead.
 
+* _symbol: `NaN`
+* _pronunciation_: "Not a Number",  
+* _examples_:
+```javascript
+?????
+```
+
+### [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+
+    The global undefined value property represents the value undefined. It is one of JavaScript's primitive types.
+    undefined is a property of the global object, i.e. it is a variable in global scope. The initial value of undefined is the primitive value undefined.
+    In modern browsers (JavaScript 1.8.5 / Firefox 4+), undefined is a non-configurable, non-writable property per the ECMAScript 5 specification. Even when this is not the case, avoid overriding it.
+    A variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.
+    Since undefined is not a reserved word, it can be used as an identifier (variable name) in any scope other than the global scope.
+ 
+* _symbol: `undefined`
+* _pronunciation_: "the var has not been assigned a value therefore it is undefined",  
+* _examples_:
+```javascript
+console.log (undefined) // undefined
+var x=undefined // undefined
+```    
 
 ### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
 
