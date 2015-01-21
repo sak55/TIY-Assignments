@@ -76,7 +76,7 @@ textarea {
 
 }
 
-.odd {
+.even {
     width: 12%;
     padding-bottom: 6%;
     /*width:100px;
@@ -88,7 +88,7 @@ textarea {
     
 }
 
-.even {
+.odd {
     width: 12%;
     padding-bottom: 6%;
     /* width:100px;
