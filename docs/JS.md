@@ -192,7 +192,7 @@ NaN % 2 // NaN
     ** If used prefix with operator before operand (for example, ++x), then it returns the value after incrementing.
 
 * _symbol_: `++`
-* _pronunciation_: "plus", "added to"
+* _pronunciation_: "the increment, adds one to"
 * _examples_:
 ```javascript
 // Postfix 
@@ -204,7 +204,7 @@ var a = 2;
 b = ++a; // a = 3, b = 3
 ```
 
-### [Operator: Decrement]()
+### [Operator: Decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement_(--))
 
     The decrement operator decrements (subtracts one from) its operand and returns a value.
 
@@ -212,45 +212,73 @@ If used postfix (for example, x--), then it returns the value before decrementin
 If used prefix (for example, --x), then it returns the value after decrementing.
 
 * _symbol_: `--`
-* _pronunciation_: "plus", "added to"
+* _pronunciation_: "the decrement subtracts one from"
 * _examples_:
 ```javascript
-1 + 2 + 3 // 6, of course
-'1' + 2 + 3 // '123',
+// Postfix 
+var x = 3;
+y = x--; // y = 3, x = 2
+
+// Prefix
+var a = 2;
+b = --a; // a = 1, b = 1
 ```
 
-### [Operator: Unary Negation]()
+### [Operator: Unary Negation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_negation_(-))
 
     The unary negation operator precedes its operand and negates it.
 
 * _symbol_: `-`
-* _pronunciation_: "plus", "added to"
+* _pronunciation_: "negates it",
 * _examples_:
 ```javascript
-1 + 2 + 3 // 6, of course
-'1' + 2 + 3 // '123',
+var x = 3;
+y = -x; // y = -3, x = 3
 ```
 
-### [Operator: Unary Plus]()
+### [Operator: Unary Plus](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_plus_(.2B))
 
     The unary plus operator precedes its operand and evaluates to its operand but attempts to converts it into a number, if it isn't already. Although unary negation (-) also can convert non-numbers, unary plus is the fastest and preferred way of converting something into a number, because it does not perform any other operations on the number. It can convert string representations of integers and floats, as well as the non-string values true, false, and null. Integers in both decimal and hexadecimal ("0x"-prefixed) formats are supported. Negative numbers are supported (though not for hex). If it cannot parse a particular value, it will evaluate to NaN.
 
+* _symbol_: `=`
+* _pronunciation_: "the numeric value of true is 1",
+* _examples_:
+```javascript
++3     // 3
++"3"   // 3
++true  // 1
++false // 0
++null  // 0
+```
+
+### [Operator: Assigment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators)
+
+    An assignment operator <strong>assigns a value to its left<strong> operand based on the value of its right operand.
+
 * _symbol_: `+`
 * _pronunciation_: "plus", "added to"
 * _examples_:
 ```javascript
-1 + 2 + 3 // 6, of course
-'1' + 2 + 3 // '123',
+// Assuming the following variables
+//  x = 5
+//  y = 10
+//  z = 25
+
+x = y     // x is 10
+x = y = z // x, y and z are all 25
 ```
 
-### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
 
-    The addition operator produces the sum of numeric operands or string concatenation.
-
-* _symbol_: `+`
-* _pronunciation_: "plus", "added to"
-* _examples_:
-```javascript
-1 + 2 + 3 // 6, of course
-'1' + 2 + 3 // '123',
-```
+Name	Shorthand operator	Meaning
+Assignment	x = y	x = y
+Addition assignment	x += y	x = x + y
+Subtraction assignment	x -= y	x = x - y
+Multiplication assignment	x *= y	x = x * y
+Division assignment	x /= y	x = x / y
+Remainder assignment	x %= y	x = x % y
+Left shift assignment	x <<= y	x = x << y
+Right shift assignment	x >>= y	x = x >> y
+Unsigned right shift assignment	x >>>= y	x = x >>> y
+Bitwise AND assignment	x &= y	x = x & y
+Bitwise XOR assignment	x ^= y	x = x ^ y
+Bitwise OR assignment	x |= y	x = x | y
