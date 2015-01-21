@@ -71,14 +71,26 @@ textarea {
     border:2px solid black;
 }
 
-.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
+.row0, .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
     clear:both;
 
 }
 
+.label-text {
+    width: 9%;
+    padding-bottom: 9%;
+    height: 0;
+    /*width:100px;
+    height:100px;*/
+    border:1px solid black;
+    float: left;
+    background-color: black;
+    color: #CCB78B;    
+}
+
 .even {
-    width: 12%;
-    padding-bottom: 6%;
+    width: 9%;
+    padding-bottom: 9%;
     height: 0;
     /*width:100px;
     height:100px;*/
@@ -90,8 +102,8 @@ textarea {
 }
 
 .odd {
-    width: 12%;
-    padding-bottom: 6%;
+    width: 9%;
+    padding-bottom: 9%;
     height: 0;
     /* width:100px;
     height:100px;*/
