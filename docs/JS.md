@@ -1,13 +1,3 @@
-Using the MDN JavaScript Reference 
-    document the first 4 literal or primitive types, 
-    those 3 important built-in values, and 
-    at least 10 Arithmetic or Assignment operators. 
-    
-    Provide examples of each as simple expressions and 
-    include the result from the console, REPL, or Scratchpad.
-
-Remember to link the title of each entry to a corresponding page in the documentation, as you'll be adding more to it later!
-
 ##[Primitive](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
 
     A primitive (primitive value, primitive data type) is data that is not an Object and does not have any methods.
@@ -130,11 +120,132 @@ var x=undefined // undefined
 
 ### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
 
+    The addition operator produces the sum of numeric operands or string concatenation.
+
 * _symbol_: `+`
 * _pronunciation_: "plus", "added to"
 * _examples_:
 ```javascript
 1 + 2 + 3 // 6, of course
-'1' + 2 + 3 // '123', obviously... WTF?
+'1' + 2 + 3 // '123',
+false+false=0
+True+false=1
 ```
 
+### [Operator: Subtraction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Subtraction_(-))
+
+    The subtraction operator subtracts the two operands, producing their difference.
+
+* _symbol_: `-`
+* _pronunciation_: "subtract", "subtracted from"
+* _examples_:
+```javascript
+3 - 2 - 1 // 0
+'hey' - 2 // NaN
+3-5 // -2
+```
+
+### [Operator: Division](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Division_(.2F))
+
+    The division operator produces the quotient of its operands where the left operand is the dividend and the right operand is the divisor.
+
+* _symbol_: `/`
+* _pronunciation_: "divide", "divided by"
+* _examples_:
+```javascript
+1 / 2   // 0.5
+3 / 0   // infinity
+3 / "a"   // NaN
+```
+
+### [Operator: Multiplication](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Multiplication_(*))
+
+    The multiplication operator produces the product of the operands.
+
+* _symbol_: `*`
+* _pronunciation_: "multiplied by", "multiply"
+* _examples_:
+```javascript
+1 * 2  // 2
+infinity * infinity = infinity
+"a" * 4  // NaN
+```
+
+### [Operator: Remainder](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder_(.25))
+
+    The remainder operator returns the first operand modulo the second operand, that is, var1 modulo var2, in the preceding statement, where var1 and var2 are variables. The modulo function is the integer remainder of dividing var1 by var2. There is a proposal to get an actual modulo operator in a future version of ECMAScript.
+
+* _symbol_: `%`
+* _pronunciation_: "plus", "added to"
+* _examples_:
+```javascript
+12 % 5  // 2
+-1 % 2 // -1
+NaN % 2 // NaN
+```
+
+### [Operator: Increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment_(.2B.2B))
+
+    The increment operator increments (adds one to) its operand and returns a value.
+
+    ** If used postfix, with operator after operand (for example, x++), then it returns the value before incrementing.
+    ** If used prefix with operator before operand (for example, ++x), then it returns the value after incrementing.
+
+* _symbol_: `++`
+* _pronunciation_: "plus", "added to"
+* _examples_:
+```javascript
+1 + 2 + 3 // 6, of course
+'1' + 2 + 3 // '123',
+```
+
+### [Operator: Decrement]()
+
+    The decrement operator decrements (subtracts one from) its operand and returns a value.
+
+If used postfix (for example, x--), then it returns the value before decrementing.
+If used prefix (for example, --x), then it returns the value after decrementing.
+
+* _symbol_: `--`
+* _pronunciation_: "plus", "added to"
+* _examples_:
+```javascript
+1 + 2 + 3 // 6, of course
+'1' + 2 + 3 // '123',
+```
+
+### [Operator: Unary Negation]()
+
+    The unary negation operator precedes its operand and negates it.
+
+* _symbol_: `-`
+* _pronunciation_: "plus", "added to"
+* _examples_:
+```javascript
+1 + 2 + 3 // 6, of course
+'1' + 2 + 3 // '123',
+```
+
+### [Operator: Unary Plus]()
+
+    The unary plus operator precedes its operand and evaluates to its operand but attempts to converts it into a number, if it isn't already. Although unary negation (-) also can convert non-numbers, unary plus is the fastest and preferred way of converting something into a number, because it does not perform any other operations on the number. It can convert string representations of integers and floats, as well as the non-string values true, false, and null. Integers in both decimal and hexadecimal ("0x"-prefixed) formats are supported. Negative numbers are supported (though not for hex). If it cannot parse a particular value, it will evaluate to NaN.
+
+* _symbol_: `+`
+* _pronunciation_: "plus", "added to"
+* _examples_:
+```javascript
+1 + 2 + 3 // 6, of course
+'1' + 2 + 3 // '123',
+```
+
+### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
+
+    The addition operator produces the sum of numeric operands or string concatenation.
+
+* _symbol_: `+`
+* _pronunciation_: "plus", "added to"
+* _examples_:
+```javascript
+1 + 2 + 3 // 6, of course
+'1' + 2 + 3 // '123',
+```
