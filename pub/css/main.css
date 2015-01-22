@@ -101,6 +101,10 @@ textarea {
     text-align:center;
 }
 
+.even:hover, .odd:hover {
+    background-color: white;
+}
+
 .odd {
     width: 9%;
     padding-bottom: 9%;
