@@ -282,3 +282,52 @@ Unsigned right shift assignment	x >>>= y	x = x >>> y
 Bitwise AND assignment	x &= y	x = x & y
 Bitwise XOR assignment	x ^= y	x = x ^ y
 Bitwise OR assignment	x |= y	x = x | y
+
+
+### [10 control-flow keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+    JavaScript supports a compact set of statements, specifically control flow statements, that you can use to incorporate a great deal of interactivity in Web pages. Any expression is also a statement. See Expressions and Operators for complete information about expressions. Use the semicolon (;) character to separate statements in JavaScript code.
+
+### [1-Control Flow : Block Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#Block_Statement)
+
+    A block statement is used to group statements. The block is delimited by a pair of curly brackets:
+
+* _symbol_: `{}`
+* _pronunciation_: "Curly Brackets", "Squiggly Brackets",
+* _examples_:
+```javascript
+{
+    x = 2;
+}
+
+if (x = 2)
+{
+    y = 1;
+}
+```
+
+### [2-Control Flow : Block Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#if...else_Statement)
+
+    Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. condition can be any expression that evaluates to true or false. See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.
+    You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if statements:To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if statements:If you need to use an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For example:The following values will evaluate to false:
+    ** false, undefined, null, 0, NaN ,the empty string ("")
+    ** All other values, including all objects evaluate to true when passed to a conditional statement.
+
+Do not confuse the primitive boolean values true and false with the true and false values of the Boolean object.
+
+* _symbol_: `if (condition) {statement;}`
+* _pronunciation_: "if (X) then {} ", "if (X) then {}, else {} ",
+* _examples_:
+```javascript
+if (x = 2) {
+    console.log(x);
+}
+
+if (x = 2) {
+    console.log(x);
+}
+else {
+    console.log("Error Will Robinson, Error")
+}
+```
+
