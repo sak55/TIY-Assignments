@@ -101,9 +101,10 @@ textarea {
     text-align:center;
 }
 
+/*
 .even:hover, .odd:hover {
     background-color: white;
-}
+}*/
 
 .odd {
     width: 9%;
@@ -124,64 +125,132 @@ textarea {
     content: "\265C";
 }
 
+#a8:hover {
+    background-color: white;
+}
+
+
 #b8:before {
     content: "\265E";
 }
+
+#b8:hover {
+    background-color: white;
+}
+
 
 #c8:before {
     content: "\265D";
 }
 
+#c8:hover {
+    background-color: white;
+}
+
+
 #d8:before {
     content: "\265B";
 }
 
+#d8:hover {
+    background-color: white;
+}
+
+
 #e8:before {
     content: "\265A";
+}
+
+#e8:hover {
+    background-color: white;
 }
 
 #f8:before {
     content: "\265D";
 }
 
+#f8:hover {
+    background-color: white;
+}
+
 #g8:before {
     content: "\265E";
+}
+
+#g8:hover {
+    background-color: white;
 }
 
 #h8:before {
     content: "\265C";
 }
 
+#h8:hover {
+    background-color: white;
+}
+
 #a7:before {
     content: "\265F";
+}
+
+#a7:hover {
+    background-color: white;
 }
 
 #b7:before {
     content: "\265F";
 }
 
+#b7:hover {
+    background-color: white;
+}
+
 #c7:before {
     content: "\265F";
+}
+
+#c7:hover {
+    background-color: white;
 }
 
 #d7:before {
     content: "\265F";
 }
 
+#d7:hover {
+    background-color: white;
+}
+
 #e7:before {
     content: "\265F";
+}
+
+#e7:hover {
+    background-color: white;
 }
 
 #f7:before {
     content: "\265F";
 }
 
+#f7:hover {
+    background-color: white;
+}
+
 #g7:before {
     content: "\265F";
 }
 
+#g7:hover {
+    background-color: white;
+}
+
 #h7:before {
     content: "\265F";
+}
+
+#h7:hover {
+    background-color: white;
 }
 
 /* White Pieces*/
@@ -191,64 +260,128 @@ textarea {
     content: "\2659";
 }
 
+#a2:hover {
+    background-color: white;
+}
+
 #b2:before {
     content: "\2659";
+}
+
+#b2:hover {
+    background-color: white;
 }
 
 #c2:before {
     content: "\2659";
 }
 
+#c2:hover {
+    background-color: white;
+}
+
 #d2:before {
     content: "\2659";
+}
+
+#d2:hover {
+    background-color: white;
 }
 
 #e2:before {
     content: "\2659";
 }
 
+#e2:hover {
+    background-color: white;
+}
+
 #f2:before {
     content: "\2659";
+}
+
+#f2:hover {
+    background-color: white;
 }
 
 #g2:before {
     content: "\2659";
 }
 
+#g2:hover {
+    background-color: white;
+}
+
 #h2:before {
     content: "\2659";
+}
+
+#h2:hover {
+    background-color: white;
 }
 
 #a1:before {
     content: "\2656";
 }
 
+#a1:hover {
+    background-color: white;
+}
+
 #b1:before {
     content: "\2658";
+}
+
+#b1:hover {
+    background-color: white;
 }
 
 #c1:before {
     content: "\2657";
 }
 
+#c1:hover {
+    background-color: white;
+}
+
 #d1:before {
     content: "\2655";
+}
+
+#d1:hover {
+    background-color: white;
 }
 
 #e1:before {
     content: "\2654";
 }
 
+#e1:hover {
+    background-color: white;
+}
+
 #f1:before {
     content: "\2657";
+}
+
+#f1:hover {
+    background-color: white;
 }
 
 #g1:before {
     content: "\2658";
 }
 
+#g1:hover {
+    background-color: white;
+}
+
 #h1:before {
     content: "\2656";
+}
+
+#h1:hover {
+    background-color: white;
 }
 
 /* ==========================================================================

@@ -47,7 +47,8 @@ function prod(A,B){
 function div(A,B){
     return A / B;
 }
-    console.log(div(6,3));
+    console.log(div(16,2));
+    console.log(div(1,0));
 
 
 
@@ -94,8 +95,9 @@ function plus(A , B) {
         else if (A === "nine"){
             return 9;
         }
+     
     
-        if (B === "zero"){
+    if (B === "zero"){
             return 0;
         }
 
@@ -138,4 +140,5 @@ function plus(A , B) {
     return A + B;
    
     }
- console.log(plus("one", "one"));
+
+console.log(plus("one", "one"));
