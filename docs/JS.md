@@ -306,7 +306,7 @@ if (x = 2)
 }
 ```
 
-### [2-Control Flow : Block Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#if...else_Statement)
+### [2-Control Flow : if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#if...else_Statement)
 
     Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. condition can be any expression that evaluates to true or false. See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.
     You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if statements:To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if statements:If you need to use an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For example:The following values will evaluate to false:
@@ -316,7 +316,7 @@ if (x = 2)
     Do not confuse the primitive boolean values true and false with the true and false values of the Boolean object.
 
 * _symbol_: `if (condition) {statement;}`
-* _pronunciation_: "if (X) then {} ", "if (X) then {}, else {} ",
+* _pronunciation_: "if (X) then {} ", "if (X) then {} else {} ",
 * _examples_:
 ```javascript
 if (x = 2) {
@@ -392,4 +392,87 @@ do {
    document.write(i);
 } while (i < 5);
 
+```
+
+### [6-Control Flow : While Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#while_Statement)
+
+    A while statement executes its statements as long as a specified condition evaluates to true.
+    If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.
+    The condition test occurs before statement in the loop are executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns false, execution stops and control is passed to the statement following while.
+    To execute multiple statements, use a block statement ({ ... }) to group those statements.
+    
+* _symbol_: `while (condition) statement`
+* _pronunciation_: "while (x) is true do the following...",
+* _examples_:
+```javascript
+n = 0;
+x = 0;
+while (n < 3) {
+   n++;
+   x += n;
+}
+```
+
+### [7-Control Flow : Break Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#break_Statement)
+
+    Use the break statement to terminate a loop, switch, or in conjunction with a label statement.
+    When you use break without a label, it terminates the innermost enclosing while, do-while, for, or switch immediately and transfers control to the following statement.
+    When you use break with a label, it terminates the specified labeled statement.
+    The first form of the syntax terminates the innermost enclosing loop or switch; the second form of the syntax terminates the specified enclosing label statement.
+    
+* _symbol_: `break; break label;`
+* _pronunciation_: "?",
+* _examples_:
+```javascript
+for (i = 0; i < a.length; i++) {
+   if (a[i] == theValue)
+      break;
+}
+```
+
+### [8-Control Flow : Continue Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#continue_Statement)
+
+    The continue statement can be used to restart a while, do-while, for, or label statement.
+    When you use continue without a label, it terminates the current iteration of the innermost enclosing while, do-while or for statement and continues execution of the loop with the next iteration. In contrast to the break statement, continue does not terminate the execution of the loop entirely. In a while loop, it jumps back to the condition. In a for loop, it jumps to the increment-expression.
+    When you use continue with a label, it applies to the looping statement identified with that label.
+    
+* _symbol_: `continue; continue label;`
+* _pronunciation_: "for the is true continue to loop...",
+* _examples_:
+```javascript
+for (i = 0; i < a.length; i++) {
+   if (a[i] == theValue)
+      continue;
+}
+```
+
+### [9-Control Flow : For...in Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#for...in_Statement)
+
+    The for...in statement iterates a specified variable over all the properties of an object. For each distinct property, JavaScript executes the specified statements.Arrays
+    Although it may be tempting to use this as a way to iterate over Array elements, because the for...in statement iterates over user-defined properties in addition to the array elements, if you modify the Array object, such as adding custom properties or methods, the for...in statement will return the name of your user-defined properties in addition to the numeric indexes. Thus it is better to use a traditional for loop with a numeric index when iterating over arrays.
+    
+* _symbol_: `for (variable in object) {statements}`
+* _pronunciation_: "for this var is in object perform this statement",
+* _examples_:
+```javascript
+for (var i in obj) {
+      result += obj_name + "." + i + " = " + obj[i] + "<br>";
+   }
+}
+```
+
+### [10-Control Flow : for each...in Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#for_each...in_Statement)
+
+    for each...in is a loop statement introduced in JavaScript 1.6. It is similar to for...in, but iterates over the values of object's properties, not their names.
+    
+* _symbol_: `for each (variable in object) {statement}`
+* _pronunciation_: "for each of the var in this object perform this statement",
+* _examples_:
+```javascript
+var sum = 0;
+var obj = {prop1: 5, prop2: 13, prop3: 8};
+for each (var item in obj) {
+  sum += item;
+}
+print(sum); // prints "26", which is 5+13+8
 ```
