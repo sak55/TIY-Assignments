@@ -99,12 +99,8 @@ textarea {
     background-color: #703842;
     /*color: #CCB78B;*/
     text-align:center;
+    position: relative;
 }
-
-/*
-.even:hover, .odd:hover {
-    background-color: white;
-}*/
 
 .odd {
     width: 9%;
@@ -117,16 +113,43 @@ textarea {
     background-color: #CCB78B;
     /*color: #703842;*/
     text-align:center;
+    position: relative;
+}
+/*
+.piece {
+    boarder: 1px solid black;
+    width: 10em; height 19ex;
+    text-align: center;
 }
 
+.piece:before {
+    font-size: 1em;
+    position:absolute;
+}
+
+.piece .white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+.piece .white .queen:before {
+    content: "\265B";
+}
+*/
 /* Black Pieces */
+
+.rook {
+    content: "\265C";
+}
 
 #a8:before {
     content: "\265C";
 }
 
 #a8:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 
@@ -135,7 +158,7 @@ textarea {
 }
 
 #b8:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 
@@ -144,7 +167,7 @@ textarea {
 }
 
 #c8:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 
@@ -153,7 +176,7 @@ textarea {
 }
 
 #d8:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 
@@ -162,7 +185,7 @@ textarea {
 }
 
 #e8:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #f8:before {
@@ -170,7 +193,7 @@ textarea {
 }
 
 #f8:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #g8:before {
@@ -178,7 +201,7 @@ textarea {
 }
 
 #g8:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #h8:before {
@@ -186,7 +209,7 @@ textarea {
 }
 
 #h8:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #a7:before {
@@ -194,7 +217,7 @@ textarea {
 }
 
 #a7:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #b7:before {
@@ -202,7 +225,7 @@ textarea {
 }
 
 #b7:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #c7:before {
@@ -210,7 +233,7 @@ textarea {
 }
 
 #c7:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #d7:before {
@@ -218,7 +241,7 @@ textarea {
 }
 
 #d7:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #e7:before {
@@ -226,7 +249,7 @@ textarea {
 }
 
 #e7:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #f7:before {
@@ -234,7 +257,7 @@ textarea {
 }
 
 #f7:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #g7:before {
@@ -242,7 +265,7 @@ textarea {
 }
 
 #g7:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #h7:before {
@@ -250,7 +273,7 @@ textarea {
 }
 
 #h7:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 /* White Pieces*/
@@ -261,7 +284,7 @@ textarea {
 }
 
 #a2:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #b2:before {
@@ -269,7 +292,7 @@ textarea {
 }
 
 #b2:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #c2:before {
@@ -277,7 +300,7 @@ textarea {
 }
 
 #c2:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #d2:before {
@@ -285,7 +308,7 @@ textarea {
 }
 
 #d2:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #e2:before {
@@ -293,7 +316,7 @@ textarea {
 }
 
 #e2:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #f2:before {
@@ -301,7 +324,7 @@ textarea {
 }
 
 #f2:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #g2:before {
@@ -309,7 +332,7 @@ textarea {
 }
 
 #g2:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #h2:before {
@@ -317,7 +340,7 @@ textarea {
 }
 
 #h2:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #a1:before {
@@ -325,7 +348,7 @@ textarea {
 }
 
 #a1:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #b1:before {
@@ -333,7 +356,7 @@ textarea {
 }
 
 #b1:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #c1:before {
@@ -341,7 +364,7 @@ textarea {
 }
 
 #c1:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #d1:before {
@@ -349,7 +372,7 @@ textarea {
 }
 
 #d1:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #e1:before {
@@ -357,7 +380,7 @@ textarea {
 }
 
 #e1:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #f1:before {
@@ -365,7 +388,7 @@ textarea {
 }
 
 #f1:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #g1:before {
@@ -373,7 +396,7 @@ textarea {
 }
 
 #g1:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #h1:before {
@@ -381,7 +404,7 @@ textarea {
 }
 
 #h1:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 /* ==========================================================================
