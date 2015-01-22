@@ -313,7 +313,7 @@ if (x = 2)
     ** false, undefined, null, 0, NaN ,the empty string ("")
     ** All other values, including all objects evaluate to true when passed to a conditional statement.
 
-Do not confuse the primitive boolean values true and false with the true and false values of the Boolean object.
+    Do not confuse the primitive boolean values true and false with the true and false values of the Boolean object.
 
 * _symbol_: `if (condition) {statement;}`
 * _pronunciation_: "if (X) then {} ", "if (X) then {}, else {} ",
@@ -331,3 +331,65 @@ else {
 }
 ```
 
+### [3-Control Flow : switch Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#switch_Statement)
+
+    A switch statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement.The program first looks for a case clause with a label matching the value of expression and then transfers control to that clause, executing the associated statements. If no matching label is found, the program looks for the optional default clause, and if found, transfers control to that clause, executing the associated statements. If no default clause is found, the program continues execution at the statement following the end of switch. By convention, the default clause is the last clause, but it does not need to be so.
+    The optional break statement associated with each case clause ensures that the program breaks out of switch once the matched statement is executed and continues execution at the statement following switch. If break is omitted, the program continues execution at the next statement in the switch statement.
+    When break is encountered, the program terminates switch and executes the statement following switch. If break were omitted, the default statement would be executed.
+    
+
+* _symbol_: `switch (condition) {statement; }`
+* _pronunciation_: "switch (X) if it matches the case perform statement...otherwise perform default ",
+* _examples_:
+```javascript
+switch (expression) {
+   case label_1:
+      statements_1
+      [break;]
+   case label_2:
+      statements_2
+      [break;]
+   ...
+   default:
+      statements_def
+      [break;]
+}
+```
+
+### [Loop Statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#Loop_Statements)
+A loop is a set of commands that executes repeatedly until a specified condition is met. JavaScript supports the for, do while, and while loop statements, as well as label (label is not itself a looping statement, but is frequently used with these statements). In addition, you can use the break and continue statements within loop statements.
+
+### [4-Control Flow : For Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#switch_Statement)
+
+    A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop.
+    When a for loop executes, the following occurs:
+    The initializing expression initialExpression, if any, is executed. This expression usually initializes one or more loop counters, but the syntax allows an expression of any degree of complexity. This expression can also declare variables.
+    The condition expression is evaluated. If the value of condition is true, the loop statements execute. If the value of condition is false, the for loop terminates. If the condition expression is omitted entirely, the condition is assumed to be true.
+    The statement executes. To execute multiple statements, use a block statement ({ ... }) to group those statements.
+    The update expression incrementExpression, if there is one, executes, and control returns to step 2.
+
+
+* _symbol_: `for ([initialExpression]; [condition]; [incrementExpression]) statement`
+* _pronunciation_: "for (X = i; 1 < w) do this and repeat",
+* _examples_:
+```javascript
+for (var i = 0; i < selectObject.options.length; i++) {
+      if (selectObject.options[i].selected)
+         numberSelected++;
+   }
+```
+
+### [5-Control Flow : Do...While Statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#do...while_Statement)
+
+    The do...while statement repeats until a specified condition evaluates to false. statement executes once before the condition is checked. To execute multiple statements, use a block statement ({ ... }) to group those statements. If condition is true, the statement executes again. At the end of every execution, the condition is checked. When the condition is false, execution stops and control passes to the statement following do...while.
+
+* _symbol_: `do statement while (condition);`
+* _pronunciation_: "do (x) while the following is false",
+* _examples_:
+```javascript
+do {
+   i += 1;
+   document.write(i);
+} while (i < 5);
+
+```
