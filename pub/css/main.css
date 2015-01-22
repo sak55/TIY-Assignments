@@ -67,13 +67,13 @@ textarea {
     /* width: 880px;
     height:827px;*/
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     border:2px solid black;
 }
 
 .row0, .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
     clear:both;
-
+    position: relative;
 }
 
 .label-text {
@@ -97,8 +97,8 @@ textarea {
     border:1px solid black;
     float: left;
     background-color: #703842;
-    color: #CCB78B;
-    
+    /*color: #CCB78B;*/
+    text-align:center;
 }
 
 .odd {
@@ -110,9 +110,142 @@ textarea {
     float: left;
     border:1px solid black;
     background-color: #CCB78B;
-    color: #703842;
+    /*color: #703842;*/
+    text-align:center;
 }
 
+/* Black Pieces */
+
+#a8:before {
+    content: "\265C";
+}
+
+#b8:before {
+    content: "\265E";
+}
+
+#c8:before {
+    content: "\265D";
+}
+
+#d8:before {
+    content: "\265B";
+}
+
+#e8:before {
+    content: "\265A";
+}
+
+#f8:before {
+    content: "\265D";
+}
+
+#g8:before {
+    content: "\265E";
+}
+
+#h8:before {
+    content: "\265C";
+}
+
+#a7:before {
+    content: "\265F";
+}
+
+#b7:before {
+    content: "\265F";
+}
+
+#c7:before {
+    content: "\265F";
+}
+
+#d7:before {
+    content: "\265F";
+}
+
+#e7:before {
+    content: "\265F";
+}
+
+#f7:before {
+    content: "\265F";
+}
+
+#g7:before {
+    content: "\265F";
+}
+
+#h7:before {
+    content: "\265F";
+}
+
+/* White Pieces*/
+
+
+#a2:before {
+    content: "\2659";
+}
+
+#b2:before {
+    content: "\2659";
+}
+
+#c2:before {
+    content: "\2659";
+}
+
+#d2:before {
+    content: "\2659";
+}
+
+#e2:before {
+    content: "\2659";
+}
+
+#f2:before {
+    content: "\2659";
+}
+
+#g2:before {
+    content: "\2659";
+}
+
+#h2:before {
+    content: "\2659";
+}
+
+#a1:before {
+    content: "\2656";
+}
+
+#b1:before {
+    content: "\2658";
+}
+
+#c1:before {
+    content: "\2657";
+}
+
+#d1:before {
+    content: "\2655";
+}
+
+#e1:before {
+    content: "\2654";
+}
+
+#f1:before {
+    content: "\2657";
+}
+
+#g1:before {
+    content: "\2658";
+}
+
+#h1:before {
+    content: "\2656";
+}
 
 /* ==========================================================================
    Media Queries
