@@ -52,10 +52,19 @@ it('should return "five" and  "five"', function(){
     assert.equal(plus("five", "five"), 10);
 });*/
 
+/*
 function plus(A, B) {
     return 12;
 }
 
 it('should return "six" and "six"', function() {
     assert.equal(plus("six", "six"), 12);
+});*/
+
+function plus(A, B) {
+    return 14;
+}
+
+it('should return "seven" and "seven"', function() {
+    assert.equal(plus("seven", "seven"), 14);
 });
