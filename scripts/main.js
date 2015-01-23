@@ -22,8 +22,9 @@ function move(fromY, fromX, toY, toX){
         print(board);
     }
 
+
 //move(7, 5, 5, 5);
-//move(2, 1, 4, 1);
+move(2, 1, 4, 1);
 
 
 ////Move King's Pawn forward 2
