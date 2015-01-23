@@ -29,3 +29,6 @@ board[6][8] = board[7][8];
 board[7][8] = ' ';
 
 console.log(board.join('\n'));
+
+
+console.log(poop);
