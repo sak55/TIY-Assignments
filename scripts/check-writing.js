@@ -43,6 +43,38 @@ it('should return "one"', function() {
    assert.equal(toEnglish(1), 'one');
    });
 
+it('should return "two"', function() {
+   assert.equal(toEnglish(2), 'two');
+   });
+    
+it('should return "three"', function() {
+   assert.equal(toEnglish(3), 'three');
+   });
+
+it('should return "four"', function() {
+    assert.equal(toEnglish(4), 'four');
+});
+
+it('should return "five"', function() {
+   assert.equal(toEnglish(5), 'five');
+   });
+    
+it('should return "six"', function() {
+   assert.equal(toEnglish(6), 'six');
+   });
+
+it('should return "seven"', function() {
+   assert.equal(toEnglish(7), 'seven');
+   });
+    
+it('should return "eight"', function() {
+   assert.equal(toEnglish(8), 'eight');
+   });
+
+it('should return "nine"', function() {
+    assert.equal(toEnglish(9), 'nine');
+});
+
 it('should return "ten"', function() {
     assert.equal(toEnglish(10), 'ten');
 });
