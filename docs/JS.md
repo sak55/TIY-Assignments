@@ -516,7 +516,7 @@ for (var i = 0; i < numbers.length; i++) {
 // numbers is now [2, 4, 6, 8, 10]
 ```
 
-#### [`Array.prototype.pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+#### [1-`Array.prototype.pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 
     The pop() method removes the last element from an array and returns that element.
     The pop method removes the last element from an array and returns that value to the caller.
@@ -537,14 +537,14 @@ console.log(myColors); // ['red', 'blue', 'green']
 console.log(popped); // 'yellow'
 ```
 
-#### [`array.prototype.push()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+#### [2-`array.prototype.push()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
     The push() method adds one or more elements to the end of an array and returns the new length of the array.
     The push method appends values to an array.
     push is intentionally generic. This method can be used with call() or apply() on objects resembling arrays. The push method relies on a length property to determine where to start inserting the given values. If the length property cannot be converted into a number, the index used is 0. This includes the possibility of length being nonexistent, in which case length will also be created.
     The only native, array-like objects are strings, although they are not suitable in applications of this method, as strings are immutable.
 
-* *results:* 
+* *results:* adds one or more elements to the end of an array and returns the new length of the array.
 * *parameters:* elementN The elements to add to the end of the array.
 * *returns:* The new length property of the object upon which the method was called.
 
@@ -555,15 +555,86 @@ var total = veggies.push('cucumber', 'lettuce');
 console.log(veggies); // ['carrots', 'celery', 'cucumber', 'lettuce']
 console.log(total);  // 4
 ```
+#### [3-`array.prototype.splice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
+    The splice() method changes the content of an array by removing existing elements and/or adding new elements.
+
+* *results:*  
+* *parameters:* 
+    start
+        Index at which to start changing the array. If greater than the length of the array, actual starting index will be set to the length of the array. If negative, will begin that many elements from the end.
+     deleteCount
+        An integer indicating the number of old array elements to remove. If deleteCount is 0, no elements are removed. In this case, you should specify at least one new element. If deleteCount is greater than the number of elements left in the array starting at index, then all of the elements through the end of the array will be deleted.
+    itemN
+        The element to add to the array. If you don't specify any elements, splice will only remove elements from the array.
+
+* *returns:* An array containing the deleted elements. If only one element is removed, an array of one element is returned. If no elements are removed, an empty array is returned.
+
+```javascript
+var myFish = ['angel', 'clown', 'mandarin', 'surgeon'];
+
+// removes 0 elements from index 2, and inserts 'drum'
+var removed = myFish.splice(2, 0, 'drum');
+// myFish is ['angel', 'clown', 'drum', 'mandarin', 'surgeon']
+// removed is [], no elements removed
+
+// removes 1 element from index 3
+removed = myFish.splice(3, 1);
+// myFish is ['angel', 'clown', 'drum', 'surgeon']
+// removed is ['mandarin']
+```
+#### [4-`array.prototype.unshift()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+
+    The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+
+* *results:*  arr.unshift([element1[, ...[, elementN]]])
+* *parameters:* 
+    elementN
+The elements to add to the front of the array.
+
+* *returns:* The new length property of the object upon which the method was called.
+
+```javascript
+var arr = [1, 2];
+
+arr.unshift(0); // result of call is 3, the new array length
+// arr is [0, 1, 2]
+
+arr.unshift(-2, -1); // = 5
+// arr is [-2, -1, 0, 1, 2]
+
+arr.unshift([-3]);
+// arr is [[-3], -2, -1, 0, 1, 2]
+```
+
+#### [5-`array.prototype.unshift()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+
+    The shift() method removes the first element from an array and returns that element. This method changes the length of the array.
+    The shift method removes the element at the zeroeth index and shifts the values at consecutive indexes down, then returns the removed value. If the length property is 0, undefined is returned.
+    shift is intentionally generic; this method can be called or applied to objects resembling arrays. Objects which do not contain a length property reflecting the last in a series of consecutive, zero-based numerical properties may not behave in any meaningful manner.
+    
+* *results:*  arr.shift()
+* *parameters:* 
+* *returns:* removes the first element from an array and returns that element.
+
+```javascript
+var myFish = ['angel', 'clown', 'mandarin', 'surgeon'];
+
+console.log('myFish before: ' + myFish);
+
+var shifted = myFish.shift();
+
+console.log('myFish after: ' + myFish);
+console.log('Removed this element: ' + shifted);
+
+// myFish before: angel,clown,mandarin,surgeon
+// myFish after: clown,mandarin,surgeon
+// Removed this element: angel
+
+```
 
 ---
 
-
-the non-experimental Mutator Methods, e.g. pop(), push(), splice()
-heckpoint: Array literals: empty and filled
-Checkpoint: Other ways to create an Array?
-Checkpoint: What's your length...?
-Checkpoint: First Mutator method!
 Checkpoint: Five Mutators down!
 Checkpoint: What, there's only 7?
 
