@@ -68,11 +68,19 @@ it('should return "six" and "six"', function() {
 it('should return "seven" and "seven"', function() {
     assert.equal(plus("seven", "seven"), 14);
 });*/
-
+/*
 function plus(A, B) {
     return 16;
 }
 
 it('should return "eight" and "eight"', function() {
     assert.equal(plus("eight", "eight"), 16);
+});*/
+
+function plus(A, B) {
+    return 18;
+}
+
+it('should return "nine" and "nine"', function() {
+    assert.equal(plus("nine", "nine"), 18);
 });
