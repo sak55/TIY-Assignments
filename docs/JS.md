@@ -632,9 +632,42 @@ console.log('Removed this element: ' + shifted);
 // Removed this element: angel
 
 ```
+#### [6-`array.prototype.reverse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 
----
+    The reverse() method reverses an array in place. The first array element becomes the last and the last becomes the first.
+    The reverse method transposes the elements of the calling array object in place, mutating the array, and returning a reference to the array.
 
-Checkpoint: Five Mutators down!
-Checkpoint: What, there's only 7?
+* *results:*  arr.reverse()
+* *parameters:* none
+* *returns:* array in opposite order
 
+```javascript
+var myArray = ['one', 'two', 'three'];
+myArray.reverse(); 
+
+console.log(myArray) // ['three', 'two', 'one']
+```
+#### [7-`array.prototype.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+
+    The sort() method sorts the elements of an array in place and returns the array. The sort is not necessarily stable. The default sort order is according to string Unicode code points.
+    If compareFunction is not supplied, elements are sorted by converting them to strings and comparing strings in Unicode code point order. For example, "Cherry" comes before "banana".      In a numeric sort, 9 comes before 80, but because numbers are converted to strings, "80" comes before "9" in Unicode order.
+
+* *results:*  arr.reverse()
+* *parameters:* 
+    compareFunction
+    Optional. Specifies a function that defines the sort order. If omitted, the array is sorted according to each character's Unicode code point value, according to the string conversion of each element.
+
+* *returns:* 
+
+```javascript
+var fruit = ['apples', 'bananas', 'Cherries'];
+fruit.sort(); // ['Cherries', 'apples', 'bananas'];
+
+var scores = [1, 2, 10, 21]; 
+scores.sort(); // [1, 10, 2, 21]
+
+var things = ['word', 'Word', '1 Word', '2 Words'];
+things.sort(); // ['1 Word', '2 Words', 'Word', 'word']
+// In Unicode, numbers come before upper case letters,
+// which come before lower case letters.
+```
