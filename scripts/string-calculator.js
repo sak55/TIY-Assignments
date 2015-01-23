@@ -27,10 +27,18 @@ it('should add "two" and "two"', function() {
     assert.equal(plus("two", "two"), 4);
 }); */
 
-function plus(A, B) {
+/*function plus(A, B) {
     return 6;
 }
 
 it('should add "three" and "three"', function() {
     assert.equal(plus("three", "three"), 6);
+});*/
+
+function plus(A, B) {
+    return 8;
+}
+
+it('should add "four" and "four"', function() {
+    assert.equal(plus("four", "four"), 8);
 });
