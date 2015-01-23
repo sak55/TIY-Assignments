@@ -42,3 +42,7 @@ it('should return "zero"', function() {
 it('should return "one"', function() {
    assert.equal(toEnglish(1), 'one');
    });
+
+it('should return "ten"', function() {
+    assert.equal(toEnglish(10), 'ten');
+});
