@@ -476,3 +476,94 @@ for each (var item in obj) {
 }
 print(sum); // prints "26", which is 5+13+8
 ```
+
+### Literal: `Array` (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Array_literals)
+    An array literal is a list of zero or more expressions, each of which represents an array element, enclosed in square brackets ([]). When you create an array using an array literal, it is initialized with the specified values as its elements, and its length is set to the number of arguments specified.
+    Note An array literal is a type of object initializer. See Using Object Initializers.
+    If an array is created using a literal in a top-level script, JavaScript interprets the array each time it evaluates the expression containing the array literal. In addition, a literal used in a function is created each time the function is called.
+    Array literals are also Array objects. See Array Object for details on Array objects.
+    Extra commas in array literals
+    You do not have to specify all elements in an array literal. If you put two commas in a row, the array is created with undefined for the unspecified elements.
+    If you include a trailing comma at the end of the list of elements, the comma is ignored. In the following example, the length of the array is three. There is no myList[3]. All other commas in the list indicate a new element. (Note: trailing commas can create errors in older browser versions and it is a best practice to remove them.)
+    Understanding the behavior of extra commas is important to understanding JavaScript as a language, however when writing your own code: explicitly declaring the missing elements as undefined will increase your code's clarity and maintainability.
+
+* *symbol:* `[ ]`
+* *pronunciation:* "array", "new array"
+* *examples:*
+```javascript
+var x = [ , , ]
+var x = [1,2,3]
+var x = ["red", , "blue"]
+```
+
+#### `Array.length` (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+
+    The length property represents an unsigned, 32-bit integer that specifies the number of elements in an array.
+    The value of the length property is an integer with a positive sign and a value less than 2 to the 32nd power (232).
+    You can set the length property to truncate an array at any time. When you extend an array by changing its length property, the number of actual elements does not increase; for example, if you set length to 3 when it is currently 2, the array still contains only 2 elements. Thus, the length property says nothing about the number of defined values in the array. See also Relationship between length and numerical properties.
+    
+* *value:* `Number` of elements in an array
+* *examples:*
+```javascript
+var ten = [1,2,3,4,5,6,7,8,9,0];
+ten.length = 10;
+
+ar numbers = [1, 2, 3, 4, 5];
+
+for (var i = 0; i < numbers.length; i++) {
+  numbers[i] *= 2;
+}
+// numbers is now [2, 4, 6, 8, 10]
+```
+
+#### [`Array.prototype.pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+    The pop() method removes the last element from an array and returns that element.
+    The pop method removes the last element from an array and returns that value to the caller.
+    pop is intentionally generic; this method can be called or applied to objects resembling arrays. Objects which do not contain a length property reflecting the last in a series of consecutive, zero-based numerical properties may not behave in any meaningful manner.
+    If you call pop() on an empty array, it returns an undefined value.
+
+* *result:* removes the last element in the array
+* *parameters:* If you call pop() on an empty array, it returns an undefined value
+* *returns:* returns the value of the last element in the array
+
+```javascript
+var myColors = ['red', 'blue', 'green', 'yellow']
+
+var popped = myColors.pop();
+
+console.log(myColors); // ['red', 'blue', 'green'] 
+
+console.log(popped); // 'yellow'
+```
+
+#### [`array.prototype.push()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+
+    The push() method adds one or more elements to the end of an array and returns the new length of the array.
+    The push method appends values to an array.
+    push is intentionally generic. This method can be used with call() or apply() on objects resembling arrays. The push method relies on a length property to determine where to start inserting the given values. If the length property cannot be converted into a number, the index used is 0. This includes the possibility of length being nonexistent, in which case length will also be created.
+    The only native, array-like objects are strings, although they are not suitable in applications of this method, as strings are immutable.
+
+* *results:* 
+* *parameters:* elementN The elements to add to the end of the array.
+* *returns:* The new length property of the object upon which the method was called.
+
+```javascript
+var veggies = ['carrots', 'celery'];
+var total = veggies.push('cucumber', 'lettuce');
+
+console.log(veggies); // ['carrots', 'celery', 'cucumber', 'lettuce']
+console.log(total);  // 4
+```
+
+---
+
+
+the non-experimental Mutator Methods, e.g. pop(), push(), splice()
+heckpoint: Array literals: empty and filled
+Checkpoint: Other ways to create an Array?
+Checkpoint: What's your length...?
+Checkpoint: First Mutator method!
+Checkpoint: Five Mutators down!
+Checkpoint: What, there's only 7?
+
