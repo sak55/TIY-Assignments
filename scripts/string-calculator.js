@@ -166,12 +166,12 @@ function plus(A, B) {
             y = 10;
             }
         
-        console.log(A + B);    
+        console.log(x + y);    
     }
 
-plus(10, 1);
-plus(0, 1);
-plus(1, 1);
-plus(5, 1);
-plus(7, 1);
-plus(10, 4);
+plus('ten', 'one');
+plus('zero', 'one');
+plus('one', 'one');
+plus('five', 'one');
+plus('seven', 'one');
+plus('ten', 'four');
