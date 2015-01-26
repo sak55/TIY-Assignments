@@ -85,10 +85,93 @@ it('should return "nine" and "nine"', function() {
     assert.equal(plus("nine", "nine"), 18);
 });*/
 
-function plus(A, B) {
-    return 20;
-}
+//function plus(A, B) {
+//    return 20;
+//}
 
-it('should return "ten" and "ten"', function() {
-    assert.equal(plus("ten", "ten"), 20);
-});
+//it('should return "ten" and "ten"', function() {
+//    assert.equal(plus("ten", "ten"), 20);
+//});
+
+
+function plus(A, B) {
+    var x;
+    var y;
+    var z;
+    
+    if (A == 'zero'){
+        x = 0}
+        else if  (A == 'one'){
+            x = 1
+            }
+        else if (A == 'two'){
+            x = 2;
+            }
+        else  if (A == 'three'){
+            x = 3;
+            }
+        else  if (A == 'four'){
+            x = 4;
+            }
+        else  if (A == 'five'){
+            x = 5;
+            }
+        else  if (A == 'six'){
+            x = 6;
+            }
+        else  if (A == 'seven'){
+            x = 7;
+            }
+        else  if (A == 'eight'){
+            x = 8;
+            }
+        else  if (A == 'nine'){
+            x = 9;
+            }
+        else if (A == 'ten'){
+            x = 10;
+            }
+
+        
+        if (B == 'zero'){
+        y = 0;}
+        else  if (B == 'one'){
+            y = 1;
+            }
+        else  if (B == 'two'){
+            y = 2;
+            }
+        else  if (B == 'three'){
+            y = 3;
+            }
+        else  if (B == 'four'){
+            y = 4;
+            }
+        else  if (B == 'five'){
+            y = 5;
+            }
+        else if (B == 'six'){
+            y = 6;
+            }
+        else  if (B == 'seven'){
+            y = 7;
+            }
+        else  if (B == 'eight'){
+            y = 8;
+            }
+        else  if (B == 'nine'){
+            y = 9;
+            }
+        else if (B == 'ten'){
+            y = 10;
+            }
+        
+        console.log(A + B);    
+    }
+
+plus(10, 1);
+plus(0, 1);
+plus(1, 1);
+plus(5, 1);
+plus(7, 1);
+plus(10, 4);
