@@ -85,73 +85,53 @@ function toEnglish(A, B) {
     var z;
     
     if (A == 0){
-        x = 'zero'}
-        else if  (A == 1){
-            x = 'one'
-            }
-        else if (A == 2){
-            x = 'two';
-            }
-        else  if (A == 3){
-            x = 'three';
-            }
-        else  if (A == 4){
-            x = 'four';
-            }
-        else  if (A == 5){
-            x = 'five';
-            }
-        else  if (A == 6){
-            x = 'six';
-            }
-        else  if (A == 7){
-            x = 'seven';
-            }
-        else  if (A == 8){
-            x = 'eight';
-            }
-        else  if (A == 9){
-            x = 'nine';
-            }
-        else if (A == 10){
-            x = 'ten';
-            }
+        x = 'zero'} else
+            if  (A == 1){
+                x = 'one'} else 
+            if (A == 2){
+                x = 'two';} else  
+            if (A == 3){
+                x = 'three';} else 
+            if (A == 4){
+                x = 'four';} else
+            if (A == 5){
+                x = 'five';} else
+            if (A == 6){
+                x = 'six';} else  
+            if (A == 7){
+                x = 'seven';} else  
+            if (A == 8){
+                x = 'eight';} else
+            if (A == 9){
+                x = 'nine';} else 
+            if (A == 10){
+                x = 'ten';}
 
         
         if (B == 0){
-        y = 'zero';}
-        else  if (B == 1){
-            y = 'one';
-            }
-        else  if (B == 2){
-            y = 'two';
-            }
-        else  if (B == 3){
-            y = 'three';
-            }
-        else  if (B == 4){
-            y = 'four';
-            }
-        else  if (B == 5){
-            y = 'five';
-            }
-        else if (B == 6){
-            y = 'six';
-            }
-        else  if (B == 7){
-            y = 'seven';
-            }
-        else  if (B == 8){
-            y = 'eight';
-            }
-        else  if (B == 9){
-            y = 'nine';
-            }
-        else if (B == 10){
-            y = 'ten';
-            }
-        
-        console.log(x + " " + y);
-    }
+            y = 'zero';} else  
+            if (B == 1){
+                y = 'one';} else
+            if (B == 2){
+                y = 'two';} else
+            if (B == 3){
+                y = 'three';} else
+            if (B == 4){
+                y = 'four';} else
+            if (B == 5){
+                y = 'five';} else
+            if (B == 6){
+                y = 'six';} else
+            if (B == 7){
+                y = 'seven';} else
+            if (B == 8){
+                y = 'eight';} else
+            if (B == 9){
+                y = 'nine';} else
+            if (B == 10){
+                y = 'ten';}
+
+            console.log(x + " " + y);
+        }
 
 toEnglish(7, 5);
