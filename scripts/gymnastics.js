@@ -15,9 +15,12 @@ function answer(){
             'total' : pushEvents.length
         }
     };
+    console.log(pushEvents.length);
 }
 
-console.log(events.length);
+answer();
+
+console.log(answer());
 var theAnswer = answer();
 
     it('should have events', function () {
