@@ -176,21 +176,23 @@ it('should return "nine" and "nine"', function() {
 //plus('seven', 'one');
 //plus('ten', 'four');
 
+console.log("hello");
+
 function plus(A, B){
-    var List = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+    var myNum = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
     var x = 0;
     var y = 0;
+    var n = 0;
     
-    while (x < List.length){
-        if (List[x] = A){
+    while (n < (myNum.length - 1)){
+        if (A = myNum[n]){
             return x;}
-        x++;}
-    
-    while (y < List.length){
-        if (List[y] = B){
+        if (B = myNum[n]){
             return y;}
-        y++}
+        n++;}
     console.log(x + y);
-    Return x + y;}
+    Return (x + y);}
 
-plus(five, ten);
+plus('five', 'ten');
+
+console.log("again");
