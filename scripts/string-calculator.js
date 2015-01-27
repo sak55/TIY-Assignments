@@ -94,84 +94,103 @@ it('should return "nine" and "nine"', function() {
 //});
 
 
-function plus(A, B) {
-    var x;
-    var y;
-    var z;
+//function plus(A, B) {
+//    var x;
+//    var y;
+//    var z;
+//    
+//    if (A == 'zero'){
+//        x = 0}
+//        else if  (A == 'one'){
+//            x = 1
+//            }
+//        else if (A == 'two'){
+//            x = 2;
+//            }
+//        else  if (A == 'three'){
+//            x = 3;
+//            }
+//        else  if (A == 'four'){
+//            x = 4;
+//            }
+//        else  if (A == 'five'){
+//            x = 5;
+//            }
+//        else  if (A == 'six'){
+//            x = 6;
+//            }
+//        else  if (A == 'seven'){
+//            x = 7;
+//            }
+//        else  if (A == 'eight'){
+//            x = 8;
+//            }
+//        else  if (A == 'nine'){
+//            x = 9;
+//            }
+//        else if (A == 'ten'){
+//            x = 10;
+//            }
+//
+//        
+//        if (B == 'zero'){
+//        y = 0;}
+//        else  if (B == 'one'){
+//            y = 1;
+//            }
+//        else  if (B == 'two'){
+//            y = 2;
+//            }
+//        else  if (B == 'three'){
+//            y = 3;
+//            }
+//        else  if (B == 'four'){
+//            y = 4;
+//            }
+//        else  if (B == 'five'){
+//            y = 5;
+//            }
+//        else if (B == 'six'){
+//            y = 6;
+//            }
+//        else  if (B == 'seven'){
+//            y = 7;
+//            }
+//        else  if (B == 'eight'){
+//            y = 8;
+//            }
+//        else  if (B == 'nine'){
+//            y = 9;
+//            }
+//        else if (B == 'ten'){
+//            y = 10;
+//            }
+//        
+//        console.log(x + y);    
+//    }
+//
+//plus('ten', 'one');
+//plus('zero', 'one');
+//plus('one', 'one');
+//plus('five', 'one');
+//plus('seven', 'one');
+//plus('ten', 'four');
+
+function plus(A, B){
+    var List = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+    var x = 0;
+    var y = 0;
     
-    if (A == 'zero'){
-        x = 0}
-        else if  (A == 'one'){
-            x = 1
-            }
-        else if (A == 'two'){
-            x = 2;
-            }
-        else  if (A == 'three'){
-            x = 3;
-            }
-        else  if (A == 'four'){
-            x = 4;
-            }
-        else  if (A == 'five'){
-            x = 5;
-            }
-        else  if (A == 'six'){
-            x = 6;
-            }
-        else  if (A == 'seven'){
-            x = 7;
-            }
-        else  if (A == 'eight'){
-            x = 8;
-            }
-        else  if (A == 'nine'){
-            x = 9;
-            }
-        else if (A == 'ten'){
-            x = 10;
-            }
+    while (x < List.length){
+        if (List[x] = A){
+            return x;}
+        x++;}
+    
+    while (y < List.length){
+        if (List[y] = B){
+            return y;}
+        y++}
+    console.log(x + y);
+    Return x + y;}
 
-        
-        if (B == 'zero'){
-        y = 0;}
-        else  if (B == 'one'){
-            y = 1;
-            }
-        else  if (B == 'two'){
-            y = 2;
-            }
-        else  if (B == 'three'){
-            y = 3;
-            }
-        else  if (B == 'four'){
-            y = 4;
-            }
-        else  if (B == 'five'){
-            y = 5;
-            }
-        else if (B == 'six'){
-            y = 6;
-            }
-        else  if (B == 'seven'){
-            y = 7;
-            }
-        else  if (B == 'eight'){
-            y = 8;
-            }
-        else  if (B == 'nine'){
-            y = 9;
-            }
-        else if (B == 'ten'){
-            y = 10;
-            }
-        
-        console.log(x + y);    
-    }
-
-plus('ten', 'one');
-plus('zero', 'one');
-plus('one', 'one');
-plus('five', 'one');
-plus('seven', 'one');
-plus('ten', 'four');
+plus(five, ten);
