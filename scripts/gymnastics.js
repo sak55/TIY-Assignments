@@ -4,12 +4,16 @@ var assert = require('assert');
 
 var events = require('../apis/github/users/sak55/events.json');
 
+
 function answer(){
+    var pushEvents = events.filter(function(item){
+        return item.type =='PushEvent';
+    });
     return {
-        'total': events.length
+        'total': events.length,
         'PushEvent': {
-        
-    };
+            'total' : pushEvents.length
+        }
     };
 }
 
@@ -21,16 +25,15 @@ var theAnswer = answer();
     });
     it('should have answer', function () {
         assert(answer);
-    });
-    it('should have a length', function () {
         assert(events.length === 30);
     });
-    it('should return the length of events when calling answer', function(){
+        it('should return the length of events when calling answer', function(){
         assert.equal(theAnswer.total, 30); 
     });
 
-    it('should have "pushEvent"', function(){
+    it('should have "pushEvent" and has a total count of push', function(){
         assert(theAnswer.PushEvent);
+        assert(theAnswer.PushEvent.total);
     });
 
 //function answer(){
