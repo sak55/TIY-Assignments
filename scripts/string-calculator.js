@@ -1,6 +1,28 @@
 
 var assert = require('assert');
 
+var numDict = {'zero' : 0, 'one': 1 , 'two' : 2, 'three' : 3, 'four' : 4, 'five' : 5, 'six' : 6, 'seven' : 7, 'eight' : 8, 'nine' : 9, 'ten' : 10}
+    
+function plus(A, B){
+    console.log(numDict[A] + numDict[B]);
+    return numDict[A] + numDict[B];}        
+   
+plus('ten', 'ten');
+
+it('should return two strings added as numbers after looking at the dictionary', function(){
+    assert.equal(plus('zero', 'ten'),10);
+    assert.equal(plus('one', 'nine'),10);
+    assert.equal(plus('two', 'eight'),10);
+    assert.equal(plus('three', 'seven'),10);
+    assert.equal(plus('four', 'six'),10);
+    assert.equal(plus('five', 'five'),10);
+    assert.equal(plus('six', 'four'),10);
+    assert.equal(plus('seven', 'three'),10);
+    assert.equal(plus('eight', 'two'),10);
+    assert.equal(plus('nine', 'one'),10);
+    assert.equal(plus('ten', 'zero'),10);
+});
+
 /*function plus(A, B) {
     return 0;
 }
@@ -176,19 +198,20 @@ it('should return "nine" and "nine"', function() {
 //plus('seven', 'one');
 //plus('ten', 'four');
 
-function plus(A, B){
-    var myNum = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
-    var x = 0;
-    var y = 0;
-    var n = 0;
-    
-    while (n < myNum.length){
-        if (A == myNum[n]){
-            return x = n;}
-        if (B == myNum[n]){
-            return y = n;}
-        n++;}
-    console.log(x + y);
-    Return (x + y);}
+//function plus(A, B){
+//    var myNum = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
+//    var x = 0;
+//    var y = 0;
+//    var n = 0;
+//    
+//    while (n < myNum.length){
+//        if (A == myNum[n]){
+//            return x = n;}
+//        if (B == myNum[n]){
+//            return y = n;}
+//        n++;}
+//    console.log(x + y);
+//    Return (x + y);}
+//
+//plus('five', 'ten');
 
-plus('five', 'ten');
