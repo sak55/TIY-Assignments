@@ -10,11 +10,11 @@ function answer(){
         return item.type =='PushEvent';
     });
     
-    var payload = pushEvents.filter(function(item){
-        return item.type =='payload';
-    });
-    
-    console.log(payload);
+//    var payload = pushEvents.filter(function(item){
+//        return item.type =='payload';
+//    });
+//    
+//    console.log(payload);
 //    var days = events.filter(function(item){
 //        return item.type == 'updated_at';
 //    });
