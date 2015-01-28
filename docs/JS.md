@@ -838,3 +838,5 @@ var flattened = [[0, 1], [2, 3], [4, 5]].reduceRight(function(a, b) {
 }, []);
 // flattened is [4, 5, 2, 3, 0, 1]
 ```
+
+### Lodash
