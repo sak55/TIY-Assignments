@@ -3,6 +3,7 @@ var assert = require('assert');
 var numList =  ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];  
 
 function toEnglish(A){
+    console.log(numList[A]);
     return numList[A];        
 } 
 
@@ -27,8 +28,8 @@ it('should print numbers from string"', function (){
     assert.equal(toEnglish(18), 'eighteen');
     assert.equal(toEnglish(19), 'nineteen');
     assert.equal(toEnglish(20), 'twenty');
-    
 })
+
 
 //
 //function toEnglish(num) {
