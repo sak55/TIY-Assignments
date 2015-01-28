@@ -1,0 +1,3176 @@
+[
+  {
+    "id": "2542015692",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28544184,
+      "name": "TaylorFoster90/TIY-Assignments",
+      "url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/12",
+        "labels_url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/12/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/12/comments",
+        "events_url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/12/events",
+        "html_url": "https://github.com/TaylorFoster90/TIY-Assignments/pull/12",
+        "id": 55672449,
+        "number": 12,
+        "title": "Feature/14  hello lodash",
+        "user": {
+          "login": "TaylorFoster90",
+          "id": 10275025,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10275025?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/TaylorFoster90",
+          "html_url": "https://github.com/TaylorFoster90",
+          "followers_url": "https://api.github.com/users/TaylorFoster90/followers",
+          "following_url": "https://api.github.com/users/TaylorFoster90/following{/other_user}",
+          "gists_url": "https://api.github.com/users/TaylorFoster90/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/TaylorFoster90/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/TaylorFoster90/subscriptions",
+          "organizations_url": "https://api.github.com/users/TaylorFoster90/orgs",
+          "repos_url": "https://api.github.com/users/TaylorFoster90/repos",
+          "events_url": "https://api.github.com/users/TaylorFoster90/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/TaylorFoster90/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-01-27T20:49:39Z",
+        "updated_at": "2015-01-28T13:45:47Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/pulls/12",
+          "html_url": "https://github.com/TaylorFoster90/TIY-Assignments/pull/12",
+          "diff_url": "https://github.com/TaylorFoster90/TIY-Assignments/pull/12.diff",
+          "patch_url": "https://github.com/TaylorFoster90/TIY-Assignments/pull/12.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/comments/71836541",
+        "html_url": "https://github.com/TaylorFoster90/TIY-Assignments/pull/12#issuecomment-71836541",
+        "issue_url": "https://api.github.com/repos/TaylorFoster90/TIY-Assignments/issues/12",
+        "id": 71836541,
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-28T13:45:47Z",
+        "updated_at": "2015-01-28T13:45:47Z",
+        "body": "thumb, thumb thumb thumb,  thummmmmmmmb :+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T13:45:47Z"
+  },
+  {
+    "id": "2541178315",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558132272,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--almost-lodash",
+      "head": "abe0ba34efa4e27a3eff189d37dc2ef5a0aad41d",
+      "before": "bd011838ee17c2e363ab5b22d2d0b9e745e3fd0d",
+      "commits": [
+        {
+          "sha": "abe0ba34efa4e27a3eff189d37dc2ef5a0aad41d",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "started to work on pushes per day",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/abe0ba34efa4e27a3eff189d37dc2ef5a0aad41d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T05:20:45Z"
+  },
+  {
+    "id": "2541116294",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/17",
+        "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/17/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/17/comments",
+        "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/17/events",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/17",
+        "id": 55674156,
+        "number": 17,
+        "title": "Pull Request for Feature 14",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-01-27T21:04:22Z",
+        "updated_at": "2015-01-28T04:21:57Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/17",
+          "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/17",
+          "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/17.diff",
+          "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/17.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/71778964",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/17#issuecomment-71778964",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/17",
+        "id": 71778964,
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-28T04:21:57Z",
+        "updated_at": "2015-01-28T04:21:57Z",
+        "body": ":+1:  :eyes:  looking good!!!\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T04:21:57Z"
+  },
+  {
+    "id": "2541106165",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558101734,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/feature/14--almost-lodash",
+      "head": "bd011838ee17c2e363ab5b22d2d0b9e745e3fd0d",
+      "before": "da088f72d8bb7414131fab50ebc681d5e1224eb7",
+      "commits": [
+        {
+          "sha": "14685096c63eb8c3cae62ad2b1df03cbd1049e8a",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "version that I copy pasta to my WIP",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/14685096c63eb8c3cae62ad2b1df03cbd1049e8a"
+        },
+        {
+          "sha": "59953f9e9b1a5a9b06da3d8bcbb6c3163f54fd7f",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "updated and tested check writing",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/59953f9e9b1a5a9b06da3d8bcbb6c3163f54fd7f"
+        },
+        {
+          "sha": "55a613e501c1297faf370acaf1257ad2b9c2e68a",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "actualy prints the string of numbers to display",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/55a613e501c1297faf370acaf1257ad2b9c2e68a"
+        },
+        {
+          "sha": "bd011838ee17c2e363ab5b22d2d0b9e745e3fd0d",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "string-calculator is now working and tested with array",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/bd011838ee17c2e363ab5b22d2d0b9e745e3fd0d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T04:12:32Z"
+  },
+  {
+    "id": "2540988086",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/178",
+        "id": 55704548,
+        "number": 178,
+        "title": "14 -- Almost Lodash -- Sam Kauffman",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-01-28T02:12:20Z",
+        "updated_at": "2015-01-28T02:35:51Z",
+        "closed_at": null,
+        "body": "### Coding Dojos\r\n* [ ] complete your **Check Writing** kata refactored to `Array` lookup and your tests are still commented out, fix that first! \r\n* [ ] Work your way up to `20`\r\n* [ ] Refactor your production code for **String Calculator** to use dictionary lookups. Make sure you've got tests for `\"zero\"` through `\"ten\"` for _both_ inputs and that _all_ the tests pass!\r\n\r\n### API Gymnastics\r\n\r\nSo here we are again, learning to roll and flip. Don't hurt yourself and work as a team!\r\n\r\n```javascript\r\nfunction answer(){\r\n  return {\r\n    'total': ...,    // How many total events did you fetch?\r\n    'PushEvent': {\r\n      'total': ...,  // How many total events of type `PushEvent` are there?\r\n      'perDay': ...  // On average, how many `PushEvent` entries per day?\r\n    },\r\n    'other': {\r\n      'total': ...,  // How many _other_ events are in the data?\r\n      'perDay': ...  // How many per day, on average?\r\n    }\r\n  };\r\n} // END answer\r\n```\r\n\r\n* [ ] Output your answers and paste them as a comment into your _WIP Issue_.  Then, update your `events.json` file with fresh data and run your code again. Then start working on _this_ set of answers:\r\n\r\n```javascript\r\nfunction answer(){\r\n  return {\r\n    'total': ... // `Number` of unique entries\r\n    'types': [ ... ], // `Array` of `String`: unique type names across all entries\r\n    'EVENT_TYPE': { // Results for each `EVENT_TYPE`, e.g. `\"PushEvent\"`\r\n      'total': ..., // `Number` of entries of this type\r\n      'perDay': { // breakdown by day...\r\n        'avg': ..., // `Number`: average per day\r\n        'max': ..., // `Number`: maximum per day\r\n        'min': ..., // `Number`: minimum per day\r\n      },\r\n    },\r\n    // . . .\r\n  };\r\n}\r\n```\r\n\r\n## Deliverables\r\n\r\n* [ ] _WIP Issue:_ `14 -- Almost Lodash` with:\r\n  * [x] link to your PR from your _WIP Branch_ to `master`\r\n  * [ ] comment with at least two `answer()` results from `scripts/gymnastics.js`\r\n* [ ] _WIP Branch:_ `feature/14--almost-lodash` with:\r\n  * [ ] `scripts/check-writing.js`\r\n    * [ ] using array lookups instead of `if`-`return` chains\r\n    * [ ] tests covering up to `20`\r\n  * [ ]`scripts/string-calculator.js`\r\n    * [ ]using dictionary lookups instead of `if`-`return` chains\r\n    * [ ] tests covering from `plus(\"zero\", \"zero\")` to `plus(\"ten\", \"ten\")`\r\n  * [ ] commits to `scripts/gymnastics.js`\r\n  * [ ] commits to `apis/github/users/USERNAME/events.json`\r\n* [ ] PR in `TIY-Assignments` from `feature/14--almost-lodash` to `master`\r\n  * [ ] with 2x :+1:'s from peers"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71771120",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/178#issuecomment-71771120",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178",
+        "id": 71771120,
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-28T02:35:51Z",
+        "updated_at": "2015-01-28T02:35:51Z",
+        "body": "results comment #1 from  scripts/gymnastics.js\r\nSam at Sams-MacBook-Air in ~/Sites/TIY-Assignments (feature/14--almost-lodash●)\r\n$ mw scripts/gymnastics.js\r\n\r\n{ total: 30, PushEvent: { total: 9 } }\r\n\r\n\r\n  ✓ should have events \r\n  ✓ should have answer \r\n  ✓ should return the length of events when calling answer \r\n  ✓ should have \"pushEvent\" and has a total count of push \r\n\r\n  4 passing (5ms)\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:35:51Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540967903",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/178",
+        "id": 55704548,
+        "number": 178,
+        "title": "14 -- Almost Lodash -- Sam Kauffman",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-01-28T02:12:20Z",
+        "updated_at": "2015-01-28T02:21:54Z",
+        "closed_at": null,
+        "body": "### Coding Dojos\r\n* [ ] complete your **Check Writing** kata refactored to `Array` lookup and your tests are still commented out, fix that first! \r\n* [ ] Work your way up to `20`\r\n* [ ] Refactor your production code for **String Calculator** to use dictionary lookups. Make sure you've got tests for `\"zero\"` through `\"ten\"` for _both_ inputs and that _all_ the tests pass!\r\n\r\n### API Gymnastics\r\n\r\nSo here we are again, learning to roll and flip. Don't hurt yourself and work as a team!\r\n\r\n```javascript\r\nfunction answer(){\r\n  return {\r\n    'total': ...,    // How many total events did you fetch?\r\n    'PushEvent': {\r\n      'total': ...,  // How many total events of type `PushEvent` are there?\r\n      'perDay': ...  // On average, how many `PushEvent` entries per day?\r\n    },\r\n    'other': {\r\n      'total': ...,  // How many _other_ events are in the data?\r\n      'perDay': ...  // How many per day, on average?\r\n    }\r\n  };\r\n} // END answer\r\n```\r\n\r\n* [ ] Output your answers and paste them as a comment into your _WIP Issue_.  Then, update your `events.json` file with fresh data and run your code again. Then start working on _this_ set of answers:\r\n\r\n```javascript\r\nfunction answer(){\r\n  return {\r\n    'total': ... // `Number` of unique entries\r\n    'types': [ ... ], // `Array` of `String`: unique type names across all entries\r\n    'EVENT_TYPE': { // Results for each `EVENT_TYPE`, e.g. `\"PushEvent\"`\r\n      'total': ..., // `Number` of entries of this type\r\n      'perDay': { // breakdown by day...\r\n        'avg': ..., // `Number`: average per day\r\n        'max': ..., // `Number`: maximum per day\r\n        'min': ..., // `Number`: minimum per day\r\n      },\r\n    },\r\n    // . . .\r\n  };\r\n}\r\n```\r\n\r\n## Deliverables\r\n\r\n* [ ] _WIP Issue:_ `14 -- Almost Lodash` with:\r\n  * [ ] link to your PR from your _WIP Branch_ to `master`\r\n  * [ ] comment with at least two `answer()` results from `scripts/gymnastics.js`\r\n* [ ] _WIP Branch:_ `feature/14--almost-lodash` with:\r\n  * [ ] `scripts/check-writing.js`\r\n    * [ ] using array lookups instead of `if`-`return` chains\r\n    * [ ] tests covering up to `20`\r\n  * [ ]`scripts/string-calculator.js`\r\n    * [ ]using dictionary lookups instead of `if`-`return` chains\r\n    * [ ] tests covering from `plus(\"zero\", \"zero\")` to `plus(\"ten\", \"ten\")`\r\n  * [ ] commits to `scripts/gymnastics.js`\r\n  * [ ] commits to `apis/github/users/USERNAME/events.json`\r\n* [ ] PR in `TIY-Assignments` from `feature/14--almost-lodash` to `master`\r\n  * [ ] with 2x :+1:'s from peers"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71769927",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/178#issuecomment-71769927",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178",
+        "id": 71769927,
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-28T02:21:54Z",
+        "updated_at": "2015-01-28T02:21:54Z",
+        "body": "my PR https://github.com/sak55/TIY-Assignments/pull/18"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:21:55Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540967615",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 18,
+      "pull_request": {
+        "url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/18",
+        "id": 28163357,
+        "html_url": "https://github.com/sak55/TIY-Assignments/pull/18",
+        "diff_url": "https://github.com/sak55/TIY-Assignments/pull/18.diff",
+        "patch_url": "https://github.com/sak55/TIY-Assignments/pull/18.patch",
+        "issue_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/18",
+        "number": 18,
+        "state": "open",
+        "locked": false,
+        "title": "PR Assignment 14--almost-lodash",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-01-28T02:21:40Z",
+        "updated_at": "2015-01-28T02:21:40Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/18/commits",
+        "review_comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/18/comments",
+        "review_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/18/comments",
+        "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/da088f72d8bb7414131fab50ebc681d5e1224eb7",
+        "head": {
+          "label": "sak55:feature/14--almost-lodash",
+          "ref": "feature/14--almost-lodash",
+          "sha": "da088f72d8bb7414131fab50ebc681d5e1224eb7",
+          "user": {
+            "login": "sak55",
+            "id": 10141533,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sak55",
+            "html_url": "https://github.com/sak55",
+            "followers_url": "https://api.github.com/users/sak55/followers",
+            "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+            "organizations_url": "https://api.github.com/users/sak55/orgs",
+            "repos_url": "https://api.github.com/users/sak55/repos",
+            "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sak55/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28655540,
+            "name": "TIY-Assignments",
+            "full_name": "sak55/TIY-Assignments",
+            "owner": {
+              "login": "sak55",
+              "id": 10141533,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/sak55",
+              "html_url": "https://github.com/sak55",
+              "followers_url": "https://api.github.com/users/sak55/followers",
+              "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+              "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+              "organizations_url": "https://api.github.com/users/sak55/orgs",
+              "repos_url": "https://api.github.com/users/sak55/repos",
+              "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/sak55/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/sak55/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/sak55/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/sak55/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/sak55/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/sak55/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/sak55/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/sak55/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/sak55/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/sak55/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/sak55/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/sak55/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/sak55/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/sak55/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/sak55/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/sak55/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/sak55/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/sak55/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/sak55/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/sak55/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/sak55/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/sak55/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/sak55/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T04:13:22Z",
+            "updated_at": "2015-01-28T02:00:35Z",
+            "pushed_at": "2015-01-28T02:20:04Z",
+            "git_url": "git://github.com/sak55/TIY-Assignments.git",
+            "ssh_url": "git@github.com:sak55/TIY-Assignments.git",
+            "clone_url": "https://github.com/sak55/TIY-Assignments.git",
+            "svn_url": "https://github.com/sak55/TIY-Assignments",
+            "homepage": null,
+            "size": 15296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "sak55:master",
+          "ref": "master",
+          "sha": "58ef1852420e9b4f9bf668fb78de31770a061e8f",
+          "user": {
+            "login": "sak55",
+            "id": 10141533,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sak55",
+            "html_url": "https://github.com/sak55",
+            "followers_url": "https://api.github.com/users/sak55/followers",
+            "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+            "organizations_url": "https://api.github.com/users/sak55/orgs",
+            "repos_url": "https://api.github.com/users/sak55/repos",
+            "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sak55/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28655540,
+            "name": "TIY-Assignments",
+            "full_name": "sak55/TIY-Assignments",
+            "owner": {
+              "login": "sak55",
+              "id": 10141533,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/sak55",
+              "html_url": "https://github.com/sak55",
+              "followers_url": "https://api.github.com/users/sak55/followers",
+              "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+              "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+              "organizations_url": "https://api.github.com/users/sak55/orgs",
+              "repos_url": "https://api.github.com/users/sak55/repos",
+              "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/sak55/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/sak55/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/sak55/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/sak55/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/sak55/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/sak55/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/sak55/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/sak55/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/sak55/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/sak55/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/sak55/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/sak55/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/sak55/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/sak55/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/sak55/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/sak55/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/sak55/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/sak55/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/sak55/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/sak55/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/sak55/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/sak55/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/sak55/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T04:13:22Z",
+            "updated_at": "2015-01-28T02:00:35Z",
+            "pushed_at": "2015-01-28T02:20:04Z",
+            "git_url": "git://github.com/sak55/TIY-Assignments.git",
+            "ssh_url": "git@github.com:sak55/TIY-Assignments.git",
+            "clone_url": "https://github.com/sak55/TIY-Assignments.git",
+            "svn_url": "https://github.com/sak55/TIY-Assignments",
+            "homepage": null,
+            "size": 15296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/18"
+          },
+          "html": {
+            "href": "https://github.com/sak55/TIY-Assignments/pull/18"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/issues/18"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/issues/18/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/18/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/18/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/da088f72d8bb7414131fab50ebc681d5e1224eb7"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 0,
+        "deletions": 31,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:21:41Z"
+  },
+  {
+    "id": "2540965388",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/14--almost-lodash",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:20:04Z"
+  },
+  {
+    "id": "2540954680",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/178/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/178",
+        "id": 55704548,
+        "number": 178,
+        "title": "14 -- Almost Lodash -- Sam Kauffman",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-01-28T02:12:20Z",
+        "updated_at": "2015-01-28T02:12:20Z",
+        "closed_at": null,
+        "body": "### Coding Dojos\r\n* **[ ] complete your **Check Writing** kata refactored to `Array` lookup and your tests are still commented out, fix that first! \r\n* **[ ] Work your way up to `20`\r\n* **[ ] Refactor your production code for **String Calculator** to use dictionary lookups. Make sure you've got tests for `\"zero\"` through `\"ten\"` for _both_ inputs and that _all_ the tests pass!\r\n\r\n### API Gymnastics\r\n\r\nSo here we are again, learning to roll and flip. Don't hurt yourself and work as a team!\r\n\r\n```javascript\r\nfunction answer(){\r\n  return {\r\n    'total': ...,    // How many total events did you fetch?\r\n    'PushEvent': {\r\n      'total': ...,  // How many total events of type `PushEvent` are there?\r\n      'perDay': ...  // On average, how many `PushEvent` entries per day?\r\n    },\r\n    'other': {\r\n      'total': ...,  // How many _other_ events are in the data?\r\n      'perDay': ...  // How many per day, on average?\r\n    }\r\n  };\r\n} // END answer\r\n```\r\n\r\n* **[ ] Output your answers and paste them as a comment into your _WIP Issue_.  Then, update your `events.json` file with fresh data and run your code again. Then start working on _this_ set of answers:\r\n\r\n```javascript\r\nfunction answer(){\r\n  return {\r\n    'total': ... // `Number` of unique entries\r\n    'types': [ ... ], // `Array` of `String`: unique type names across all entries\r\n    'EVENT_TYPE': { // Results for each `EVENT_TYPE`, e.g. `\"PushEvent\"`\r\n      'total': ..., // `Number` of entries of this type\r\n      'perDay': { // breakdown by day...\r\n        'avg': ..., // `Number`: average per day\r\n        'max': ..., // `Number`: maximum per day\r\n        'min': ..., // `Number`: minimum per day\r\n      },\r\n    },\r\n    // . . .\r\n  };\r\n}\r\n```\r\n\r\n## Deliverables\r\n\r\n* **[ ] _WIP Issue:_ `14 -- Almost Lodash` with:\r\n  * **[ ] link to your PR from your _WIP Branch_ to `master`\r\n  * **[ ] comment with at least two `answer()` results from `scripts/gymnastics.js`\r\n*  **[ ] _WIP Branch:_ `feature/14--almost-lodash` with:\r\n  *  **[ ] `scripts/check-writing.js`\r\n    *  **[ ] using array lookups instead of `if`-`return` chains\r\n    *  **[ ] tests covering up to `20`\r\n  *  **[ ]`scripts/string-calculator.js`\r\n    *  **[ ]using dictionary lookups instead of `if`-`return` chains\r\n    *  **[ ] tests covering from `plus(\"zero\", \"zero\")` to `plus(\"ten\", \"ten\")`\r\n  *  **[ ] commits to `scripts/gymnastics.js`\r\n  *  **[ ] commits to `apis/github/users/USERNAME/events.json`\r\n*  **[ ] PR in `TIY-Assignments` from `feature/14--almost-lodash` to `master`\r\n  *  **[ ] with 2x :+1:'s from peers"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:12:21Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540938390",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/13--lists+dicts",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:00:47Z"
+  },
+  {
+    "id": "2540938149",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558033646,
+      "size": 13,
+      "distinct_size": 0,
+      "ref": "refs/heads/master",
+      "head": "58ef1852420e9b4f9bf668fb78de31770a061e8f",
+      "before": "d6f7fced2270f73cea76ca92709fb4e758fa957b",
+      "commits": [
+        {
+          "sha": "5bdd03f3cf121a4b96ed8b4deb2f8c6b2b6d1698",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "added mkdir apis/github/users/sak55/events.json",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/5bdd03f3cf121a4b96ed8b4deb2f8c6b2b6d1698"
+        },
+        {
+          "sha": "f7c0138d1663bdf241c20770ca3348c49fa95ffe",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "deleted empty events.json",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/f7c0138d1663bdf241c20770ca3348c49fa95ffe"
+        },
+        {
+          "sha": "ea5d60bc185220aa2bc95f1d8c2cd0a7f2aabc60",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "new events.json file",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/ea5d60bc185220aa2bc95f1d8c2cd0a7f2aabc60"
+        },
+        {
+          "sha": "c6c0ff9f326d63b9710ed76e254f3cd4dab86985",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "added gymnastics.js",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/c6c0ff9f326d63b9710ed76e254f3cd4dab86985"
+        },
+        {
+          "sha": "05b821bc37a196db4f1a52ddb3da0658260e99d8",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "Added flowchart of toEnglish",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/05b821bc37a196db4f1a52ddb3da0658260e99d8"
+        },
+        {
+          "sha": "a0280eeb9a6a94d9fba8713e6c9bcbacc1fcef48",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "attempt at while loop for calculator",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/a0280eeb9a6a94d9fba8713e6c9bcbacc1fcef48"
+        },
+        {
+          "sha": "758b48b2dcc2f978bc88037e1bbcd70b81a2b8f0",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "js.md documentation",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/758b48b2dcc2f978bc88037e1bbcd70b81a2b8f0"
+        },
+        {
+          "sha": "00441d30089b9ba467bfb0b48b3c9f9fa7ffa230",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "updates",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/00441d30089b9ba467bfb0b48b3c9f9fa7ffa230"
+        },
+        {
+          "sha": "68d215664da32f3f39f5aed7e793dc08174bb006",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "updating gymnastics.js during class",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/68d215664da32f3f39f5aed7e793dc08174bb006"
+        },
+        {
+          "sha": "808dd4ae9a1634a64f6a239778b08f217024f658",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "team gymnastics",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/808dd4ae9a1634a64f6a239778b08f217024f658"
+        },
+        {
+          "sha": "a499cc0bb9691df2ca9e4f796bcf494007e01e0c",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "more group gymnastics",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/a499cc0bb9691df2ca9e4f796bcf494007e01e0c"
+        },
+        {
+          "sha": "84e1eff3cb33d9806da13b174b9e9a2aee50b47c",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "group gymnastics to get number of push events",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/84e1eff3cb33d9806da13b174b9e9a2aee50b47c"
+        },
+        {
+          "sha": "58ef1852420e9b4f9bf668fb78de31770a061e8f",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "final commit with group work on gymnastics",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/58ef1852420e9b4f9bf668fb78de31770a061e8f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:00:36Z"
+  },
+  {
+    "id": "2540938144",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 17,
+      "pull_request": {
+        "url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17",
+        "id": 28059143,
+        "html_url": "https://github.com/sak55/TIY-Assignments/pull/17",
+        "diff_url": "https://github.com/sak55/TIY-Assignments/pull/17.diff",
+        "patch_url": "https://github.com/sak55/TIY-Assignments/pull/17.patch",
+        "issue_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17",
+        "number": 17,
+        "state": "closed",
+        "locked": false,
+        "title": "Assignment 13 pull request",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-01-26T20:51:44Z",
+        "updated_at": "2015-01-28T02:00:34Z",
+        "closed_at": "2015-01-28T02:00:34Z",
+        "merged_at": "2015-01-28T02:00:34Z",
+        "merge_commit_sha": "54573c138404a206daeea6980d5e13d17f435cd3",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17/commits",
+        "review_comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17/comments",
+        "review_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17/comments",
+        "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/58ef1852420e9b4f9bf668fb78de31770a061e8f",
+        "head": {
+          "label": "sak55:feature/13--lists+dicts",
+          "ref": "feature/13--lists+dicts",
+          "sha": "58ef1852420e9b4f9bf668fb78de31770a061e8f",
+          "user": {
+            "login": "sak55",
+            "id": 10141533,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sak55",
+            "html_url": "https://github.com/sak55",
+            "followers_url": "https://api.github.com/users/sak55/followers",
+            "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+            "organizations_url": "https://api.github.com/users/sak55/orgs",
+            "repos_url": "https://api.github.com/users/sak55/repos",
+            "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sak55/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28655540,
+            "name": "TIY-Assignments",
+            "full_name": "sak55/TIY-Assignments",
+            "owner": {
+              "login": "sak55",
+              "id": 10141533,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/sak55",
+              "html_url": "https://github.com/sak55",
+              "followers_url": "https://api.github.com/users/sak55/followers",
+              "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+              "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+              "organizations_url": "https://api.github.com/users/sak55/orgs",
+              "repos_url": "https://api.github.com/users/sak55/repos",
+              "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/sak55/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/sak55/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/sak55/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/sak55/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/sak55/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/sak55/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/sak55/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/sak55/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/sak55/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/sak55/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/sak55/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/sak55/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/sak55/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/sak55/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/sak55/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/sak55/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/sak55/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/sak55/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/sak55/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/sak55/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/sak55/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/sak55/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/sak55/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T04:13:22Z",
+            "updated_at": "2015-01-28T02:00:35Z",
+            "pushed_at": "2015-01-28T02:00:34Z",
+            "git_url": "git://github.com/sak55/TIY-Assignments.git",
+            "ssh_url": "git@github.com:sak55/TIY-Assignments.git",
+            "clone_url": "https://github.com/sak55/TIY-Assignments.git",
+            "svn_url": "https://github.com/sak55/TIY-Assignments",
+            "homepage": null,
+            "size": 15296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "sak55:master",
+          "ref": "master",
+          "sha": "d6f7fced2270f73cea76ca92709fb4e758fa957b",
+          "user": {
+            "login": "sak55",
+            "id": 10141533,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sak55",
+            "html_url": "https://github.com/sak55",
+            "followers_url": "https://api.github.com/users/sak55/followers",
+            "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+            "organizations_url": "https://api.github.com/users/sak55/orgs",
+            "repos_url": "https://api.github.com/users/sak55/repos",
+            "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sak55/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28655540,
+            "name": "TIY-Assignments",
+            "full_name": "sak55/TIY-Assignments",
+            "owner": {
+              "login": "sak55",
+              "id": 10141533,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/sak55",
+              "html_url": "https://github.com/sak55",
+              "followers_url": "https://api.github.com/users/sak55/followers",
+              "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+              "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+              "organizations_url": "https://api.github.com/users/sak55/orgs",
+              "repos_url": "https://api.github.com/users/sak55/repos",
+              "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/sak55/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/sak55/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/sak55/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/sak55/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/sak55/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/sak55/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/sak55/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/sak55/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/sak55/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/sak55/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/sak55/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/sak55/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/sak55/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/sak55/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/sak55/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/sak55/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/sak55/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/sak55/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/sak55/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/sak55/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/sak55/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/sak55/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/sak55/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T04:13:22Z",
+            "updated_at": "2015-01-28T02:00:35Z",
+            "pushed_at": "2015-01-28T02:00:34Z",
+            "git_url": "git://github.com/sak55/TIY-Assignments.git",
+            "ssh_url": "git@github.com:sak55/TIY-Assignments.git",
+            "clone_url": "https://github.com/sak55/TIY-Assignments.git",
+            "svn_url": "https://github.com/sak55/TIY-Assignments",
+            "homepage": null,
+            "size": 15296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17"
+          },
+          "html": {
+            "href": "https://github.com/sak55/TIY-Assignments/pull/17"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/58ef1852420e9b4f9bf668fb78de31770a061e8f"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 3,
+        "review_comments": 0,
+        "commits": 13,
+        "additions": 3742,
+        "deletions": 80,
+        "changed_files": 5
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T02:00:35Z"
+  },
+  {
+    "id": "2540932802",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558031528,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "58ef1852420e9b4f9bf668fb78de31770a061e8f",
+      "before": "68d215664da32f3f39f5aed7e793dc08174bb006",
+      "commits": [
+        {
+          "sha": "808dd4ae9a1634a64f6a239778b08f217024f658",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "team gymnastics",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/808dd4ae9a1634a64f6a239778b08f217024f658"
+        },
+        {
+          "sha": "a499cc0bb9691df2ca9e4f796bcf494007e01e0c",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "more group gymnastics",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/a499cc0bb9691df2ca9e4f796bcf494007e01e0c"
+        },
+        {
+          "sha": "84e1eff3cb33d9806da13b174b9e9a2aee50b47c",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "group gymnastics to get number of push events",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/84e1eff3cb33d9806da13b174b9e9a2aee50b47c"
+        },
+        {
+          "sha": "58ef1852420e9b4f9bf668fb78de31770a061e8f",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "final commit with group work on gymnastics",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/58ef1852420e9b4f9bf668fb78de31770a061e8f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T01:56:56Z"
+  },
+  {
+    "id": "2540062355",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557687015,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "68d215664da32f3f39f5aed7e793dc08174bb006",
+      "before": "00441d30089b9ba467bfb0b48b3c9f9fa7ffa230",
+      "commits": [
+        {
+          "sha": "68d215664da32f3f39f5aed7e793dc08174bb006",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "updating gymnastics.js during class",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/68d215664da32f3f39f5aed7e793dc08174bb006"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T19:14:56Z"
+  },
+  {
+    "id": "2539520832",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557469732,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "00441d30089b9ba467bfb0b48b3c9f9fa7ffa230",
+      "before": "758b48b2dcc2f978bc88037e1bbcd70b81a2b8f0",
+      "commits": [
+        {
+          "sha": "00441d30089b9ba467bfb0b48b3c9f9fa7ffa230",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "updates",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/00441d30089b9ba467bfb0b48b3c9f9fa7ffa230"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T15:52:17Z"
+  },
+  {
+    "id": "2539200566",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557335529,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "758b48b2dcc2f978bc88037e1bbcd70b81a2b8f0",
+      "before": "a0280eeb9a6a94d9fba8713e6c9bcbacc1fcef48",
+      "commits": [
+        {
+          "sha": "758b48b2dcc2f978bc88037e1bbcd70b81a2b8f0",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "js.md documentation",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/758b48b2dcc2f978bc88037e1bbcd70b81a2b8f0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T13:47:46Z"
+  },
+  {
+    "id": "2539175465",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28697055,
+      "name": "jaredstevick/TIY-Assignments",
+      "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/16",
+        "labels_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/16/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/16/comments",
+        "events_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/16/events",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/16",
+        "id": 55542908,
+        "number": 16,
+        "title": "Pull Request for Feature 13",
+        "user": {
+          "login": "jaredstevick",
+          "id": 9483436,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9483436?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jaredstevick",
+          "html_url": "https://github.com/jaredstevick",
+          "followers_url": "https://api.github.com/users/jaredstevick/followers",
+          "following_url": "https://api.github.com/users/jaredstevick/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jaredstevick/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jaredstevick/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jaredstevick/subscriptions",
+          "organizations_url": "https://api.github.com/users/jaredstevick/orgs",
+          "repos_url": "https://api.github.com/users/jaredstevick/repos",
+          "events_url": "https://api.github.com/users/jaredstevick/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jaredstevick/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-01-26T21:52:01Z",
+        "updated_at": "2015-01-27T13:36:25Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/pulls/16",
+          "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/16",
+          "diff_url": "https://github.com/jaredstevick/TIY-Assignments/pull/16.diff",
+          "patch_url": "https://github.com/jaredstevick/TIY-Assignments/pull/16.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/comments/71648137",
+        "html_url": "https://github.com/jaredstevick/TIY-Assignments/pull/16#issuecomment-71648137",
+        "issue_url": "https://api.github.com/repos/jaredstevick/TIY-Assignments/issues/16",
+        "id": 71648137,
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-27T13:36:25Z",
+        "updated_at": "2015-01-27T13:36:25Z",
+        "body": ":+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T13:36:25Z"
+  },
+  {
+    "id": "2539110780",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557296553,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "a0280eeb9a6a94d9fba8713e6c9bcbacc1fcef48",
+      "before": "05b821bc37a196db4f1a52ddb3da0658260e99d8",
+      "commits": [
+        {
+          "sha": "a0280eeb9a6a94d9fba8713e6c9bcbacc1fcef48",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "attempt at while loop for calculator",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/a0280eeb9a6a94d9fba8713e6c9bcbacc1fcef48"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T13:03:41Z"
+  },
+  {
+    "id": "2538854008",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557190914,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "05b821bc37a196db4f1a52ddb3da0658260e99d8",
+      "before": "c6c0ff9f326d63b9710ed76e254f3cd4dab86985",
+      "commits": [
+        {
+          "sha": "05b821bc37a196db4f1a52ddb3da0658260e99d8",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "Added flowchart of toEnglish",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/05b821bc37a196db4f1a52ddb3da0658260e99d8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T10:50:26Z"
+  },
+  {
+    "id": "2537556278",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556669368,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "c6c0ff9f326d63b9710ed76e254f3cd4dab86985",
+      "before": "ea5d60bc185220aa2bc95f1d8c2cd0a7f2aabc60",
+      "commits": [
+        {
+          "sha": "c6c0ff9f326d63b9710ed76e254f3cd4dab86985",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "added gymnastics.js",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/c6c0ff9f326d63b9710ed76e254f3cd4dab86985"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-26T21:24:12Z"
+  },
+  {
+    "id": "2537525357",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556656827,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "ea5d60bc185220aa2bc95f1d8c2cd0a7f2aabc60",
+      "before": "5bdd03f3cf121a4b96ed8b4deb2f8c6b2b6d1698",
+      "commits": [
+        {
+          "sha": "f7c0138d1663bdf241c20770ca3348c49fa95ffe",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "deleted empty events.json",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/f7c0138d1663bdf241c20770ca3348c49fa95ffe"
+        },
+        {
+          "sha": "ea5d60bc185220aa2bc95f1d8c2cd0a7f2aabc60",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "new events.json file",
+          "distinct": true,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/ea5d60bc185220aa2bc95f1d8c2cd0a7f2aabc60"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-26T21:11:31Z"
+  },
+  {
+    "id": "2537482521",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/160",
+        "id": 55533896,
+        "number": 160,
+        "title": "13 -- Lists+Dicts -- Sam Kauffman",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-01-26T20:36:21Z",
+        "updated_at": "2015-01-26T20:54:18Z",
+        "closed_at": null,
+        "body": "### Tasks\r\n\r\n* [ ] **Yak Shaving**\r\n    * Create your _WIP Issue_ named `13 -- Lists + Dicts` with tasks _and estimates!_\r\n    * Merge your PR, update your local `master`, and open a new branch: `feature/13--lists+dicts`\r\n    * Create a new file in `apis/github/users/USERNAME/events.json` where `USERNAME` is... you get it.\r\n    * Use [`curl`](http://curl.haxx.se/docs/manpage.html) or [Postman](http://www.getpostman.com/) to fetch [your public events from the Github API](https://developer.github.com/v3/activity/events/#list-public-events-performed-by-a-user)\r\n    * Commit, push, and open a PR!\r\n* [ ] **Take a Picture**\r\n* [ ] **One More Time...**\r\n    * [ ] Checkpoint: **String Calculator** with `if` and `return` (no `else`)\r\n    * [ ] Checkpoint: **Check Writing** refactored to `fromEnglish()`\r\n    * [ ] Checkpoint: **Check Writing** refactored `fromEnglish()` to use _at least one_ lookup!\r\n    * [ ] Checkpoint: **Check Writing** with 100% `Array` lookups instead of `if`\r\n    * [ ] Mission Complete\r\n* [ ] **Reading JavaScript**\r\n    * [ ] Checkpoint: Let's talk about `forEach`... a lot.\r\n    * [ ] Checkpoint: Here's that `every()` and `some()` crowd again.\r\n    * [ ] Checkpoint: Who needs a `filter()` anyway?\r\n    * [ ] Checkpoint: Can I get a `map()` over here?\r\n    * [ ] Checkpoint: I wish I could `reduce()` this assignment...\r\n    * [ ] Checkpoint: Am I `reduceRight()`...?\r\n    * [ ] Mission Complete!\r\n* [ ] **API Gymnastics**\r\n    * [ ] Checkpoint: Got me some data...\r\n    * [ ] Checkpoint: Count it up right...\r\n    * [ ] Checkpoint: Filtering out just the `PushEvent` entries...\r\n    * [ ] Checkpoint: Now doing the complete opposite...\r\n    * [ ] Checkpoint: I have all the `answers` now!\r\n    * [ ] Mission Complete"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71536168",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/160#issuecomment-71536168",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160",
+        "id": 71536168,
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-26T20:54:18Z",
+        "updated_at": "2015-01-26T20:54:18Z",
+        "body": "# 13 -- Of Lists and Dictionaries\r\n\r\n## Description\r\n\r\nComing off the weekend, you should be sick of typing `if`, `else`, and `return`, so let's try out our new `Array` and `Object` literals on those mean ole **String Calculator** and **Check Writing** katas. Before we do, though, **Take a Picture** of your logic for practice. You'll need to learn some more `Array` methods before we prep the floor for some **API Gymnastics**.\r\n\r\n### Take a Picture\r\n\r\nUsing a diagramming tool of your choice -- Google Drawings, Gliphy, OmniGraffle, photos of pen and paper -- render a _clean_ drawing of the logic in the `toEnglish` function from **Check Writing**. Save a copy of the resultant image as `docs/toEnglish.png` and commit it into your branch.\r\n\r\n### One More Time...\r\n\r\nThink you've mastered the **String Calculator** and **Check Writing** katas? Not by a long-shot...! Refactor your \"production\" (i.e. not-\"test\") code to use `Array` ~~and `Object`~~ literals as Lists ~~and Dictionaries per the examples below.~~\r\n\r\n### Reading JavaScript: Array Iterators\r\n\r\n**Highly recommended BEFORE API Gymnastics**, document the _non-experimental_ [`Array` Iteration Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods) and attempt to re-implement _at least 3_ using `Array.prototype.forEach`. **BEAST MODE**: _Also include `find` and `findIndex`._ See **Requirements** below for an example of `every()`.\r\n\r\n### API Gymnastics: Floor Routines\r\n\r\nUse the `curl` command to get some crazy event data from the Github API and stick it in a file called `apis/github/users/USERNAME/events.json` where `USERNAME` is _your_ Github profile name, e.g. `apis/github/users/al-the-x/events.json` for moi: `al-the-x`. Yes, you'll have to create some empty directories along the way... Remember how to do it in one step? **Hint:** _Use the funnel, Luke!_ Following the **Requirements** below, use your iterator methods to pull some numbers from the data.\r\n\r\n## Deliverables\r\n\r\n* _WIP Issue_ named `13 -- Lists+Dicts` with tasks _and estimates!_\r\n* PR in `TIY-Assignments` from `feature/13--lists+dicts` to `master` with:\r\n    * diagram of `toEnglish()` from `scripts/check-writing.js` in `docs/toEnglish.png`\r\n    * more documentation in `docs/JS.md` for _non-experimental_ [Iteration Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods)\r\n    * JSON file in `apis/github/users/USERNAME/events.json` (where `USERNAME` is _you_)\r\n    * new file in `scripts/` called `gymnastics.js` with a function called `answers` that meets **Requirements**\r\n\r\n## Requirements\r\n\r\n\r\n### Format for _Reading JavaScript_\r\n\r\n----\r\n### Literal: `Array`\r\n. . .\r\n\r\n#### Iterator Methods\r\n\r\n##### `Array.prototype.every`\r\n\r\n* _params:_\r\n  * `callback`: `Function` to test each element against\r\n    * _params:_\r\n      * `item`: element to process\r\n      * `index`: index of processed element\r\n      * `all`: array instance\r\n    * _returns:_ `Boolean`\r\n  * `thisArg`: `Object` to which to bind `callback`\r\n* _returns:_ `Boolean` whether `callback` returns `true` for _every_ element\r\n* _example:_\r\n```javascript\r\nfunction every(anArray, callback){\r\n  var hasFailed = false; // it hasn't has it?\r\n\r\n  // iterate...\r\n  anArray.foreach(function(item, index, all){\r\n    if ( hasFailed ) return; // one failure ruins everything...\r\n\r\n    hasFailed = !callback(item, index, all); // why invert here?\r\n  });\r\n\r\n  return !hasFailed; // Another inverse?\r\n  // What if `anArray` is empty?\r\n}\r\n```\r\n---\r\n\r\n### API Gymnastics\r\n\r\nUse `curl` to fetch data from [the Github API](http://developer.github.com/v3), specifically [the public Events for a specific user](https://developer.github.com/v3/activity/events/#list-public-events-performed-by-a-user): **YOU!** Capture that data into a file called `apis/github/users/USERNAME/events.json` where `USERNAME` is _your_ Github account name, of course. **Hint:** You'll have to create all the directories along the way before you can create the file. When you've got 'em, it's time to _use_ 'em.\r\n\r\nCreate a file called `scripts/gymnastics.js` and use the following incantation to get your cached API data into the file (again replacing `USERNAME`):\r\n\r\n```javascript\r\nvar events = require('../apis/github/users/USERNAME/events.json'); // Replace USERNAME!\r\n```\r\n\r\nNext, use the methods of `Array` that you've documented to uncover some statistics about your progress. You can create as many functions as you like to help you derive the answers, but place the final invocations (not just the values) into a function called `answers` that returns the following:\r\n\r\n```javascript\r\nfunction answer(){\r\n  return {\r\n    'total': ...,    // How many total events did you fetch?\r\n    'PushEvent': {\r\n      'total': ...,  // How many total events of type `PushEvent` are there?\r\n      'perDay': ...  // On average, how many`PushEvent` entries per day?\r\n    },\r\n    'other': {\r\n      'total': ...,  // How many _other_ events are in the data?\r\n      'perDay': ...  // How many per day, on average?\r\n    }\r\n  };\r\n} // END answer\r\n```\r\n\r\n## Additional Resources\r\n\r\n**COMING SOON!!**"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:54:18Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2537478180",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17",
+        "labels_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17/labels{/name}",
+        "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17/comments",
+        "events_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17/events",
+        "html_url": "https://github.com/sak55/TIY-Assignments/pull/17",
+        "id": 55535677,
+        "number": 17,
+        "title": "Assignment 13 pull request",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-01-26T20:51:44Z",
+        "updated_at": "2015-01-26T20:52:27Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17",
+          "html_url": "https://github.com/sak55/TIY-Assignments/pull/17",
+          "diff_url": "https://github.com/sak55/TIY-Assignments/pull/17.diff",
+          "patch_url": "https://github.com/sak55/TIY-Assignments/pull/17.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/comments/71535847",
+        "html_url": "https://github.com/sak55/TIY-Assignments/pull/17#issuecomment-71535847",
+        "issue_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17",
+        "id": 71535847,
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-26T20:52:27Z",
+        "updated_at": "2015-01-26T20:52:27Z",
+        "body": "my WIP https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/160\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:52:27Z"
+  },
+  {
+    "id": "2537477502",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/160",
+        "id": 55533896,
+        "number": 160,
+        "title": "13 -- Lists+Dicts -- Sam Kauffman",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-01-26T20:36:21Z",
+        "updated_at": "2015-01-26T20:52:10Z",
+        "closed_at": null,
+        "body": "# 13 -- Of Lists and Dictionaries\r\n\r\n## Description\r\n\r\nComing off the weekend, you should be sick of typing `if`, `else`, and `return`, so let's try out our new `Array` and `Object` literals on those mean ole **String Calculator** and **Check Writing** katas. Before we do, though, **Take a Picture** of your logic for practice. You'll need to learn some more `Array` methods before we prep the floor for some **API Gymnastics**.\r\n\r\n### Take a Picture\r\n\r\nUsing a diagramming tool of your choice -- Google Drawings, Gliphy, OmniGraffle, photos of pen and paper -- render a _clean_ drawing of the logic in the `toEnglish` function from **Check Writing**. Save a copy of the resultant image as `docs/toEnglish.png` and commit it into your branch.\r\n\r\n### One More Time...\r\n\r\nThink you've mastered the **String Calculator** and **Check Writing** katas? Not by a long-shot...! Refactor your \"production\" (i.e. not-\"test\") code to use `Array` and `Object` literals as Lists and Dictionaries per the examples below.\r\n\r\n### Reading JavaScript: Array Iterators\r\n\r\n**Highly recommended BEFORE API Gymnastics**, document the _non-experimental_ [`Array` Iteration Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods) and attempt to re-implement _at least 3_ using `Array.prototype.forEach`. _Also include `find` and `findIndex`._ See **Requirements** below for an example of `every()`.\r\n\r\n### API Gymnastics: Floor Routines\r\n\r\nUse the `curl` command to get some crazy event data from the Github API and stick it in a file called `apis/github/users/USERNAME/events.json` where `USERNAME` is _your_ Github profile name, e.g. `apis/github/users/al-the-x/events.json` for moi: `al-the-x`. Yes, you'll have to create some empty directories along the way... Remember how to do it in one step? Following the **Requirements** below, use your iterator methods to pull some interesting numbers from the data.\r\n\r\n## Deliverables\r\n\r\n* _WIP Issue_ named `13 -- Lists+Dicts` with tasks _and estimates!_\r\n* PR in `TIY-Assignments` from `feature/13--lists+dicts` to `master` with:\r\n    * diagram of `toEnglish()` from `scripts/check-writing.js` in `docs/toEnglish.png`\r\n    * more documentation in `docs/JS.md` for _non-experimental_ [Iteration Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods)\r\n    * JSON file in `apis/github/users/USERNAME/events.json` (where `USERNAME` is _you_)\r\n    * new file in `scripts/` called `gymnastics.js` with a function called `answers` that meets **Requirements**\r\n\r\n## Requirements\r\n\r\n### Tasks\r\n\r\n### Format for _Reading JavaScript_\r\n\r\n----\r\n### Literal: `Array`\r\n. . .\r\n\r\n#### Iterator Methods\r\n\r\n##### `Array.prototype.every`\r\n\r\n* _params:_\r\n  * `callback`: `Function` to test each element against\r\n    * _params:_\r\n      * `item`: element to process\r\n      * `index`: index of processed element\r\n      * `all`: array instance\r\n    * _returns:_ `Boolean`\r\n  * `thisArg`: `Object` to which to bind `callback`\r\n* _returns:_ `Boolean` whether `callback` returns `true` for _every_ element\r\n* _example:_\r\n```javascript\r\nfunction every(anArray, callback){\r\n  var hasFailed = false; // it hasn't has it?\r\n\r\n  // iterate...\r\n  anArray.foreach(function(item, index, all){\r\n    if ( hasFailed ) return; // one failure ruins everything...\r\n\r\n    hasFailed = !callback(item, index, all); // why invert here?\r\n  });\r\n\r\n  return !hasFailed; // Another inverse?\r\n  // What if `anArray` is empty?\r\n}\r\n```\r\n---\r\n\r\n### API Gymnastics\r\n\r\nUse `curl` to fetch data from [the Github API](http://developer.github.com/v3), specifically [the public Events for a specific user](https://developer.github.com/v3/activity/events/#list-public-events-performed-by-a-user): **YOU!** Capture that data into a file called `apis/github/users/USERNAME/events.json` where `USERNAME` is _your_ Github account name, of course. **Hint:** You'll have to create all the directories along the way before you can create the file. When you've got 'em, it's time to _use_ 'em.\r\n\r\nCreate a file called `scripts/gymnastics.js` and use the following incantation to get your cached API data into the file (again replacing `USERNAME`):\r\n\r\n```javascript\r\nvar events = require('../apis/github/users/USERNAME/events.json'); // Replace USERNAME!\r\n```\r\n\r\nNext, use the methods of `Array` that you've documented to uncover some statistics about your progress. You can create as many functions as you like to help you derive the answers, but place the final invocations (not just the values) into a function called `answers` that returns the following:\r\n\r\n```javascript\r\n{\r\n  'total': ...,    // How many total events did you fetch?\r\n  'PushEvent': {\r\n    'total': ...,  // How many total events of type `PushEvent` are there?\r\n    'perDay': ...  // On average, how many`PushEvent` entries per day?\r\n  },\r\n  'other': {\r\n    'total': ...,  // How many _other_ events are in the data?\r\n    'perDay': ...  // How many per day, on average?\r\n  }\r\n}\r\n```\r\n\r\n## Additional Resources"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71535796",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/160#issuecomment-71535796",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160",
+        "id": 71535796,
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-26T20:52:10Z",
+        "updated_at": "2015-01-26T20:52:10Z",
+        "body": "my PR https://github.com/sak55/TIY-Assignments/pull/17"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:52:11Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2537476524",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 17,
+      "pull_request": {
+        "url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17",
+        "id": 28059143,
+        "html_url": "https://github.com/sak55/TIY-Assignments/pull/17",
+        "diff_url": "https://github.com/sak55/TIY-Assignments/pull/17.diff",
+        "patch_url": "https://github.com/sak55/TIY-Assignments/pull/17.patch",
+        "issue_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17",
+        "number": 17,
+        "state": "open",
+        "locked": false,
+        "title": "Assignment 13 pull request",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-01-26T20:51:44Z",
+        "updated_at": "2015-01-26T20:51:44Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17/commits",
+        "review_comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17/comments",
+        "review_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17/comments",
+        "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/5bdd03f3cf121a4b96ed8b4deb2f8c6b2b6d1698",
+        "head": {
+          "label": "sak55:feature/13--lists+dicts",
+          "ref": "feature/13--lists+dicts",
+          "sha": "5bdd03f3cf121a4b96ed8b4deb2f8c6b2b6d1698",
+          "user": {
+            "login": "sak55",
+            "id": 10141533,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sak55",
+            "html_url": "https://github.com/sak55",
+            "followers_url": "https://api.github.com/users/sak55/followers",
+            "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+            "organizations_url": "https://api.github.com/users/sak55/orgs",
+            "repos_url": "https://api.github.com/users/sak55/repos",
+            "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sak55/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28655540,
+            "name": "TIY-Assignments",
+            "full_name": "sak55/TIY-Assignments",
+            "owner": {
+              "login": "sak55",
+              "id": 10141533,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/sak55",
+              "html_url": "https://github.com/sak55",
+              "followers_url": "https://api.github.com/users/sak55/followers",
+              "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+              "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+              "organizations_url": "https://api.github.com/users/sak55/orgs",
+              "repos_url": "https://api.github.com/users/sak55/repos",
+              "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/sak55/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/sak55/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/sak55/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/sak55/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/sak55/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/sak55/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/sak55/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/sak55/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/sak55/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/sak55/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/sak55/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/sak55/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/sak55/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/sak55/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/sak55/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/sak55/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/sak55/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/sak55/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/sak55/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/sak55/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/sak55/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/sak55/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/sak55/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T04:13:22Z",
+            "updated_at": "2015-01-26T20:34:32Z",
+            "pushed_at": "2015-01-26T20:51:18Z",
+            "git_url": "git://github.com/sak55/TIY-Assignments.git",
+            "ssh_url": "git@github.com:sak55/TIY-Assignments.git",
+            "clone_url": "https://github.com/sak55/TIY-Assignments.git",
+            "svn_url": "https://github.com/sak55/TIY-Assignments",
+            "homepage": null,
+            "size": 15296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "sak55:master",
+          "ref": "master",
+          "sha": "d6f7fced2270f73cea76ca92709fb4e758fa957b",
+          "user": {
+            "login": "sak55",
+            "id": 10141533,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sak55",
+            "html_url": "https://github.com/sak55",
+            "followers_url": "https://api.github.com/users/sak55/followers",
+            "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+            "organizations_url": "https://api.github.com/users/sak55/orgs",
+            "repos_url": "https://api.github.com/users/sak55/repos",
+            "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sak55/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28655540,
+            "name": "TIY-Assignments",
+            "full_name": "sak55/TIY-Assignments",
+            "owner": {
+              "login": "sak55",
+              "id": 10141533,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/sak55",
+              "html_url": "https://github.com/sak55",
+              "followers_url": "https://api.github.com/users/sak55/followers",
+              "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+              "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+              "organizations_url": "https://api.github.com/users/sak55/orgs",
+              "repos_url": "https://api.github.com/users/sak55/repos",
+              "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/sak55/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/sak55/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/sak55/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/sak55/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/sak55/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/sak55/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/sak55/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/sak55/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/sak55/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/sak55/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/sak55/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/sak55/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/sak55/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/sak55/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/sak55/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/sak55/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/sak55/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/sak55/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/sak55/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/sak55/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/sak55/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/sak55/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/sak55/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T04:13:22Z",
+            "updated_at": "2015-01-26T20:34:32Z",
+            "pushed_at": "2015-01-26T20:51:18Z",
+            "git_url": "git://github.com/sak55/TIY-Assignments.git",
+            "ssh_url": "git@github.com:sak55/TIY-Assignments.git",
+            "clone_url": "https://github.com/sak55/TIY-Assignments.git",
+            "svn_url": "https://github.com/sak55/TIY-Assignments",
+            "homepage": null,
+            "size": 15296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17"
+          },
+          "html": {
+            "href": "https://github.com/sak55/TIY-Assignments/pull/17"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/issues/17/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/17/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/5bdd03f3cf121a4b96ed8b4deb2f8c6b2b6d1698"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 0,
+        "deletions": 0,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:51:44Z"
+  },
+  {
+    "id": "2537475419",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/13--lists+dicts",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:51:18Z"
+  },
+  {
+    "id": "2537440070",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/160/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/160",
+        "id": 55533896,
+        "number": 160,
+        "title": "13 -- Lists+Dicts -- Sam Kauffman",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-01-26T20:36:21Z",
+        "updated_at": "2015-01-26T20:36:21Z",
+        "closed_at": null,
+        "body": "# 13 -- Of Lists and Dictionaries\r\n\r\n## Description\r\n\r\nComing off the weekend, you should be sick of typing `if`, `else`, and `return`, so let's try out our new `Array` and `Object` literals on those mean ole **String Calculator** and **Check Writing** katas. Before we do, though, **Take a Picture** of your logic for practice. You'll need to learn some more `Array` methods before we prep the floor for some **API Gymnastics**.\r\n\r\n### Take a Picture\r\n\r\nUsing a diagramming tool of your choice -- Google Drawings, Gliphy, OmniGraffle, photos of pen and paper -- render a _clean_ drawing of the logic in the `toEnglish` function from **Check Writing**. Save a copy of the resultant image as `docs/toEnglish.png` and commit it into your branch.\r\n\r\n### One More Time...\r\n\r\nThink you've mastered the **String Calculator** and **Check Writing** katas? Not by a long-shot...! Refactor your \"production\" (i.e. not-\"test\") code to use `Array` and `Object` literals as Lists and Dictionaries per the examples below.\r\n\r\n### Reading JavaScript: Array Iterators\r\n\r\n**Highly recommended BEFORE API Gymnastics**, document the _non-experimental_ [`Array` Iteration Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods) and attempt to re-implement _at least 3_ using `Array.prototype.forEach`. _Also include `find` and `findIndex`._ See **Requirements** below for an example of `every()`.\r\n\r\n### API Gymnastics: Floor Routines\r\n\r\nUse the `curl` command to get some crazy event data from the Github API and stick it in a file called `apis/github/users/USERNAME/events.json` where `USERNAME` is _your_ Github profile name, e.g. `apis/github/users/al-the-x/events.json` for moi: `al-the-x`. Yes, you'll have to create some empty directories along the way... Remember how to do it in one step? Following the **Requirements** below, use your iterator methods to pull some interesting numbers from the data.\r\n\r\n## Deliverables\r\n\r\n* _WIP Issue_ named `13 -- Lists+Dicts` with tasks _and estimates!_\r\n* PR in `TIY-Assignments` from `feature/13--lists+dicts` to `master` with:\r\n    * diagram of `toEnglish()` from `scripts/check-writing.js` in `docs/toEnglish.png`\r\n    * more documentation in `docs/JS.md` for _non-experimental_ [Iteration Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods)\r\n    * JSON file in `apis/github/users/USERNAME/events.json` (where `USERNAME` is _you_)\r\n    * new file in `scripts/` called `gymnastics.js` with a function called `answers` that meets **Requirements**\r\n\r\n## Requirements\r\n\r\n### Tasks\r\n\r\n### Format for _Reading JavaScript_\r\n\r\n----\r\n### Literal: `Array`\r\n. . .\r\n\r\n#### Iterator Methods\r\n\r\n##### `Array.prototype.every`\r\n\r\n* _params:_\r\n  * `callback`: `Function` to test each element against\r\n    * _params:_\r\n      * `item`: element to process\r\n      * `index`: index of processed element\r\n      * `all`: array instance\r\n    * _returns:_ `Boolean`\r\n  * `thisArg`: `Object` to which to bind `callback`\r\n* _returns:_ `Boolean` whether `callback` returns `true` for _every_ element\r\n* _example:_\r\n```javascript\r\nfunction every(anArray, callback){\r\n  var hasFailed = false; // it hasn't has it?\r\n\r\n  // iterate...\r\n  anArray.foreach(function(item, index, all){\r\n    if ( hasFailed ) return; // one failure ruins everything...\r\n\r\n    hasFailed = !callback(item, index, all); // why invert here?\r\n  });\r\n\r\n  return !hasFailed; // Another inverse?\r\n  // What if `anArray` is empty?\r\n}\r\n```\r\n---\r\n\r\n### API Gymnastics\r\n\r\nUse `curl` to fetch data from [the Github API](http://developer.github.com/v3), specifically [the public Events for a specific user](https://developer.github.com/v3/activity/events/#list-public-events-performed-by-a-user): **YOU!** Capture that data into a file called `apis/github/users/USERNAME/events.json` where `USERNAME` is _your_ Github account name, of course. **Hint:** You'll have to create all the directories along the way before you can create the file. When you've got 'em, it's time to _use_ 'em.\r\n\r\nCreate a file called `scripts/gymnastics.js` and use the following incantation to get your cached API data into the file (again replacing `USERNAME`):\r\n\r\n```javascript\r\nvar events = require('../apis/github/users/USERNAME/events.json'); // Replace USERNAME!\r\n```\r\n\r\nNext, use the methods of `Array` that you've documented to uncover some statistics about your progress. You can create as many functions as you like to help you derive the answers, but place the final invocations (not just the values) into a function called `answers` that returns the following:\r\n\r\n```javascript\r\n{\r\n  'total': ...,    // How many total events did you fetch?\r\n  'PushEvent': {\r\n    'total': ...,  // How many total events of type `PushEvent` are there?\r\n    'perDay': ...  // On average, how many`PushEvent` entries per day?\r\n  },\r\n  'other': {\r\n    'total': ...,  // How many _other_ events are in the data?\r\n    'perDay': ...  // How many per day, on average?\r\n  }\r\n}\r\n```\r\n\r\n## Additional Resources"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:36:22Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2537437274",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/11--coding-dojo",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:35:09Z"
+  },
+  {
+    "id": "2537435928",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556621618,
+      "size": 30,
+      "distinct_size": 0,
+      "ref": "refs/heads/master",
+      "head": "d6f7fced2270f73cea76ca92709fb4e758fa957b",
+      "before": "a45ca47666c4f8839dea98fda792c7e2ecbe2e47",
+      "commits": [
+        {
+          "sha": "7e79f209381b401fc3f512ce2f3b242f7dd6be0c",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "deleted main.js",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/7e79f209381b401fc3f512ce2f3b242f7dd6be0c"
+        },
+        {
+          "sha": "063ce6dca237ab7701db7f0c44b41a135c8b5dd4",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "created scripts/string-calculator.js and scripts/check-writing.js",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/063ce6dca237ab7701db7f0c44b41a135c8b5dd4"
+        },
+        {
+          "sha": "cea5f8b7751fd6b9260f734bd3a0b332dae5fc24",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "Non experimental mutator methods",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/cea5f8b7751fd6b9260f734bd3a0b332dae5fc24"
+        },
+        {
+          "sha": "f4beb0d93687e314cdbbbd8daeec9263ed402f68",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "3 mutators added to js.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/f4beb0d93687e314cdbbbd8daeec9263ed402f68"
+        },
+        {
+          "sha": "5dfaebe748beb517c977684210f563b13e410d0c",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "all 7 mutators documented",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/5dfaebe748beb517c977684210f563b13e410d0c"
+        },
+        {
+          "sha": "54484cd4937f18e2b9c4881e14b3a9937e8ed179",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@sak55 First String calculater one+one =2",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/54484cd4937f18e2b9c4881e14b3a9937e8ed179"
+        },
+        {
+          "sha": "66bafb6e56c6af3cb292fa4147c2ed2769117e6d",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@taylorfoster90",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/66bafb6e56c6af3cb292fa4147c2ed2769117e6d"
+        },
+        {
+          "sha": "6ea500edd442e25720490e9f2d04381396124ab5",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@sak55 added 2+2",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/6ea500edd442e25720490e9f2d04381396124ab5"
+        },
+        {
+          "sha": "4d31b3ace1d076faa20d0194ee9874f90f4e0598",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@taylorfoster90",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/4d31b3ace1d076faa20d0194ee9874f90f4e0598"
+        },
+        {
+          "sha": "49fed0cd6fdf690e2ee984815f0a49ea3830dcf2",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@sak55",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/49fed0cd6fdf690e2ee984815f0a49ea3830dcf2"
+        },
+        {
+          "sha": "c28ca27c816fbff0ae5071d42f4a81be72e0ed2e",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@taylorfoster90",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/c28ca27c816fbff0ae5071d42f4a81be72e0ed2e"
+        },
+        {
+          "sha": "6f32597d79b97d0a5b19a2f9a8ff4f7b52c62b91",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@sak55",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/6f32597d79b97d0a5b19a2f9a8ff4f7b52c62b91"
+        },
+        {
+          "sha": "e3df1474e5740a9c8edb56bf874ebabad2f1e061",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@taylorfoster90",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/e3df1474e5740a9c8edb56bf874ebabad2f1e061"
+        },
+        {
+          "sha": "bf77e5b8191e8ad3e19e561686cfb3bdb02e7dea",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@sak55",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/bf77e5b8191e8ad3e19e561686cfb3bdb02e7dea"
+        },
+        {
+          "sha": "e2c312b80f26f8b188d2753621692f5ce9b29ba7",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@taylorfoster90",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/e2c312b80f26f8b188d2753621692f5ce9b29ba7"
+        },
+        {
+          "sha": "72b9c52284b461351bd3a3ff19cac8834a50aac3",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@sak55",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/72b9c52284b461351bd3a3ff19cac8834a50aac3"
+        },
+        {
+          "sha": "05fa5896876b3efb09839cd40e60f5736a3015f5",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "created 0 to zero with @taylorfoster90",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/05fa5896876b3efb09839cd40e60f5736a3015f5"
+        },
+        {
+          "sha": "d898d032fed7cd549169444e805c20b88b2e98bb",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "@sak55 and @taylorfoster90 completed 0-10 toEnglish",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/d898d032fed7cd549169444e805c20b88b2e98bb"
+        },
+        {
+          "sha": "761465db98ab2e9ea49ecbdff6fe14da74963012",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "ten worksga scripts/check-writing.js",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/761465db98ab2e9ea49ecbdff6fe14da74963012"
+        },
+        {
+          "sha": "aacb924ab9e29288a00579a04431b32fa0a2f3c2",
+          "author": {
+            "email": "samuelkauffman@gmail.com",
+            "name": "Sam Kauffman"
+          },
+          "message": "all passed tests @sak55 with @taylorfoster90",
+          "distinct": false,
+          "url": "https://api.github.com/repos/sak55/TIY-Assignments/commits/aacb924ab9e29288a00579a04431b32fa0a2f3c2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:34:33Z"
+  },
+  {
+    "id": "2537435925",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 10141533,
+      "login": "sak55",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sak55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10141533?"
+    },
+    "repo": {
+      "id": 28655540,
+      "name": "sak55/TIY-Assignments",
+      "url": "https://api.github.com/repos/sak55/TIY-Assignments"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 16,
+      "pull_request": {
+        "url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/16",
+        "id": 27875002,
+        "html_url": "https://github.com/sak55/TIY-Assignments/pull/16",
+        "diff_url": "https://github.com/sak55/TIY-Assignments/pull/16.diff",
+        "patch_url": "https://github.com/sak55/TIY-Assignments/pull/16.patch",
+        "issue_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/16",
+        "number": 16,
+        "state": "closed",
+        "locked": false,
+        "title": "Feature/11  coding dojo",
+        "user": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-01-22T20:29:23Z",
+        "updated_at": "2015-01-26T20:34:32Z",
+        "closed_at": "2015-01-26T20:34:32Z",
+        "merged_at": "2015-01-26T20:34:32Z",
+        "merge_commit_sha": "e4c7448014fded70398ef1b5222e212021e90e9a",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/16/commits",
+        "review_comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/16/comments",
+        "review_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/16/comments",
+        "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/d6f7fced2270f73cea76ca92709fb4e758fa957b",
+        "head": {
+          "label": "sak55:feature/11--coding-dojo",
+          "ref": "feature/11--coding-dojo",
+          "sha": "d6f7fced2270f73cea76ca92709fb4e758fa957b",
+          "user": {
+            "login": "sak55",
+            "id": 10141533,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sak55",
+            "html_url": "https://github.com/sak55",
+            "followers_url": "https://api.github.com/users/sak55/followers",
+            "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+            "organizations_url": "https://api.github.com/users/sak55/orgs",
+            "repos_url": "https://api.github.com/users/sak55/repos",
+            "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sak55/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28655540,
+            "name": "TIY-Assignments",
+            "full_name": "sak55/TIY-Assignments",
+            "owner": {
+              "login": "sak55",
+              "id": 10141533,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/sak55",
+              "html_url": "https://github.com/sak55",
+              "followers_url": "https://api.github.com/users/sak55/followers",
+              "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+              "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+              "organizations_url": "https://api.github.com/users/sak55/orgs",
+              "repos_url": "https://api.github.com/users/sak55/repos",
+              "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/sak55/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/sak55/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/sak55/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/sak55/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/sak55/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/sak55/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/sak55/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/sak55/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/sak55/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/sak55/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/sak55/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/sak55/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/sak55/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/sak55/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/sak55/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/sak55/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/sak55/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/sak55/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/sak55/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/sak55/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/sak55/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/sak55/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/sak55/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T04:13:22Z",
+            "updated_at": "2015-01-26T20:34:32Z",
+            "pushed_at": "2015-01-26T20:34:32Z",
+            "git_url": "git://github.com/sak55/TIY-Assignments.git",
+            "ssh_url": "git@github.com:sak55/TIY-Assignments.git",
+            "clone_url": "https://github.com/sak55/TIY-Assignments.git",
+            "svn_url": "https://github.com/sak55/TIY-Assignments",
+            "homepage": null,
+            "size": 15296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "sak55:master",
+          "ref": "master",
+          "sha": "a45ca47666c4f8839dea98fda792c7e2ecbe2e47",
+          "user": {
+            "login": "sak55",
+            "id": 10141533,
+            "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/sak55",
+            "html_url": "https://github.com/sak55",
+            "followers_url": "https://api.github.com/users/sak55/followers",
+            "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+            "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+            "organizations_url": "https://api.github.com/users/sak55/orgs",
+            "repos_url": "https://api.github.com/users/sak55/repos",
+            "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/sak55/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28655540,
+            "name": "TIY-Assignments",
+            "full_name": "sak55/TIY-Assignments",
+            "owner": {
+              "login": "sak55",
+              "id": 10141533,
+              "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/sak55",
+              "html_url": "https://github.com/sak55",
+              "followers_url": "https://api.github.com/users/sak55/followers",
+              "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+              "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+              "organizations_url": "https://api.github.com/users/sak55/orgs",
+              "repos_url": "https://api.github.com/users/sak55/repos",
+              "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/sak55/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/sak55/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/sak55/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/sak55/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/sak55/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/sak55/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/sak55/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/sak55/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/sak55/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/sak55/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/sak55/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/sak55/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/sak55/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/sak55/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/sak55/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/sak55/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/sak55/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/sak55/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/sak55/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/sak55/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/sak55/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/sak55/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/sak55/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/sak55/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/sak55/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/sak55/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/sak55/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/sak55/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-31T04:13:22Z",
+            "updated_at": "2015-01-26T20:34:32Z",
+            "pushed_at": "2015-01-26T20:34:32Z",
+            "git_url": "git://github.com/sak55/TIY-Assignments.git",
+            "ssh_url": "git@github.com:sak55/TIY-Assignments.git",
+            "clone_url": "https://github.com/sak55/TIY-Assignments.git",
+            "svn_url": "https://github.com/sak55/TIY-Assignments",
+            "homepage": null,
+            "size": 15296,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/16"
+          },
+          "html": {
+            "href": "https://github.com/sak55/TIY-Assignments/pull/16"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/issues/16"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/issues/16/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/16/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/pulls/16/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/sak55/TIY-Assignments/statuses/d6f7fced2270f73cea76ca92709fb4e758fa957b"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "sak55",
+          "id": 10141533,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10141533?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/sak55",
+          "html_url": "https://github.com/sak55",
+          "followers_url": "https://api.github.com/users/sak55/followers",
+          "following_url": "https://api.github.com/users/sak55/following{/other_user}",
+          "gists_url": "https://api.github.com/users/sak55/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/sak55/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/sak55/subscriptions",
+          "organizations_url": "https://api.github.com/users/sak55/orgs",
+          "repos_url": "https://api.github.com/users/sak55/repos",
+          "events_url": "https://api.github.com/users/sak55/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/sak55/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 3,
+        "review_comments": 0,
+        "commits": 30,
+        "additions": 546,
+        "deletions": 142,
+        "changed_files": 6
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:34:33Z"
+  }
+]
