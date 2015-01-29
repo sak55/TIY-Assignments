@@ -1,3 +1,5 @@
+var _= require('lodash');
+
 function print(board){
   // Before any rows are printed, print the `<table>`...
     

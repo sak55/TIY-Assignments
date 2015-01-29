@@ -1,8 +1,8 @@
 
 
-var assert = require('assert');
-
-var events = require('../apis/github/users/sak55/events.json');
+var assert = require('assert'),
+    _ = require('lodash'),
+    events = require('../apis/github/users/sak55/events.json');
 
 
 function answer(){
