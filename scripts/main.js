@@ -1,108 +1,123 @@
 function print(board){
   // Before any rows are printed, print the `<table>`...
-    console.log('<table class="chessboard">');
-            console.log('<tbody>');
-                <tr>
-                    <th></th>
-                    <th>a</th>
-                    <th>b</th>
-                    <th>c</th>
-                    <th>d</th>
-                    <th>e</th>
-                    <th>f</th>
-                    <th>g</th>
-                    <th>h</th>
-                </tr>
-                <tr>
-                    <th>8</th>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                </tr>
-                <tr>
-                    <th>7</th>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                </tr>
-                <tr>
-                    <th>6</th>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                </tr>
-                <tr>
-                    <th>5</th>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                </tr>
-                <tr>
-                    <th>4</th>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                </tr>
-                <tr>
-                    <th>3</th>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                </tr>
-                <tr>
-                    <th>2</th>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                    <td class="dark"></td>
-                    <td class="light"></td>
-                </tr>
-            </tbody>
-        </table>');
+    
+    console.log('<table class="chessboard"><tbody>');
+    console.log('<tr><th></th><th>a</th><th>b</th><th>c</th><th>d</th><th>e</th><th>f</th><th>g</th><th>h</th></tr>');
+    
+    for (counter = 8; counter > 0; counter--) {
+        console.log('<tr><th>');
+        console.log(counter);
+        if (counter % 2) {
+            console.log('</th><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark">')};
+        else { 
+            console.log('</th><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light">')};
+    console.log('</td></tr></tbody></table>');};
+        counter--;    
+    };
+    
+//    console.log('<table class="chessboard">');
+//            <tbody>
+//                <tr>
+//                    <th></th>
+//                    <th>a</th>
+//                    <th>b</th>
+//                    <th>c</th>
+//                    <th>d</th>
+//                    <th>e</th>
+//                    <th>f</th>
+//                    <th>g</th>
+//                    <th>h</th>
+//                </tr>
+//                <tr>
+//                    <th>8</th>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                </tr>
+//                <tr>
+//                    <th>7</th>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                </tr>
+//                <tr>
+//                    <th>6</th>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                </tr>
+//                <tr>
+//                    <th>5</th>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                </tr>
+//                <tr>
+//                    <th>4</th>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                </tr>
+//                <tr>
+//                    <th>3</th>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                </tr>
+//                <tr>
+//                    <th>2</th>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                </tr>
+//                <tr>
+//                    <th>1</th>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                    <td class="dark"></td>
+//                    <td class="light"></td>
+//                </tr>
+//            </tbody>
+//        </table>');
                     
   _.forEach(board, function(row, rank){
 
