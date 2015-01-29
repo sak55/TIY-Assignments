@@ -15,10 +15,10 @@ function print(board){
             color1 = "dark";
             color2 = "light";
             console.log(row);}
-        console.log('</td></tr></tbody></table>');};
-        counter--;    
+        console.log('</td></tr>');};
+    console.log('</tbody></table>');    
     };
-
+    
 print();
 
 // _.forEach(board, function(row, rank){
