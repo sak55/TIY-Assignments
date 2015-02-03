@@ -61,11 +61,12 @@
             .open {
                 display: block;
                 color: #58A4D7;
+                transform: rotate(7deg);
             }
             
-            h3.open > p:before {
-                content: "\279D";
+            h3.open > p:before::active {
                 color: #58A4D7;
+                transform: rotate(180deg);
             }
             
         </style>
