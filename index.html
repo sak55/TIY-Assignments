@@ -34,39 +34,80 @@
             }
             
             h3 > a {
-                color: lightblue;
+                color: #58A4D7;
                 text-decoration: none;
                 
                 
             }
             
             h3 > a:before {
-                content: "\2799 ";
-                color: lightgray;
+                content: "\21D2";
+                color: #DDDDDD;
                 padding-right: 0.5em;  
                 display: inline-block;
                 width: 1em;
+                font-size: 200%;
             }
             
             h3 > a:hover::before {
-                content: "\2798";
-                color: #58A4D7;
+                content: "\21D9";
+                transform: rotate(270deg);
+                font-size: 200%;
+                color: #DDDDDD;
             }
             
-            p  {
+            .para  {
                 display: none;
                 color: #58A4D7;
             }
             
-            .open {
-                display: block;
-                color: #58A4D7;
-                transform: rotate(7deg);
+            .subpara {
+                margin-top: 0;
+                color: #888888;
             }
             
-            h3.open > p:before::active {
+            h4 {
+                padding-left: 10%;
                 color: #58A4D7;
-                transform: rotate(180deg);
+                font-size: 3ex;
+            }
+            
+            h4 > a {
+                color: #58A4D7;
+                text-decoration: none;
+            }
+            
+            h4 > a:before{
+                content: "\21D2";
+                border: solid 0.2ex #58A4D7;
+                border-radius: 50%;
+                font-size: 2ex;
+            }
+            
+            h4 > a:hover::before {
+                content: "\21D9";
+                border: solid 0.2ex #BCBCBC;
+                border-radius: 50%;
+                font-size: 2ex;
+                transform: rotate(270deg);
+                font-size: 200%;
+            }    
+            }
+            
+            .open {
+                display: block;
+                content: "\21D2";
+                color: #888888;
+                
+            }
+            
+            h3.open > a:before {
+                color: #58A4D7;
+                content: "\2B07";
+            }
+            
+            ul {
+                list-style-type: none;
             }
             
         </style>
@@ -75,36 +116,61 @@
         <article id= "article1">
             <h3 class= "title1"><a href="#"> Title One</a>
             </h3>
-                <p class= "para1">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
-            <h4>Sub-title One.One</h4>
-                <p>Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
-            <h4>Sub-title One.Two</h4>
-                <p>Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
-            <h4>Sub-title One.Three</h4>
-                <p>Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
+                <p class= "para">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
+            <ul>
+                <li>
+                    <h4 id="onedotone"><a href= "#onedotone">Sub-title One.One</a></h4>
+                    <div class= "subpara">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</div>
+                </li>
+                <li>
+                    <h4>Sub-title One.Two</h4>
+                    <div  class= "subpara">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</div>
+                </li>
+                <li>
+                    <h4>Sub-title One.Three</h4>
+                    <div class= "subpara">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</div>
+                </li>
+            </ul>
         </article>
-        <article>
-            <h3 id= "title2"><a href="#title2"> Title Two</a>
+                <article id= "article1">
+            <h3 class= "title1"><a href="#"> Title One</a>
             </h3>
-            <p>Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
-                <h4>Sub-title Two.One</h4>
-                <p>Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
-            <h4>Sub-title Two.Two</h4>
-                <p>Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
-            <h4>Sub-title Two.Three</h4>
-                <p>Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
+                <p class= "para">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
+            <ul>
+                <li>
+                    <h4>Sub-title One.One</h4>
+                    <div class= "subpara">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</div>
+                </li>
+                <li>
+                    <h4>Sub-title One.Two</h4>
+                    <div  class= "subpara">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</div>
+                </li>
+                <li>
+                    <h4>Sub-title One.Three</h4>
+                    <div class= "subpara">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</div>
+                </li>
+            </ul>
         </article>
-        <article>
-            <h3  id= "title3"><a href="#title3"> Title Three</a>
+                <article id= "article1">
+            <h3 class= "title1"><a href="#"> Title One</a>
             </h3>
-            <p id= "hello">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
-                <h4>Sub-title Three.One</h4>
-                <p>Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
-            <h4>Sub-title Three.Two</h4>
-                <p>Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
-            <h4>Sub-title Three.Three</h4>
-                <p>Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
+                <p class= "para">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</p>
+            <ul>
+                <li>
+                    <h4>Sub-title One.One</h4>
+                    <div class= "subpara">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</div>
+                </li>
+                <li>
+                    <h4>Sub-title One.Two</h4>
+                    <div  class= "subpara">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</div>
+                </li>
+                <li>
+                    <h4>Sub-title One.Three</h4>
+                    <div class= "subpara">Minions ipsum chasy hana dul sae uuuhhh tank yuuu! Baboiii. Butt uuuhhh chasy uuuhhh poopayee baboiii jiji aaaaaah bappleees potatoooo. Hahaha aaaaaah ti aamoo! Tatata bala tu butt hahaha. Tatata bala tu hahaha hana dul sae para tú para tú tank yuuu! Tatata bala tu wiiiii pepete tatata bala tu. Hana dul sae bee do bee do bee do para tú poulet tikka masala jiji poulet tikka masala chasy tank yuuu! La bodaaa aaaaaah. Bappleees la bodaaa tatata bala tu daa tulaliloo me want bananaaa! Tulaliloo gelatooo jiji daa. Poulet tikka masala chasy bananaaaa para tú pepete bananaaaa la bodaaa poopayee. Gelatooo hana dul sae jiji poopayee tank yuuu! Bananaaaa. Poopayee para tú hana dul sae chasy belloo! Hana dul sae.</div>
+                </li>
+            </ul>
         </article>
+        
         </div>
         
         
@@ -113,7 +179,7 @@
                 if (this.nextElementSibling.className != "open") {
                     this.nextElementSibling.className = "open";
                 }else {
-                    this.nextElementSibling.className = "closed";
+                    this.nextElementSibling.className = "para";
                 }
             }
                         
@@ -122,6 +188,8 @@
             for (var index = 0; index <h3s.length; index++){
                     h3s[index].onclick = opensesame;
             }
+            
+            
         </script>
         
         
