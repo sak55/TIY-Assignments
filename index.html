@@ -85,12 +85,12 @@
             }
             
             h4 > a:hover::before {
-                content: "\21D9";
+                content: "\21D9 ";
+                color: #BCBCBC;
                 border: solid 0.2ex #BCBCBC;
                 border-radius: 50%;
-                font-size: 2ex;
-                transform: rotate(270deg);
-                font-size: 200%;
+                font-size: 1em;
+                width: 2em;
             }    
             }
             
@@ -175,6 +175,8 @@
         
         
         <script>
+            
+            
             function opensesame() {
                 if (this.nextElementSibling.className != "open") {
                     this.nextElementSibling.className = "open";
