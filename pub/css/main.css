@@ -162,7 +162,7 @@ select:focus {
     background-color: #266998;
     text-align: center;
     color: white;
-    margin-top: 2em;
+    margin: 2em 40%;
     padding: 1ex;
     width: 12em;
     border-color: #266998;
