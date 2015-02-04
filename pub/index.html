@@ -35,15 +35,37 @@
                 <form action="">
                     <label for="GET-firstname">FIRST NAME</label>
                     <br>
-                    <input id="GET-firstname" type="text" name="firstname">
+                    <input id="GET-firstname" type="text" placeholder= "Jonathan" name="firstname">
                     <br>
                     <label for="GET-lastname">LAST NAME</label>
                     <br>
-                    <input id="GET-lastname" type="text" name="lastname">
+                    <input id="GET-lastname" type="text" placeholder= "Doe" name="lastname">
                     <br>
                     <label for="GET-email">EMAIL ADDRESS</label>
                     <br>
-                    <input id="GET-email" type="email" name="email">
+                    <input id="GET-email" placeholder= "jon@doe.com" type="email" name="email">
+                    <br>
+                    <label for="GET-email">COUNTRY</label>
+                    <br>
+                    <input list="country" placeholder= "Choose a country"/>
+                    <br>
+                    <datalist id="country">
+                      <option value="FRANCE">
+                      <option value="ITALY">
+                      <option value="PORTUGAL">
+                    </datalist>
+                    <br>
+                    <label>BIOGRAPHY</label>
+                    <br>
+                    <textarea></textarea>
+                    <br>
+                    <label for="GET-phone">PHONE NUMBER</label>
+                    <br>
+                    <input id="GET-phone" placeholder= "+351 999 9999" type="phone" name="phone">
+                    <br>
+                    
+                    <br>
+                    <br>
                     <p>
                         <input type="submit" value="SEND YOUR DATA">
                     </p>
@@ -51,8 +73,8 @@
             </div>
 
          
-            <div class="row .col-xs-12">COUNTRY DROP DOWN LIST FRANCE ITALY PORTUGAL</div>
-            <div class="row .col-xs-12">BIOGRAPHY</div>
+            
+          
             <div class="row .col-xs-12">PHONE NUMBER</div>
             <div class="row .col-xs-12">AFFILIATIONS</div>
             <div class="row .col-xs-12">OCCUPATION DROPDOWN WEBDEVELOPER WEB DESIGNER HYBRID</div>
