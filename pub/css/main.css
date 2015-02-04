@@ -100,9 +100,13 @@ textarea {
 
 
 
+div {
+    border: solid 1px red;
+}
 
-
-
+.container {
+    text-align: center;
+}
 
 
 
