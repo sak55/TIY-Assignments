@@ -104,6 +104,7 @@ div {
     background-color: #46A2D9 ;
     padding:;
     
+    
 }
 
 .container {
@@ -113,17 +114,32 @@ div {
 label {
     display: block;
     color: white;
+    margin-top: 3em;
 }
 
 input {
     border: solid 3px white;
     background: transparent;
+    width: 100%;
+    text-align: center;
+}
+
+.sendyourdata {
+    width: auto;
+    background-color: #266998;
+    text-align: center;
+    color: white;
+    margin-top: 2em;
+    padding: 2em;
+    width: 17em;
+    border: none;
 }
 
 textarea {
     border: solid 3px white;
     background: transparent;
-    min-height: 200px
+    min-height: 200px;
+    width: 100%;
 }
 
 

@@ -31,74 +31,78 @@
         <!-- Add your site or application content here -->
         <div class= "container"> <!-- -->
             
-            <div class="row .col-xs-12">
+            <div class="col-xs-12">
                 <form action="">
-                    <label for="GET-firstname">FIRST NAME</label>
-                    <input id="GET-firstname" type="text" placeholder= "Jonathan" name="firstname">
+                    <div class="col-xs-12 col-sm-6">
+                        <label for="GET-firstname">FIRST NAME</label>
+                        <input id="GET-firstname" type="text" placeholder= "Jonathan" name="firstname">
 
-                    <label for="GET-lastname">LAST NAME</label>
-                    <input id="GET-lastname" type="text" placeholder= "Doe" name="lastname">
-                    
-                    <label for="GET-email">EMAIL ADDRESS</label>
-                    <input id="GET-email" placeholder= "jon@doe.com" type="email" name="email">
-                    <label for="GET-email">COUNTRY</label>
-                    
-                    <input list="country" placeholder= "Choose a country"/>
-                    <datalist id="country">
-                      <option value="FRANCE">
-                      <option value="ITALY">
-                      <option value="PORTUGAL">
-                    </datalist>
+                        <label for="GET-lastname">LAST NAME</label>
+                        <input id="GET-lastname" type="text" placeholder= "Doe" name="lastname">
 
-                    <label>BIOGRAPHY</label>
-                    <textarea></textarea>
-                    
-                    <label for="GET-phone">PHONE NUMBER</label>
-                    <input id="GET-phone" placeholder= "+351 999 9999" type="tel" name="phone">
-                    
-                    <label>AFFILIATIONS</label>
-                    <textarea></textarea>                    
-                    
-                    <label for="GET-occupation">OCCUPATION</label>
-                    <input list="occupation" placeholder= "Choose an occupation"/>
-                    <datalist id="occupation">
-                      <option value="WEB DESIGNER">
-                      <option value="WEB DEVELOPER">
-                      <option value="HYBRID">
-                    </datalist>
-             
-                    <label for="GET-catsname">CAT'S NAME</label>
-                    <input id="GET-catsname" type="text" placeholder= "Kitty" name="catsname">
-                    
-                    <label for="GET-gadget">FAVORITE GADGET</label>
-                    <input id="GET-gadget" type="text" placeholder= "Annoy-a-tron" name="gadget">
-                    
-                    <label for="GET-talent">TYPE OF TALENT</label>
-                    <input list="talent" placeholder= "Choose a talent"/>
-                    <datalist id="talent">
-                      <option value="NINJA SILENCE">
-                      <option value="SUMO POWER">
-                      <option value="SAMURAI PRECISION">
-                    </datalist>
-                    
-                    <label for="GET-drink">FAVORITE DRINK</label>
-                    <input id="drink" type="text" placeholder= "Green Tea" name= "drink">
-                    
-                    <label for="GET-power">SPECIAL POWER</label>
-                    <input id="power" type="text" placeholder= "Anti-gravity" name= "power">
-                    
-                    <label for="GET-weapon">WEAPON OF CHOICE</label>
-                    <input id="weapon" type="text" placeholder= "Lightsaber" name= "weapon">
-                    
-                    <label>COMMENTS</label>
-                    <textarea></textarea>                    
-                    
-                    <p>
-                        <input type="submit" value="SEND YOUR DATA">
-                    </p>
+                        <label for="GET-email">EMAIL ADDRESS</label>
+                        <input id="GET-email" placeholder= "jon@doe.com" type="email" name="email">
+                        <label for="GET-email">COUNTRY</label>
+
+                        <input list="country" placeholder= "Choose a country"/>
+                        <datalist id="country">
+                            <option value="FRANCE">
+                            <option value="ITALY">
+                            <option value="PORTUGAL">
+                        </datalist>
+
+                        <label>BIOGRAPHY</label>
+                        <textarea></textarea>
+                    </div>  <!-- sm -->
+                    <div class="col-xs-12 col-sm-6">
+                        <label for="GET-phone">PHONE NUMBER</label>
+                        <input id="GET-phone" placeholder= "+351 999 9999" type="tel" name="phone">
+
+                        <label>AFFILIATIONS</label>
+                        <textarea></textarea>                    
+
+                        <label for="GET-occupation">OCCUPATION</label>
+                        <input list="occupation" placeholder= "Choose an occupation"/>
+                        <datalist id="occupation">
+                          <option value="WEB DESIGNER">
+                          <option value="WEB DEVELOPER">
+                          <option value="HYBRID">
+                        </datalist>
+
+                        <label for="GET-catsname">CAT'S NAME</label>
+                        <input id="GET-catsname" type="text" placeholder= "Kitty" name="catsname">
+
+                        <label for="GET-gadget">FAVORITE GADGET</label>
+                        <input id="GET-gadget" type="text" placeholder= "Annoy-a-tron" name="gadget">
+                    </div>  <!-- sm -->
+                    <div class="col-xs-12 col-sm-12">
+                        <label for="GET-talent">TYPE OF TALENT</label>
+                        <input list="talent" placeholder= "Choose a talent"/>
+                        <datalist id="talent">
+                          <option value="NINJA SILENCE">
+                          <option value="SUMO POWER">
+                          <option value="SAMURAI PRECISION">
+                        </datalist>
+
+                        <label for="GET-drink">FAVORITE DRINK</label>
+                        <input id="drink" type="text" placeholder= "Green Tea" name= "drink">
+
+                        <label for="GET-power">SPECIAL POWER</label>
+                        <input id="power" type="text" placeholder= "Anti-gravity" name= "power">
+
+                        <label for="GET-weapon">WEAPON OF CHOICE</label>
+                        <input id="weapon" type="text" placeholder= "Lightsaber" name= "weapon">
+
+                        <label>COMMENTS</label>
+                        <textarea></textarea>                    
+
+                        <div class="sendyourdata">
+                            <input type="submit" value="SEND YOUR DATA">
+                        </div>    
+                    </div>  <!-- sm -->                   
                 </form>
-            </div>           
-        </div>
+            </div> <!-- xs -->           
+        </div> <!-- container -->
 
         
         
