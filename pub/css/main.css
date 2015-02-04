@@ -102,13 +102,11 @@ textarea {
 
 div {
     background-color: #46A2D9 ;
-    padding:;
-    
-    
 }
 
-.container {
-    font-size: 1.1em;
+.container-fluid {
+    font-size: 1.em;
+    padding: 4em auto;
 }
 
 label {
@@ -124,6 +122,11 @@ input {
     padding: 1.5em 1ex;
     height: 2em;
     font-style: italic;
+    font-size: 1.5em;
+}
+
+input:focus {
+    border-color: #10689a;
 }
 
 textarea {
@@ -146,19 +149,33 @@ select {
     border-radius: 5px;
 }
 
+select:focus {
+    border-color: #10689a;
+}
+
 .sendyourdata {
     width: auto;
     background-color: #266998;
     text-align: center;
     color: white;
     margin: 2em auto;
-    padding: 1em;
-    width: 17em;
+    padding: 1ex;
+    width: 12em;
     border-color: #266998;
-    display: block;
+    display: inline-block;
+    height: 6ex;
+    border-radius: 2px;
 }
 
+nav {
+    align-items: center;
+    display: inline-block;
+    margin: auto;
+}
 
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #266998;
+}
 
 
 /* ==========================================================================
