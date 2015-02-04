@@ -101,17 +101,30 @@ textarea {
 
 
 div {
-    border: solid 1px red;
+    background-color: #46A2D9 ;
+    padding:;
+    
 }
 
 .container {
-    text-align: center;
+    font-size: 1.1em;
 }
 
+label {
+    display: block;
+    color: white;
+}
 
+input {
+    border: solid 3px white;
+    background: transparent;
+}
 
-
-
+textarea {
+    border: solid 3px white;
+    background: transparent;
+    min-height: 200px
+}
 
 
 
