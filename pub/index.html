@@ -33,7 +33,7 @@
             
             <div class="col-xs-12">
                 <form action="">
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
                         <label for="GET-firstname">FIRST NAME</label>
                         <input id="GET-firstname" type="text" placeholder= "Jonathan" name="firstname">
 
@@ -42,19 +42,19 @@
 
                         <label for="GET-email">EMAIL ADDRESS</label>
                         <input id="GET-email" placeholder= "jon@doe.com" type="email" name="email">
+                        
                         <label for="GET-email">COUNTRY</label>
-
-                        <input list="country" placeholder= "Choose a country"/>
-                        <datalist id="country">
-                            <option value="FRANCE">
-                            <option value="ITALY">
-                            <option value="PORTUGAL">
-                        </datalist>
+                        <select id="country">
+                            <option placeholder= "choose a country">Choose a country</option>
+                            <option value="FRANCE"></option>
+                            <option value="ITALY"></option>
+                            <option value="PORTUGAL"></option>
+                        </select>
 
                         <label>BIOGRAPHY</label>
                         <textarea></textarea>
                     </div>  <!-- sm -->
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
                         <label for="GET-phone">PHONE NUMBER</label>
                         <input id="GET-phone" placeholder= "+351 999 9999" type="tel" name="phone">
 
@@ -62,12 +62,12 @@
                         <textarea></textarea>                    
 
                         <label for="GET-occupation">OCCUPATION</label>
-                        <input list="occupation" placeholder= "Choose an occupation"/>
-                        <datalist id="occupation">
-                          <option value="WEB DESIGNER">
-                          <option value="WEB DEVELOPER">
-                          <option value="HYBRID">
-                        </datalist>
+                        <select id="occupation">
+                            <option placeholder= "Choose an occupation">Choose an occupation</option>
+                            <option value="WEB DESIGNER">WEB DESIGNER</option>
+                            <option value="WEB DEVELOPER">WEB DEVELOPER</option>
+                            <option value="HYBRID">HYBRID</option>
+                        </select>
 
                         <label for="GET-catsname">CAT'S NAME</label>
                         <input id="GET-catsname" type="text" placeholder= "Kitty" name="catsname">
@@ -75,14 +75,14 @@
                         <label for="GET-gadget">FAVORITE GADGET</label>
                         <input id="GET-gadget" type="text" placeholder= "Annoy-a-tron" name="gadget">
                     </div>  <!-- sm -->
-                    <div class="col-xs-12 col-sm-12">
+                    <div class="col-xs-12 col-sm-12 col-md-4">
                         <label for="GET-talent">TYPE OF TALENT</label>
-                        <input list="talent" placeholder= "Choose a talent"/>
-                        <datalist id="talent">
-                          <option value="NINJA SILENCE">
-                          <option value="SUMO POWER">
-                          <option value="SAMURAI PRECISION">
-                        </datalist>
+                        <select id="talent" placeholder="Choose a talent">
+                            <option placeholder="Choose a talent">Choose a talent</option>
+                            <option value="NINJA SILENCE">NINJA SILENCE</option>
+                            <option value="SUMO POWER">SUMO POWER</option>
+                            <option value="SAMURAI PRECISION">SAMURAI PRECISION</option>
+                        </select>
 
                         <label for="GET-drink">FAVORITE DRINK</label>
                         <input id="drink" type="text" placeholder= "Green Tea" name= "drink">
@@ -96,10 +96,11 @@
                         <label>COMMENTS</label>
                         <textarea></textarea>                    
 
-                        <div class="sendyourdata">
-                            <input type="submit" value="SEND YOUR DATA">
-                        </div>    
-                    </div>  <!-- sm -->                   
+                            
+                    </div>  <!-- sm -->    
+                    <div class="col-sm-12 col-md-12">
+                        <input class="sendyourdata" type="submit" value="SEND YOUR DATA">
+                    </div>
                 </form>
             </div> <!-- xs -->           
         </div> <!-- container -->

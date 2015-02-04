@@ -121,18 +121,9 @@ input {
     border: solid 3px white;
     background: transparent;
     width: 100%;
-    text-align: center;
-}
-
-.sendyourdata {
-    width: auto;
-    background-color: #266998;
-    text-align: center;
-    color: white;
-    margin-top: 2em;
-    padding: 2em;
-    width: 17em;
-    border: none;
+    padding: 1.5em 1ex;
+    height: 2em;
+    font-style: italic;
 }
 
 textarea {
@@ -142,6 +133,30 @@ textarea {
     width: 100%;
 }
 
+datalist {
+    border: gray 1px solid;
+    border-radius: 10ex;
+}
+
+select {
+    border: gray 1px solid;
+    width: 100%;
+    color: white;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.sendyourdata {
+    width: auto;
+    background-color: #266998;
+    text-align: center;
+    color: white;
+    margin: 2em auto;
+    padding: 1em;
+    width: 17em;
+    border-color: #266998;
+    display: block;
+}
 
 
 
