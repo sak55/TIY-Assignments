@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -22,7 +22,60 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        
+<style>
+    .container{
+    }
+    body {
+        font-size: 10pt;
+    }
+    
+    .tabs {
+        font-size: 2vw;
+        text-align: center;
+        padding: 5vw;
+    }
+    .tabs > a {
+        border: 1px solid; 
+        text-decoration: none;
+        color: color: cornflowerblue;
+    }
+    .tabs > a:hover {
+        color: gray;
+    }
+    .tabs > a.active {
+        border-bottom: none;
+        color: black;
+        border-top-width: 3px;
+    }
+</style>        
+        
+        
+<div class= "container-fluid"> <!-- Container -->
+    <nav class="tabs row"> <!-- Tabs -->
+        <a class= "col-xs-6" href>
+            <span>About</span>
+        </a>
+        <a class= "col-xs-6" href>
+            <span>Repositories</span>
+        </a>
+    </nav> <!-- Tabs -->
+
+    <section class="panels row">
+        <figure class= "row">
+            <img class= "col-xs-3" src="http://lorempixel.com/100/100">
+            <figcaption  class= "col-xs-9">
+                <h3>Sam Kauffman</h3>
+                <h5>sak55</h5>
+                <p>icon GitHub</p>
+                <p>Winter Park, FL</p>
+                <a>samuelkauffman@gmail.com</a>
+                <a href= "http://sak55.github.io/">http://sak55.github.io/</a>
+            </figcaption>
+        </figure>
+    </section>
+</div> <!-- Container -->
+        
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <!--bower:js-->
