@@ -40,13 +40,36 @@
         text-decoration: none;
         color: color: cornflowerblue;
     }
+/*
     .tabs > a:hover {
         color: gray;
     }
+*/
     .tabs > a.active {
         border-bottom: none;
         color: black;
         border-top-width: 3px;
+    }
+    .icon:before {
+        font-size: 1.5em;
+    }
+    .icon-king:before {
+        content: '\265A';
+    }
+    
+    .icon-queen:before {
+        content: '\265B';
+    }
+    
+    .icon-rook:before {
+        content: '\265C';
+    }
+    
+    .icon-knight:before {
+        content: '\265E';
+    }
+    button {
+        
     }
 </style>        
         
@@ -63,16 +86,39 @@
 
     <section class="panels row">
         <figure class= "row">
-            <img class= "col-xs-3" src="http://lorempixel.com/100/100">
+            <img class= "col-xs-3" src="img/headshot.jpeg">
             <figcaption  class= "col-xs-9">
                 <h3>Sam Kauffman</h3>
                 <h5>sak55</h5>
-                <p>icon GitHub</p>
-                <p>Winter Park, FL</p>
-                <a>samuelkauffman@gmail.com</a>
+                <a>icon samuelkauffman@gmail.com</a>
                 <a href= "http://sak55.github.io/">http://sak55.github.io/</a>
             </figcaption>
         </figure>
+        <ul class= "row">
+            <li class= "col-xs-4">
+                <p>a#</p>
+                <h6>Follower</h6>
+            </li>
+            <li class= "col-xs-4">
+                <p>a#</p>
+                <h6>Starred</h6>
+            </li>
+            <li class= "col-xs-4">
+                <p>a#</p>
+                <h6>following</h6>
+            </li>            
+        </ul>
+        <ul class= "row">
+            <li>sak/FEE--2015--SPRING</li>
+            <li>sak55/First-Code</li>
+            <li>sak55/hello-world</li>
+            <li>sak55/javascript-koans</li>
+            <li>sak55/prezto</li>
+        </ul>
+        <ul>
+            <h3>Repositories</h3>
+            <a href>TheIronYard--Orlando/FEE--2015--Spring</a>
+        </ul>
     </section>
 </div> <!-- Container -->
         
