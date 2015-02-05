@@ -31,95 +31,98 @@
     }
     
     .tabs {
-        font-size: 2vw;
+        font-size: 5vw;
         text-align: center;
-        padding: 5vw;
+        border: 1px solid black; 
+        
     }
-    .tabs > a {
-        border: 1px solid; 
+    .tabs + a {
+        border: 1px solid black;
         text-decoration: none;
-        color: color: cornflowerblue;
+        color: cornflowerblue;
     }
-/*
-    .tabs > a:hover {
-        color: gray;
+    section {
+        border: solid 1px;
     }
-*/
     .tabs > a.active {
         border-bottom: none;
         color: black;
         border-top-width: 3px;
     }
-    .icon:before {
-        font-size: 1.5em;
-    }
-    .icon-king:before {
-        content: '\265A';
+    li {
+        list-style-type: none;
     }
     
-    .icon-queen:before {
-        content: '\265B';
+    .row1 {
+        border: solid 1px red;
     }
-    
-    .icon-rook:before {
-        content: '\265C';
+    .row2 {
+        border: solid 1px blue;
     }
-    
-    .icon-knight:before {
-        content: '\265E';
+    .row3 {
+        border: solid 1px green;
     }
-    button {
-        
+    strong {
+        font-size: 2em;
+        text-align: center;
     }
 </style>        
         
         
 <div class= "container-fluid"> <!-- Container -->
-    <nav class="tabs row"> <!-- Tabs -->
-        <a class= "col-xs-6" href>
+    <nav class="row"> <!-- Tabs -->
+        <a class= "tabs col-xs-6" href>
             <span>About</span>
         </a>
-        <a class= "col-xs-6" href>
+        <a class= "tabs col-xs-6" href>
             <span>Repositories</span>
         </a>
     </nav> <!-- Tabs -->
 
-    <section class="panels row">
-        <figure class= "row">
-            <img class= "col-xs-3" src="img/headshot.jpeg">
-            <figcaption  class= "col-xs-9">
-                <h3>Sam Kauffman</h3>
-                <h5>sak55</h5>
-                <a>icon samuelkauffman@gmail.com</a>
-                <a href= "http://sak55.github.io/">http://sak55.github.io/</a>
-            </figcaption>
-        </figure>
-        <ul class= "row">
-            <li class= "col-xs-4">
-                <p>a#</p>
-                <h6>Follower</h6>
-            </li>
-            <li class= "col-xs-4">
-                <p>a#</p>
-                <h6>Starred</h6>
-            </li>
-            <li class= "col-xs-4">
-                <p>a#</p>
-                <h6>following</h6>
-            </li>            
-        </ul>
-        <ul class= "row">
-            <li>sak/FEE--2015--SPRING</li>
-            <li>sak55/First-Code</li>
-            <li>sak55/hello-world</li>
-            <li>sak55/javascript-koans</li>
-            <li>sak55/prezto</li>
-        </ul>
-        <ul>
-            <h3>Repositories</h3>
-            <a href>TheIronYard--Orlando/FEE--2015--Spring</a>
-        </ul>
-    </section>
+    <section class="panels" active> <!-- panel1 -->
+        <div  class= "row row1">
+            <figure><!-- row1 pict and contact info -->
+                <div>
+                    <img class= "col-xs-3" src="img/headshot.jpeg">
+                </div>
+                <figcaption  class= "col-xs-9">
+                    <h3>Sam Kauffman</h3>
+                    <h5>sak55</h5>
+                    <a>icon samuelkauffman@gmail.com</a>
+                    <a class="glyphicon glyphicon-envelope" href= "http://sak55.github.io/">http://sak55.github.io/</a>
+                </figcaption>
+            </figure><!-- row1 pict and contact info -->
+        </div>
+        <div  class= "row row2">
+            <ul class= "ilove2count"> <!-- row2 counts -->
+                <li class= "col-xs-4">
+                    <p><strong>a#</strong></p>
+                    <h6>Follower</h6>
+                </li>
+                <li class= "col-xs-4 ilove2count">
+                    <p><strong>a#</strong></p>
+                    <h6>Starred</h6>
+                </li>
+                <li class= "col-xs-4 ilove2count">
+                    <p><strong>a#</strong></p>
+                    <h6>following</h6>
+                </li>            
+            </ul> <!-- row2 counts -->
+        </div>
+        <div class= "row row3">
+            <ul> <!-- row3 counts -->
+                <li>sak/FEE--2015--SPRING</li>
+                <li>sak55/First-Code</li>
+                <li>sak55/hello-world</li>
+                <li>sak55/javascript-koans</li>
+                <li>sak55/prezto</li>
+            </ul> <!-- row2 counts -->
+        </div>
+        <ul class= "row"> <!-- row3 counts -->
+            <li><h3>Repositories</h3></li>
+            <li><a href>TheIronYard--Orlando/FEE--2015--Spring</a></li>
+        </ul> <!-- row3 counts -->
+    </section> <!-- panel1 -->
 </div> <!-- Container -->
         
 
