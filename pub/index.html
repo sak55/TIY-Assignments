@@ -25,6 +25,8 @@
         
 <style>
     .container{
+        border: solid 1px black;
+        margin: 0;
     }
     body {
         font-size: 10pt;
@@ -34,6 +36,7 @@
         font-size: 5vw;
         text-align: center;
         border: 1px solid black; 
+        background-color: lightgray;
         
     }
     .tabs + a {
@@ -48,30 +51,61 @@
         border-bottom: none;
         color: black;
         border-top-width: 3px;
+        background-color: white;
     }
     li {
         list-style-type: none;
     }
+    row
+    {
+        margin-top: 0;
+    }
     
     .row1 {
-        border: solid 1px red;
+
     }
     .row2 {
         border: solid 1px blue;
+        background-color: lightgray;
     }
     .row3 {
-        border: solid 1px green;
+        background-color: lightgray;
+        margin-top: 0;
+    }
+    .row4 {
+        background-color: lightgray;
+        margin-top: 0;
+    }
+    .pict {
+        border-radius: 10px;
     }
     strong {
         font-size: 2em;
         text-align: center;
+    }
+    h3 {
+        margin-bottom: 0;
+        align-content: center;
+        margin-top: 0;
+    }
+    h5 {
+        margin-top: 0;
+    }
+    ul{
+        margin: 1em;
+    }
+    li {
+        border-color: gray;
+    }
+    .highlight {
+        background-color: white;
     }
 </style>        
         
         
 <div class= "container-fluid"> <!-- Container -->
     <nav class="row"> <!-- Tabs -->
-        <a class= "tabs col-xs-6" href>
+        <a active class= "tabs col-xs-6" href>
             <span>About</span>
         </a>
         <a class= "tabs col-xs-6" href>
@@ -79,17 +113,17 @@
         </a>
     </nav> <!-- Tabs -->
 
-    <section class="panels" active> <!-- panel1 -->
+    <section class="panels"> <!-- panel1 -->
         <div  class= "row row1">
             <figure><!-- row1 pict and contact info -->
                 <div>
-                    <img class= "col-xs-3" src="img/headshot.jpeg">
+                    <img class= "col-xs-3" pict src="img/headshot.jpeg">
                 </div>
                 <figcaption  class= "col-xs-9">
                     <h3>Sam Kauffman</h3>
                     <h5>sak55</h5>
-                    <a>icon samuelkauffman@gmail.com</a>
-                    <a class="glyphicon glyphicon-envelope" href= "http://sak55.github.io/">http://sak55.github.io/</a>
+                    <p><a>icon samuelkauffman@gmail.com</a></p>
+                    <p><a class="glyphicon glyphicon-envelope" href= "http://sak55.github.io/">http://sak55.github.io/</a></p>
                 </figcaption>
             </figure><!-- row1 pict and contact info -->
         </div>
@@ -110,18 +144,21 @@
             </ul> <!-- row2 counts -->
         </div>
         <div class= "row row3">
-            <ul> <!-- row3 counts -->
+            <ul class= "col-xs-12 highlight"> <!-- row3 counts -->
+                <li><h3>Popular repositories</h3></li>
                 <li>sak/FEE--2015--SPRING</li>
                 <li>sak55/First-Code</li>
                 <li>sak55/hello-world</li>
                 <li>sak55/javascript-koans</li>
                 <li>sak55/prezto</li>
-            </ul> <!-- row2 counts -->
+            </ul> <!-- row3 counts -->
         </div>
-        <ul class= "row"> <!-- row3 counts -->
-            <li><h3>Repositories</h3></li>
-            <li><a href>TheIronYard--Orlando/FEE--2015--Spring</a></li>
-        </ul> <!-- row3 counts -->
+        <div class= "row row4">
+            <ul class= "highlight"> <!-- row4 counts -->
+                <li><h3>Repositories contributed to</h3></li>
+                <li><a href>TheIronYard--Orlando/FEE--2015--Spring</a></li>
+            </ul> <!-- row4 counts -->
+        </div>
     </section> <!-- panel1 -->
 </div> <!-- Container -->
         
