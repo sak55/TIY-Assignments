@@ -32,8 +32,8 @@
 <div role="tabpanel"> <!-- Tabs -->
 
   <!-- Nav tabs -->
-    <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active hidden-md">
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li role="presentation" class="active hidden-md hidden-lg ">
             <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About
             </a>
         </li>
@@ -41,7 +41,7 @@
             <a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions
             </a>
         </li>
-        <li role="presentation hidden-md">
+        <li role="presentation">
             <a href="#repos" aria-controls="repos" role="tab" data-toggle="tab">Repositories
             </a>
         </li>
@@ -53,7 +53,7 @@
 
   
   <div class="tab-content"><!-- Tab panes -->
-    <div role="tabpanel" class="tab-pane hidden-md active" id="about"> <!-- Panel1 -->
+    <div role="tabpanel" class="tab-pane hidden-md hidden-lg active" id="about"> <!-- Panel1 -->
         <div class="row wback"> <!-- panel1row1 -->
             <img class="col-xs-4" src="/img/headshot.jpeg">
             <div class="col-xs-8">
@@ -131,8 +131,9 @@
         </div> <!-- panel1row4 -->
     </div>
       
-    <div role="tabpanel" class="tab-pane visible-desktop hidden-sm wback  floaterrt active" id="contributions"> <!-- Panel 2-->
-        <div col-md-3>
+    <div role="tabpanel" class="tab-pane visible-desktop hidden-sm hidden-xs wback  floaterrt active" id="contributions"> <!-- Panel 2-->
+        <div class="row">
+        <aside col-md-3>
             <img class="img2" src="/img/headshot.jpeg">
             <div>
                 <h4>Sam Kauffman</h4>
@@ -141,6 +142,7 @@
                 <p ><a href="mailto:samuelkauffman@gmail.com" class="fa fa-envelope-o "> samuelkauffman@gmail.com</a></p>
                 <p ><i class="fa fa-clock-0 pull-left"></i>Joined on <date>Dec 10, 2014</date></p>
             <hr>
+        <div class="row">    
              <div class="col-xs-1">
                 <p class="numlabel">
                     <strong class="numcount">1</strong>
@@ -159,13 +161,14 @@
                 </p>
                 <p class="numlabel">Following</p>
             </div>
-            <hr>
-                
-                
-            <hr>
-            </div>
-            
         </div>
+            <hr>
+                
+                
+            <hr>
+                <br>                <br>                <br>
+            </div>
+        </aside>
         <div class="row gback">
              <!-- row1 -->
             <div class="panel panel-default col-md-4">
@@ -208,13 +211,8 @@
                     <a href>TheIronYard--Orlando/FEE--2015--SPRING</a>
                     <i class="fa fa-star pull-right">13</i>
                 </div>
-            </div>
-         <!-- row1 -->
-            
-            
-            
-            
-            
+            </div>            
+        </div>
         </div>
     </div> <!-- Panel 2-->
     
@@ -270,7 +268,7 @@
         </div>
       </div> <!-- Panel 3-->
       
-      <div role="tabpanel" class="tab-pane visible-desktop hidden-sm" id="publicactivity"> <!-- Panel 4-->
+      <div role="tabpanel" class="tab-pane visible-desktop hidden-sm hidden-xs" id="publicactivity"> <!-- Panel 4-->
         ...4
       </div><!-- Panel 4-->
   </div> 
