@@ -98,7 +98,36 @@ textarea {
    ========================================================================== */
 
 
-
+.container{
+    margin: 0;
+}
+.main {
+    
+}
+h3 {
+    margin-bottom: 0;
+}
+h5 {
+    margin-bottom: 0;
+}
+.side{
+    
+}
+img {
+    width: 30%;
+}
+.row2 {
+    background-color: #FAFAFA;
+}
+.numcount{
+    font-size: 2em;
+}
+.numlabel {
+    text-align: center;
+}
+.gback{
+    background-color: #FAFAFA;
+}
 
 
 
