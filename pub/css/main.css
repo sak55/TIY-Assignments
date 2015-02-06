@@ -132,8 +132,15 @@ img {
 .stackpanel {
     border-color: #FAFAFA;
 }
-
-
+i {
+    float:right;
+}
+a{
+    color: #4A86C1;
+}
+i {
+    color:#999999;
+}
 
 
 
