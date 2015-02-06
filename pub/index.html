@@ -32,12 +32,12 @@
 <div role="tabpanel"> <!-- Tabs -->
 
   <!-- Nav tabs -->
-    <ul class="nav nav-tabs hidden-desktop" role="tablist">
-        <li role="presentation" class="active">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active hidden-md">
             <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About
             </a>
         </li>
-        <li role="presentation" class="hidden-xs">
+        <li role="presentation" class="active hidden-xs hidden-sm">
             <a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions
             </a>
         </li>
@@ -45,7 +45,7 @@
             <a href="#repos" aria-controls="repos" role="tab" data-toggle="tab">Repositories
             </a>
         </li>
-        <li role="presentation" class="hidden-xs">
+        <li role="presentation" class="hidden-xs hidden-sm">
             <a href="#publicactivity" aria-controls="publicactivity" role="tab" data-toggle="tab">Public Activity
             </a>
         </li>
@@ -53,16 +53,16 @@
 
   
   <div class="tab-content"><!-- Tab panes -->
-    <div role="tabpanel" class="tab-pane hidden-desktop active" id="about"> <!-- Panel1 -->
-        <div class="row wback"> <!-- row1 -->
+    <div role="tabpanel" class="tab-pane hidden-md active" id="about"> <!-- Panel1 -->
+        <div class="row wback"> <!-- panel1row1 -->
             <img class="col-xs-4" src="/img/headshot.jpeg">
             <div class="col-xs-8">
                 <h4>Sam Kauffman</h4>
                 <h5>sak55</h5>
                 <p ><a href="mailto:samuelkauffman@gmail.com" class="fa fa-envelope-o "> samuelkauffman@gmail.com</a></p>
             </div>
-        </div>  <!-- row1 -->
-        <div class="panel-heading row gback"> <!-- row2 -->
+        </div>  <!-- panel1row1 -->
+        <div class="panel-heading row gback"> <!-- panel1row2 -->
             <div class="col-xs-4">
                 <p class="numlabel">
                     <strong class="numcount">1</strong>
@@ -81,10 +81,10 @@
                 </p>
                 <p class="numlabel">Following</p>
             </div>
-        </div> <!-- row2 -->
+        </div> <!-- panel1row2 -->
         
         
-        <div class="gback"> <!-- row3 -->
+        <div class="gback"> <!-- panel1row3 -->
             <div class="panel panel-default">
                 <div class="panel-body gborder">
                     <strong>Popular repositories</strong>
@@ -115,9 +115,9 @@
                     <i class="fa fa-star pull-right">0</i>
                 </div>
             </div>
-        </div> <!-- row3 -->
+        </div> <!-- panel1row3 -->
         
-        <div> <!-- row4 -->
+        <div> <!-- panel1row4 -->
             <div class="panel panel-default">
                 <div class="panel-body gborder">
                 <strong>Repositories contributed to</strong>
@@ -128,27 +128,50 @@
                     <i class="fa fa-star pull-right">13</i>
                 </div>
             </div>
-        </div> <!-- row4 -->
+        </div> <!-- panel1row4 -->
     </div>
       
-      <aside col-md-2>
-            <img class="col-xs-4 img2" src="/img/headshot.jpeg">
-            <div class="col-xs-8">
+    <div role="tabpanel" class="tab-pane visible-desktop hidden-sm wback  floaterrt active" id="contributions"> <!-- Panel 2-->
+        <div col-md-3>
+            <img class="img2" src="/img/headshot.jpeg">
+            <div>
                 <h4>Sam Kauffman</h4>
                 <h5>sak55</h5>
+                <hr>
                 <p ><a href="mailto:samuelkauffman@gmail.com" class="fa fa-envelope-o "> samuelkauffman@gmail.com</a></p>
+                <p ><i class="fa fa-clock-0 pull-left"></i>Joined on <date>Dec 10, 2014</date></p>
+            <hr>
+             <div class="col-xs-1">
+                <p class="numlabel">
+                    <strong class="numcount">1</strong>
+                </p>
+                <p class="numlabel">Followers</p>
             </div>
-        </aside>
-      
-      
-      
-    <div role="tabpanel" class="tab-pane visible-desktop wback active" id="contributions"> <!-- Panel 2-->
-        
+            <div class="col-xs-1">
+                <p class="numlabel">
+                    <strong class="numcount">2</strong>
+                </p>
+                <p class="numlabel">Starred</p>
+            </div>
+            <div class="col-xs-1">
+                <p class="numlabel">
+                    <strong class="numcount">0</strong>
+                </p>
+                <p class="numlabel">Following</p>
+            </div>
+            <hr>
+                
+                
+            <hr>
+            </div>
+            
+        </div>
         <div class="row gback">
              <!-- row1 -->
-            <div class="panel panel-default col-md-5">
+            <div class="panel panel-default col-md-4">
                 <div class="panel-body gborder">
-                    <strong>Popular repositories</strong>
+                    <strong>Popular repositories
+                    </strong>
                 </div>
                 <div class="panel-body gborder">
                     <i class="fa fa-code-fork pull-left"></i>
@@ -176,7 +199,7 @@
                     <i class="fa fa-star pull-right">0</i>
                 </div>
             </div>
-            <div class="panel panel-default  col-md-5">
+            <div class="panel panel-default  col-md-4">
                 <div class="panel-body gborder">
                 <strong>Repositories contributed to</strong>
                 </div>
@@ -247,20 +270,20 @@
         </div>
       </div> <!-- Panel 3-->
       
-      <div role="tabpanel" class="tab-pane visible-desktop" id="publicactivity"> <!-- Panel 4-->
+      <div role="tabpanel" class="tab-pane visible-desktop hidden-sm" id="publicactivity"> <!-- Panel 4-->
         ...4
       </div><!-- Panel 4-->
   </div> 
 
 </div> <!-- Tab panes -->
-    
-    <div class="row"> <!-- Comment Box -->
+   <footer> 
+        <div class="row"> <!-- Comment Box -->
             <form class="panel-body">
-                <label>Comment Box</label>
-                    <textarea name="textarea" rows="10" cols="50" placeholder="Leave a comment" class="col-xs-12  gborder"></textarea>
+                <label id="comments">Comment Box</label>
+                    <textarea name="textarea" id="comments" rows="10" cols="50" placeholder="Leave a comment" class="col-xs-12  gborder"></textarea>
             </form>
         </div> <!-- Comment Box -->
-    
+    </footer>
 </div> <!-- Container -->
         
 

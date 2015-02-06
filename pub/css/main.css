@@ -120,7 +120,7 @@ img {
 }
 .img2 {
     width: 16%;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .row2 {
     background-color: #FAFAFA;
@@ -160,12 +160,17 @@ i {
 
 aside {
     width: 25%;
-    max-width: 10em;
+    max-width: 10;
 }
-
-
-
-
+.floaterrt{
+    float: right;
+}
+aside > p {
+    max-width: 25%
+}
+footer {
+    clear: both;
+}
 
 
 /* ==========================================================================
