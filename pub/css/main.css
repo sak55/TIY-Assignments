@@ -104,31 +104,43 @@ textarea {
 .main {
     
 }
-h3 {
+h4 {
     margin-bottom: 0;
 }
 h5 {
     margin-bottom: 0;
+    color:#999999;
 }
 .side{
     
 }
 img {
     width: 30%;
+    border-radius: 15px;
+}
+.img2 {
+    width: 16%;
+    border-radius: 15px;
 }
 .row2 {
     background-color: #FAFAFA;
 }
 .numcount{
     font-size: 2em;
+    margin-bottom: 0;
 }
 .numlabel {
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: -5ex;
 }
 .gback{
     background-color: #FAFAFA;
 }
-
+.wback {
+    background-color: white;
+}
 .stackpanel {
     border-color: #FAFAFA;
 }
@@ -142,9 +154,14 @@ i {
     color:#999999;
 }
 
+.gborder {
+    border: 1px solid #ddd;
+}
 
-
-
+aside {
+    width: 25%;
+    max-width: 10em;
+}
 
 
 
