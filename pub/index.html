@@ -241,10 +241,11 @@
 </div>    
    <footer> 
         <div class="row"> <!-- Comment Box -->
-            <form class="panel-body">
-                <label id="comments">Comment Box</label>
-                    <textarea name="textarea" id="comments" rows="10" cols="50" placeholder="Leave a comment" class="col-xs-12  gborder"></textarea>
+            <form action="https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/257/comments?access_token=46045169c764de2548ed9b3bd28b3bc88c58daf4" method="post" enctype="text/plain" id="usrcomments">
+                <label>Comment Box</label>
+                    <textarea id="mytextarea" name="textarea" form="usrcomments" rows="10" cols="50" placeholder="Leave a comment" class="col-xs-12 gborder"></textarea>
             </form>
+            <button class="postme" name="mycomment" value="submit" type="button" onclick="submitme()" form="usrcomments" required>Comment</button>
         </div> <!-- Comment Box -->
     </footer>
 </div> <!-- Container -->
