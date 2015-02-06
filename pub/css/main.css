@@ -114,6 +114,13 @@ h5 {
 .side{
     
 }
+li {
+    background-color: FAFAFA;
+}
+
+li.active {
+    background-color: white;
+}
 img {
     width: 30%;
     border-radius: 15px;
