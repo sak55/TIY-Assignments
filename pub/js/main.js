@@ -10,4 +10,4 @@ $(document).ready(function () {
 
     
 
-}) //jQuery document.ready function closing bracket
+}); //jQuery document.ready function closing bracket

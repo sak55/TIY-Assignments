@@ -134,6 +134,13 @@ img {
 .row2 {
     background-color: #FAFAFA;
 }
+.numbrow {
+}
+.numbox {
+    float:left;
+    width 33.3%;
+    display: inline-block;
+}
 .numcount{
     font-size: 2em;
     margin-bottom: 0;
@@ -187,7 +194,14 @@ footer {
     background-color: #7FB351;
     color: white;
 }
+.numcount {
+    border-top-color:#F2F2F2;
+    border-bottom-color: #F2F2F2;
+}
 
+figcaption {
+    float:right;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
