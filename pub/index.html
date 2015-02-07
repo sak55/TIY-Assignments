@@ -28,8 +28,9 @@
         <!-- Add your site or application content here -->
                 
 <div class= "container gback"> <!-- Container -->    
-   <div class="tab-content"> 
-    <div role="panel tabpanel"><!--mobile tabs-->
+   
+    
+    <div role="panel tabpanel" class="hidden-md"><!--mobile tabs-->
         <ul class="nav nav-tabs" role="tablist"> 
             <li role="presentation" class="active visible-xs visible-sm mobiletabs">
                 <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About
@@ -41,39 +42,60 @@
             </li>
         </ul>
     </div><!--mobile tabs-->
-    </div>
   
 <div class="tab-content"><!-- Tab panes -->
     
+<div class="col-md-3">  <!-- aside -->
     <div role="tabpanel" class="tab-panel active" id="about"> <!-- About Panel -->
         <div class="row"> <!-- panel1row1 -->
-            <img class="col-sm-4" src="/img/headshot.jpeg">
-            <div class="col-sm-8">
+            <img class="col-sm-1" src="/img/headshot.jpeg">
+            <div class="col-sm-2">
                 <h4>Sam Kauffman</h4>
                 <h5>sak55</h5>
                 <p ><a href="mailto:samuelkauffman@gmail.com" class="fa fa-envelope-o "> samuelkauffman@gmail.com</a></p>
             </div>
         </div>  <!-- panel1row1 -->
-        <div class="panel-heading gback row"> <!-- panel1row2 -->
-            <div class="col-sm-4">
+        <div class="panel-heading gback"> <!-- panel1row2 -->
+            <div class="col-sm-1">
                 <p class="numlabel">
                     <strong class="numcount">1</strong>
                 </p>
                 <p class="numlabel">Followers</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-1">
                 <p class="numlabel">
                     <strong class="numcount">2</strong>
                 </p>
                 <p class="numlabel">Starred</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-1">
                 <p class="numlabel">
                     <strong class="numcount">0</strong>
                 </p>
                 <p class="numlabel">Following</p>
             </div>
         </div> <!-- panel1row2 -->
+      
+    </div> 
+</div> <!-- aside -->
+         
+<div class="col-md-9">  <!-- col main--> 
+    <div role="panel tabpanel"><!--desktop tabs-->
+        <ul class="nav nav-tabs" role="tablist"> 
+            <li role="presentation" class="active hidden-xs hidden-sm desktoptabs">
+                <a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions
+                </a>
+            </li>
+            <li role="presentation" class=" hidden-xs hidden-sm  desktoptabs">
+                <a href="#repos" aria-controls="repos" role="tab" data-toggle="tab">Repositories
+                </a>
+            </li>
+            <li role="presentation" class="hidden-xs hidden-sm desktoptabs">
+            <a href="#publicactivity" aria-controls="publicactivity" role="tab" data-toggle="tab">Public Activity
+            </a>
+        </li>
+        </ul>
+        </div><!--desktop tabs-->
         
         
         <div class="gback"> <!-- panel1row3 -->
@@ -123,26 +145,6 @@
         </div> <!-- panel1row4 -->
     </div>
 
-    
-     <div role="panel tabpanel"><!--desktop tabs-->
-        <ul class="nav nav-tabs" role="tablist"> 
-            <li role="presentation" class="active hidden-xs hidden-sm desktoptabs">
-                <a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions
-                </a>
-            </li>
-            <li role="presentation" class=" hidden-xs hidden-sm  desktoptabs">
-                <a href="#repos" aria-controls="repos" role="tab" data-toggle="tab">Repositories
-                </a>
-            </li>
-            <li role="presentation" class="hidden-xs hidden-sm desktoptabs">
-            <a href="#publicactivity" aria-controls="publicactivity" role="tab" data-toggle="tab">Public Activity
-            </a>
-        </li>
-        </ul>
-    </div><!--desktop tabs-->
-    
-    
-    
     <div role="tabpanel" class="tab-pane" id="repos"> <!-- Repo Panel -->
           <div class="gback">
             <div class="panel panel-default">
@@ -195,7 +197,7 @@
         </div>
       </div> <!-- Repo Panel -->
   </div>  
-    
+</div> <!-- col main-->  
     
 
     
