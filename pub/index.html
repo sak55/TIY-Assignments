@@ -29,34 +29,23 @@
                 
 <div class= "container gback"> <!-- Container -->    
     
-<div role="tabpanel"> <!-- Tabs -->
-
-  <!-- Nav tabs -->
-         
-
-    
-    <ul class="nav nav-tabs  floatrt" role="tablist">
-        <li role="presentation" class="active visible-xs visible-sm ">
-            <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About
-            </a>
-        </li>
-        <li role="presentation" class="active hidden-xs hidden-sm">
-            <a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions
-            </a>
-        </li>
-        <li role="presentation">
-            <a href="#repos" aria-controls="repos" role="tab" data-toggle="tab">Repositories
-            </a>
-        </li>
-        <li role="presentation" class="hidden-xs hidden-sm">
-            <a href="#publicactivity" aria-controls="publicactivity" role="tab" data-toggle="tab">Public Activity
-            </a>
-        </li>
-    </ul>  <!-- Tabs -->
+    <div role="panel tabpanel"><!--mobile tabs-->
+        <ul class="nav nav-tabs" role="tablist"> 
+            <li role="presentation" class="active visible-xs visible-sm mobiletabs">
+                <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About
+                </a>
+            </li>
+            <li role="presentation" class=" visible-xs visible-sm  mobiletabs">
+                <a href="#repos" aria-controls="repos" role="tab" data-toggle="tab">Repositories
+                </a>
+            </li>
+        </ul>
+    </div><!--mobile tabs-->
 
   
-  <div class="tab-content"><!-- Tab panes -->
-    <div role="tabpanel" class="tab-pane hidden-md hidden-lg active" id="about"> <!-- Panel1 -->
+<div class="tab-content"><!-- Tab panes -->
+    
+    <aside role="tabpanel" class="tab-pane active" id="about"> <!-- About Panel -->
         <div class="row wback"> <!-- panel1row1 -->
             <img class="col-xs-4" src="/img/headshot.jpeg">
             <div class="col-xs-8">
@@ -132,55 +121,29 @@
                 </div>
             </div>
         </div> <!-- panel1row4 -->
-    </div>
-    <div role="tabpanel" class="tab-pane visible-md hidden-sm hidden-xs wback   active" id="contributions"> <!-- Panel 2-->
-        <div class="row gback">
-             <!-- row1 -->
-            <div class="panel panel-default col-md-4">
-                <div class="panel-body gborder">
-                    <strong>Popular repositories
-                    </strong>
-                </div>
-                <div class="panel-body gborder">
-                    <i class="fa fa-code-fork pull-left"></i>
-                    <a href>sak55/FEE--2015--SPRING</a>
-                    <i class="fa fa-star pull-right">0</i>
-                </div>
-                <div class="panel-body gborder">
-                    <i class="fa fa-book pull-left"></i>
-                    <a href>sak55/First-Code</a>
-                    <i class="fa fa-star pull-right">0</i>
-                </div>
-                <div class="panel-body gborder">
-                    <i class="fa fa-book pull-left"></i>
-                    <a href>sak55/hello-world</a>
-                    <i class="fa fa-star pull-right">0</i>
-                </div>
-                <div class="panel-body gborder">
-                    <i class="fa fa-code-fork pull-left"></i>
-                    <a href>sak55/javascript-koans</a>
-                    <i class="fa fa-star pull-right">0</i>
-                </div>
-                <div class="panel-body gborder">
-                    <i class="fa fa-code-fork pull-left"></i>
-                    <a href>sak55/prezto</a>
-                    <i class="fa fa-star pull-right">0</i>
-                </div>
-            </div>
-            <div class="panel panel-default  col-md-4">
-                <div class="panel-body gborder">
-                <strong>Repositories contributed to</strong>
-                </div>
-                <div class="panel-body gborder">
-                    <i class="fa fa-book pull-left"></i>
-                    <a href>TheIronYard--Orlando/FEE--2015--SPRING</a>
-                    <i class="fa fa-star pull-right">13</i>
-                </div>
-            </div>            
-        </div>
-    </div> <!-- Panel 2-->
+    </aside>
+
     
-      <div role="tabpanel" class="tab-pane" id="repos"> <!-- Panel 3-->
+     <div role="panel tabpanel"><!--desktop tabs-->
+        <ul class="nav nav-tabs" role="tablist"> 
+            <li role="presentation" class="active hidden-xs hidden-sm desktoptabs">
+                <a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions
+                </a>
+            </li>
+            <li role="presentation" class=" hidden-xs hidden-sm  desktoptabs">
+                <a href="#repos" aria-controls="repos" role="tab" data-toggle="tab">Repositories
+                </a>
+            </li>
+            <li role="presentation" class="hidden-xs hidden-sm desktoptabs">
+            <a href="#publicactivity" aria-controls="publicactivity" role="tab" data-toggle="tab">Public Activity
+            </a>
+        </li>
+        </ul>
+    </div><!--desktop tabs-->
+    
+    
+    
+    <div role="tabpanel" class="tab-pane" id="repos"> <!-- Repo Panel -->
           <div class="gback">
             <div class="panel panel-default">
                 <div class="panel-body gborder">
@@ -230,24 +193,29 @@
                 </div>
             </div>
         </div>
-      </div> <!-- Panel 3-->
-      
-      <div role="tabpanel" class="tab-pane visible-md hidden-sm hidden-xs" id="publicactivity"> <!-- Panel 4-->
-        ...4
-      </div><!-- Panel 4-->
- 
+      </div> <!-- Repo Panel -->
+    
+    
+    
 
-</div> <!-- Tab panes -->
-</div>    
-   <footer> 
-        <div class="row"> <!-- Comment Box -->
-            <form action="https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/257/comments?access_token=46045169c764de2548ed9b3bd28b3bc88c58daf4" method="post" enctype="text/plain" id="usrcomments">
-                <label>Comment Box</label>
+    
+    
+    
+    
+    
+    <footer> <!-- comment box-->
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form action="https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/257/comments?access_token=46045169c764de2548ed9b3bd28b3bc88c58daf4" method="post" enctype="text/plain" id="usrcomments">
+                    <label>Comment Box</label>
                     <textarea id="mytextarea" name="textarea" form="usrcomments" rows="10" cols="50" placeholder="Leave a comment" class="col-xs-12 gborder"></textarea>
-            </form>
-            <button class="postme" name="mycomment" value="submit" type="button" onclick="submitme()" form="usrcomments" required>Comment</button>
-        </div> <!-- Comment Box -->
-    </footer>
+                </form>
+                <button class="postme" name="mycomment" value="submit" type="button" onclick="submitme()" form="usrcomments" required>Comment
+                </button>
+            </div>
+        </div>
+    </footer> <!-- comment box-->
+    
 </div> <!-- Container -->
         
 
