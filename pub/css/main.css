@@ -102,7 +102,6 @@ textarea {
     margin: 0;
 }
 .main {
-    
 }
 .mobiletabs {
     width: 50%;
@@ -129,12 +128,8 @@ li.active {
     background-color: white;
 }
 img {
-    width: 30%;
+    width: 150px;
     border-radius: 15px;
-}
-.img2 {
-    width: 100%;
-    border-radius: 5px;
 }
 .row2 {
     background-color: #FAFAFA;
@@ -173,7 +168,6 @@ i {
 }
 
 aside {
-    max-width: px;
     float: left;
     background-color: white;
 }
@@ -181,7 +175,7 @@ aside {
     float: right;
 }
 aside > p {
-    max-width: 25%
+    
 }
 aside > row {
     
