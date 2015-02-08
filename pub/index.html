@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
-    <body>
+    <body onload="loadJson();">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -48,7 +48,7 @@
                     <div class="">
                         <img class="" src="/img/headshot.jpeg">
                         <div class="">
-                            <h4>Sam Kauffman</h4>
+                            <h4 id="fullname"></h4>
                             <h5>sak55</h5>
                             <p ><a href="mailto:samuelkauffman@gmail.com" class="fa fa-envelope-o "> samuelkauffman@gmail.com</a></p>
                         </div>
@@ -303,6 +303,9 @@
     
     
     </div> <!-- row -->
+    
+    
+    <img src="/">
     
     <footer> <!-- comment box-->
         <div class="panel panel-default">
