@@ -4,10 +4,27 @@ $(document).ready(function () {
 //    console.log(myinfo.name);
     var myinfo;
     
-    $.get('sak55.json', function (user) {
-        $("#fullname").append(user.name); }, "json");
+//    ../apis/github/users/sak55/
     
-    console.log(myinfo)
+    $.get('/apis/github/users/sak55.json', function (user) {
+        $("#fullname").append(user.name),
+        $("#since").append(user.created_at),
+        $("#email").append(user.email),
+        $("#login").append(user.login),
+        $("#followers").append(user.followers),
+        $("#following").append(user.following)
+        ;}, "json");
+    
+    
+    $.get("repos.json", function (repoArray) {
+        $.each(repoArray, function (index, item) {
+            var repolist = $('#repo' + index);
+            repolist.append(item.full_name);
+            console.log(repolist);
+//            repolist.find('p').append(item.description);
+        });
+    }, "json");
+//    console.log(myinfo.name)
     
 //This function posts a comment to my WIP Issue and then clears the comment box.
     $(".postme").click(function submitme() {
