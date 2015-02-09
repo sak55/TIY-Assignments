@@ -11,14 +11,14 @@ $(document).ready(function () {
         $(".since").append(user.created_at.substring(0,10)),
         $(".email").append(user.email),
         $(".login").append(user.login),
-        $("#followers").append(user.followers),
-        $("#following").append(user.following)
+        $(".followers").append(user.followers),
+        $(".following").append(user.following)
         ;}, "json");
     
     
     $.get("/apis/github/users/repos.json", function (repoArray) {
         $.each(repoArray, function (index, item) {
-            var repolist = $('#repo' + index);
+            var repolist = $('.repo' + index);
             repolist.append(item.full_name);
             console.log(repolist);
 //            repolist.find('p').append(item.description);
@@ -27,7 +27,7 @@ $(document).ready(function () {
     
     $.get("repos.json", function (repo2Array) {
         $.each(repo2Array, function (index, item) {
-            var repo2list = $('#repo2' + index);
+            var repo2list = $('.repo2' + index);
             repo2list.append(item.full_name);
             console.log(repo2list);
 //            repolist.find('p').append(item.description);

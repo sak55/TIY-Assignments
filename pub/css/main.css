@@ -126,8 +126,10 @@ h5 {
     margin-bottom: 0;
     color:#999999;
 }
-.side{
-    
+.boxme{
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+    padding: 1em;
 }
 li {
     background-color: FAFAFA;
@@ -149,6 +151,7 @@ img {
     float:left;
     width 33.3%;
     display: inline-block;
+    padding-bottom: 5em;
 }
 .panel-heading{
     
@@ -161,7 +164,6 @@ img {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: -5ex;
 }
 .gback{
     background-color: #FAFAFA;

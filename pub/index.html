@@ -65,7 +65,7 @@
                             <h5 class="login">{{login}}</h5>
                             <p >
                                 <i class="fa fa-envelope-o myemail pull-left"></i>
-                                <a href="mailto:samuelkauffman@gmail.com" id="email">{{email}}</a>
+                                <a href="mailto:samuelkauffman@gmail.com" class="email">{{email}}</a>
                             </p>
                             <p class="since">
                                 <i class="fa fa-clock-o pull-left"></i>
@@ -75,24 +75,32 @@
                                 <div class="hidden-xs hidden-sm gback"><!-- num count row -->
                                     <div class="numbox col-sm-4">
                                         <p class="numlabel">
-                                            <strong class="numcount"  id="followers">{{#}}</strong>
+                                            <strong class="numcount followers">{{#}}</strong>
                                         </p>
                                         <p class="numlabel">Followers</p>
                                     </div>
                                     <div class="numbox col-sm-4">
                                         <p class="numlabel">
-                                            <strong class="numcount" id="starrednum">{{#}}</strong>
+                                            <strong class="numcount starrednum">{{#}}</strong>
                                         </p>
                                         <p class="numlabel">Starred</p>
                                     </div>
                                     <div class="numbox col-sm-4">
                                         <p class="numlabel">
-                                            <strong class="numcount" id="following">{{#}}</strong>
+                                            <strong class="numcount following">{{#}}</strong>
                                         </p>
                                         <p class="numlabel">Following</p>
                                     </div>
                                     <br>
                                 </div><!-- panel1row2 -->
+                                <div class="row boxme hidden-sm hidden-xs">
+                                    <p>
+                                        <strong>Organizations</strong>
+                                    </p>
+                                    <p>
+                                        <img class="col-md-4" src="https://avatars2.githubusercontent.com/u/8798300?v=3&s=84">
+                                    </p>
+                                </div>
                     </div>
                     <br>
                     
@@ -103,19 +111,19 @@
                                 <div><!-- num count row -->
                                     <div class="numbox col-sm-4">
                                         <p class="numlabel">
-                                            <strong class="numcount"  id="followers">{{#}}</strong>
+                                            <strong class="numcount followers">{{#}}</strong>
                                         </p>
                                         <p class="numlabel">Followers</p>
                                     </div>
                                     <div class="numbox col-sm-4">
                                         <p class="numlabel">
-                                            <strong class="numcount" id="starrednum">{{#}}</strong>
+                                            <strong class="numcount starrednum">{{#}}</strong>
                                         </p>
                                         <p class="numlabel">Starred</p>
                                     </div>
                                     <div class="numbox col-sm-4">
                                         <p class="numlabel">
-                                            <strong class="numcount" id="following">{{#}}</strong>
+                                            <strong class="numcount following">{{#}}</strong>
                                         </p>
                                         <p class="numlabel">Following</p>
                                     </div>
@@ -172,47 +180,47 @@
                     <div class="panel panel-default">
                         <div class="panel-body gborder">
                             <i class="fa fa-book pull-left"></i>
-                            <a href id="repo0">{{full_name}}</a>
+                            <a href class="repo0">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-book pull-left"></i>
-                            <a href id="repo1">{{full_name}}</a>
+                            <a href class="repo1">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-book pull-left"></i>
-                            <a href id="repo2">{{full_name}}</a>
+                            <a href class="repo2">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-code-fork pull-left" ></i>
-                            <a href id="repo3">{{full_name}}</a>
+                            <a href class="repo3">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-code-fork pull-left"></i>
-                            <a href id="repo4">{{full_name}}</a>
+                            <a href class="repo4">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-code-fork pull-left" ></i>
-                            <a href id="repo5">{{full_name}}</a>
+                            <a href class="repo5">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-book pull-left" ></i>
-                            <a href id="repo6">{{full_name}}</a>
+                            <a href class="repo6">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-book pull-left" ></i>
-                            <a href id="repo7">{{full_name}}</a>
+                            <a href class="repo7">{{full_name}}</a>
                             <i class="fa fa-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-code-fork pull-left" ></i>
-                            <a href id="repo8">{{full_name}}</a>
+                            <a href class="repo8">{{full_name}}</a>
                             <i class="fa fa-star pull-right">0</i>
                         </div>
                     </div>
@@ -293,47 +301,47 @@
                     <div class="panel panel-default">
                         <div class="panel-body gborder">
                             <i class="fa fa-book pull-left"></i>
-                            <a href class="repo20">{{full_name2}}</a>
+                            <a href class="repo0">{{full_name2}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-book pull-left"></i>
-                            <a href class="repo21">{{full_name}}</a>
+                            <a href class="repo1">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-book pull-left"></i>
-                            <a href class="repo22">{{full_name}}</a>
+                            <a href class="repo2">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-code-fork pull-left"></i>
-                            <a href class="repo23">{{full_name}}</a>
+                            <a href class="repo3">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-code-fork pull-left"></i>
-                            <a href class="repo24">{{full_name}}</a>
+                            <a href class="repo4">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-code-fork pull-left"></i>
-                            <a href class="repo25">{{full_name}}</a>
+                            <a href class="repo5">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-book pull-left"></i>
-                            <a href class="repo26">{{full_name}}</a>
+                            <a href class="repo6">{{full_name}}</a>
                             <i class="glyphicon glyphicon-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-book pull-left"></i>
-                            <a href class="repo27">{{full_name}}</a>
+                            <a href class="repo7">{{full_name}}</a>
                             <i class="fa fa-star pull-right">0</i>
                         </div>
                         <div class="panel-body gborder">
                             <i class="fa fa-code-fork pull-left"></i>
-                            <a href class="repo28">{{full_name}}</a>
+                            <a href class="repo8">{{full_name}}</a>
                             <i class="fa fa-star pull-right">0</i>
                         </div>
                     </div>
