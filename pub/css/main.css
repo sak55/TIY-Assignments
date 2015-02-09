@@ -114,6 +114,9 @@ textarea {
     display: inline-block;
     position: absolute
 }
+.myinfounderpictlg {
+    
+}
 
 
 h4 {
@@ -146,6 +149,9 @@ img {
     float:left;
     width 33.3%;
     display: inline-block;
+}
+.panel-heading{
+    
 }
 .numcount{
     font-size: 2em;
@@ -186,12 +192,6 @@ aside {
 }
 .floaterrt{
     float: right;
-}
-aside > p {
-    
-}
-aside > row {
-    
 }
 footer {
     clear: both;

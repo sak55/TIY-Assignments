@@ -45,46 +45,83 @@
         <div class="tab-content"><!-- Mobile Tab content -->
 
                 <div role="tabpanel" class="tab-pane active" id="about"> <!-- About Panel -->
-                    <div class="">
+                    <div class="wback">
                         <img class="" src="/img/headshot.jpeg">
-                        <div class="myinfounderpict">
-                            <h4 id="fullname">{{name}}</h4>
-                            <h5 id="login">{{login}}</h5>
+                        <div class="myinfounderpict hidden-lg hidden-md">
+                            <h4 class="fullname">{{name}}</h4>
+                            <h5 class="login">{{login}}</h5>
                             <p >
                                 <i class="fa fa-envelope-o myemail pull-left"></i>
                                 <a href="mailto:samuelkauffman@gmail.com" id="email">{{email}}</a>
                             </p>
-                            <p id="since">
+                            <p class="since">
                                 <i class="fa fa-clock-o pull-left"></i>
-                                Joined on
+                                Joined on {{since}}
                             </p>
                         </div>
+                        
+                        <div class="myinfounderpictlg hidden-sm hidden-xs">
+                            <h4 class="fullname">{{name}}</h4>
+                            <h5 class="login">{{login}}</h5>
+                            <p >
+                                <i class="fa fa-envelope-o myemail pull-left"></i>
+                                <a href="mailto:samuelkauffman@gmail.com" id="email">{{email}}</a>
+                            </p>
+                            <p class="since">
+                                <i class="fa fa-clock-o pull-left"></i>
+                                Joined on {{since}}
+                            </p>
+                        </div>
+                                <div class="hidden-xs hidden-sm gback"><!-- num count row -->
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount"  id="followers">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Followers</p>
+                                    </div>
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount" id="starrednum">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Starred</p>
+                                    </div>
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount" id="following">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Following</p>
+                                    </div>
+                                    <br>
+                                </div><!-- panel1row2 -->
                     </div>
                     <br>
-                    <div><!-- num count row -->
-                        <div class="numbox">
-                            <p class="numlabel">
-                                <strong class="numcount"  id="followers">{{#}}</strong>
-                            </p>
-                            <p class="numlabel">Followers</p>
-                        </div>
-                        <div class="numbox">
-                            <p class="numlabel">
-                                <strong class="numcount">{{#}}</strong>
-                            </p>
-                            <p class="numlabel">Starred</p>
-                        </div>
-                        <div class="numbox">
-                            <p class="numlabel">
-                                <strong class="numcount" id="following">{{#}}</strong>
-                            </p>
-                            <p class="numlabel">Following</p>
-                        </div>
-                        <br>
-                    </div><!-- panel1row2 -->
+                    
 
                     <div class="gback hidden-md hidden-lg"> <!-- about populars repos -->
                         <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div><!-- num count row -->
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount"  id="followers">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Followers</p>
+                                    </div>
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount" id="starrednum">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Starred</p>
+                                    </div>
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount" id="following">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Following</p>
+                                    </div>
+                                    <br>
+                                </div><!-- panel1row2 -->
+                            </div>
                             <div class="panel-body gborder">
                                 <strong>Popular repositories</strong>
                             </div>
@@ -130,7 +167,7 @@
                     </div> <!-- panel1row4 -->
                 </div> <!-- About Panel -->
 
-                <div role="tabpanel" class="tab-pane" id="repos"> <!-- Repo Panel -->
+                <div role="tabpanel" class="tab-pane hidden-md hidden-lg" id="repos"> <!-- Repo Panel -->
                   <div class="gback">
                     <div class="panel panel-default">
                         <div class="panel-body gborder">

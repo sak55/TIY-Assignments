@@ -7,16 +7,16 @@ $(document).ready(function () {
 //    ../apis/github/users/sak55/
     
     $.get('/apis/github/users/sak55.json', function (user) {
-        $("#fullname").append(user.name),
-        $("#since").append(user.created_at),
-        $("#email").append(user.email),
-        $("#login").append(user.login),
+        $(".fullname").append(user.name),
+        $(".since").append(user.created_at.substring(0,10)),
+        $(".email").append(user.email),
+        $(".login").append(user.login),
         $("#followers").append(user.followers),
         $("#following").append(user.following)
         ;}, "json");
     
     
-    $.get("repos.json", function (repoArray) {
+    $.get("/apis/github/users/repos.json", function (repoArray) {
         $.each(repoArray, function (index, item) {
             var repolist = $('#repo' + index);
             repolist.append(item.full_name);
