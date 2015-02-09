@@ -24,6 +24,15 @@ $(document).ready(function () {
 //            repolist.find('p').append(item.description);
         });
     }, "json");
+    
+    $.get("repos.json", function (repo2Array) {
+        $.each(repo2Array, function (index, item) {
+            var repo2list = $('#repo2' + index);
+            repo2list.append(item.full_name);
+            console.log(repo2list);
+//            repolist.find('p').append(item.description);
+        });
+    }, "json");
 //    console.log(myinfo.name)
     
 //This function posts a comment to my WIP Issue and then clears the comment box.

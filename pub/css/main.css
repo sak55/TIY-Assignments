@@ -109,6 +109,12 @@ textarea {
 .desktoptabs {
     width: 33.3%;
 }
+.myinfounderpict {
+    float:left;
+    display: inline-block;
+    position: absolute
+}
+
 
 h4 {
     margin-bottom: 0;
@@ -193,6 +199,7 @@ footer {
 .postme {
     background-color: #7FB351;
     color: white;
+    float: right;
 }
 .numcount {
     border-top-color:#F2F2F2;
