@@ -8,13 +8,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -22,107 +26,350 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+                
+<div class= "container gback"> <!-- Container -->    
+   <div class="row"> <!-- row -->
+    <section role="tabpanel" class="tabpanel col-md-3"><!--mobile section-->
         
-<style>
-    .container{
-    }
-    body {
-        font-size: 10pt;
-    }
-    
-    .tabs {
-        font-size: 5vw;
-        text-align: center;
-        border: 1px solid black; 
-        
-    }
-    .tabs + a {
-        border: 1px solid black;
-        text-decoration: none;
-        color: cornflowerblue;
-    }
-    section {
-        border: solid 1px;
-    }
-    .tabs > a.active {
-        border-bottom: none;
-        color: black;
-        border-top-width: 3px;
-    }
-    li {
-        list-style-type: none;
-    }
-    
-    .row1 {
-        border: solid 1px red;
-    }
-    .row2 {
-        border: solid 1px blue;
-    }
-    .row3 {
-        border: solid 1px green;
-    }
-    strong {
-        font-size: 2em;
-        text-align: center;
-    }
-</style>        
-        
-        
-<div class= "container-fluid"> <!-- Container -->
-    <nav class="row"> <!-- Tabs -->
-        <a class= "tabs col-xs-6" href>
-            <span>About</span>
-        </a>
-        <a class= "tabs col-xs-6" href>
-            <span>Repositories</span>
-        </a>
-    </nav> <!-- Tabs -->
+        <ul class="nav nav-tabs" role="tablist"> 
+            <li role="presentation" class="active visible-xs visible-sm mobiletabs">
+                <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About
+                </a>
+            </li>
+            <li role="presentation" class=" visible-xs visible-sm  mobiletabs">
+                <a href="#repos" aria-controls="repos" role="tab" data-toggle="tab">Repositories
+                </a>
+            </li>
+        </ul>
+      
+        <div class="tab-content"><!-- Mobile Tab content -->
 
-    <section class="panels" active> <!-- panel1 -->
-        <div  class= "row row1">
-            <figure><!-- row1 pict and contact info -->
-                <div>
-                    <img class= "col-xs-3" src="img/headshot.jpeg">
+                <div role="tabpanel" class="tab-pane active" id="about"> <!-- About Panel -->
+                    <div class="wback">
+                        <img class="" src="/img/headshot.jpeg">
+                        <div class="myinfounderpict hidden-lg hidden-md">
+                            <h4 class="fullname">{{name}}</h4>
+                            <h5 class="login">{{login}}</h5>
+                            <p >
+                                <i class="fa fa-envelope-o myemail pull-left"></i>
+                                <a href="mailto:samuelkauffman@gmail.com" class="email">{{email}}</a>
+                            </p>
+                            <p class="since">
+                                <i class="fa fa-clock-o pull-left"></i>
+                                Joined on {{since}}
+                            </p>
+                        </div>
+                        
+                        <div class="myinfounderpictlg hidden-sm hidden-xs">
+                            <h4 class="fullname">{{name}}</h4>
+                            <h5 class="login">{{login}}</h5>
+                            <p >
+                                <i class="fa fa-envelope-o myemail pull-left"></i>
+                                <a href="mailto:samuelkauffman@gmail.com" class="email">{{email}}</a>
+                            </p>
+                            <p class="since">
+                                <i class="fa fa-clock-o pull-left"></i>
+                                Joined on {{since}}
+                            </p>
+                        </div>
+                                <div class="hidden-xs hidden-sm gback"><!-- num count row -->
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount followers">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Followers</p>
+                                    </div>
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount starrednum">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Starred</p>
+                                    </div>
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount following">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Following</p>
+                                    </div>
+                                    <br>
+                                </div><!-- panel1row2 -->
+                                <div class="row boxme hidden-sm hidden-xs">
+                                    <p>
+                                        <strong>Organizations</strong>
+                                    </p>
+                                    <p>
+                                        <img class="col-md-4" src="https://avatars2.githubusercontent.com/u/8798300?v=3&s=84">
+                                    </p>
+                                </div>
+                    </div>
+                    <br>
+                    
+
+                    <div class="gback hidden-md hidden-lg"> <!-- about populars repos -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div><!-- num count row -->
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount followers">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Followers</p>
+                                    </div>
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount starrednum">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Starred</p>
+                                    </div>
+                                    <div class="numbox col-sm-4">
+                                        <p class="numlabel">
+                                            <strong class="numcount following">{{#}}</strong>
+                                        </p>
+                                        <p class="numlabel">Following</p>
+                                    </div>
+                                    <br>
+                                </div><!-- panel1row2 -->
+                            </div>
+                            <div class="panel-body gborder">
+                                <strong>Popular repositories</strong>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-code-fork pull-left"></i>
+                                <a href>sak55/FEE--2015--SPRING</a>
+                                <i class="fa fa-star pull-right">0</i>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-book pull-left"></i>
+                                <a href>sak55/First-Code</a>
+                                <i class="fa fa-star pull-right">0</i>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-book pull-left"></i>
+                                <a href>sak55/hello-world</a>
+                                <i class="fa fa-star pull-right">0</i>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-code-fork pull-left"></i>
+                                <a href>sak55/javascript-koans</a>
+                                <i class="fa fa-star pull-right">0</i>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-code-fork pull-left"></i>
+                                <a href>sak55/prezto</a>
+                                <i class="fa fa-star pull-right">0</i>
+                            </div>
+                        </div>
+                    </div> <!-- panel1row3 -->
+
+                    <div class="hidden-md hidden-lg"> <!--  about repo contributed to -->
+                        <div class="panel panel-default">
+                            <div class="panel-body gborder">
+                            <strong>Repositories contributed to</strong>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-book pull-left"></i>
+                                <a href>TheIronYard--Orlando/FEE--2015--SPRING</a>
+                                <i class="fa fa-star pull-right">13</i>
+                            </div>
+                        </div>
+                    </div> <!-- panel1row4 -->
+                </div> <!-- About Panel -->
+
+                <div role="tabpanel" class="tab-pane hidden-md hidden-lg" id="repos"> <!-- Repo Panel -->
+                  <div class="gback">
+                    <div class="panel panel-default">
+                        <div class="panel-body gborder">
+                            <i class="fa fa-book pull-left"></i>
+                            <a href class="repo0">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-book pull-left"></i>
+                            <a href class="repo1">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-book pull-left"></i>
+                            <a href class="repo2">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-code-fork pull-left" ></i>
+                            <a href class="repo3">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-code-fork pull-left"></i>
+                            <a href class="repo4">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-code-fork pull-left" ></i>
+                            <a href class="repo5">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-book pull-left" ></i>
+                            <a href class="repo6">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-book pull-left" ></i>
+                            <a href class="repo7">{{full_name}}</a>
+                            <i class="fa fa-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-code-fork pull-left" ></i>
+                            <a href class="repo8">{{full_name}}</a>
+                            <i class="fa fa-star pull-right">0</i>
+                        </div>
+                    </div>
                 </div>
-                <figcaption  class= "col-xs-9">
-                    <h3>Sam Kauffman</h3>
-                    <h5>sak55</h5>
-                    <a>icon samuelkauffman@gmail.com</a>
-                    <a class="glyphicon glyphicon-envelope" href= "http://sak55.github.io/">http://sak55.github.io/</a>
-                </figcaption>
-            </figure><!-- row1 pict and contact info -->
+              </div> <!-- Repo Panel -->  
+
+        </div>  <!-- Mobile Tab content --> 
+    </section><!--mobile section-->
+    
+    <section role="tabpanel" class="tabpanel col-md-9 hidden-sm hidden-xs"> <!-- Main Section Desktop -->
+        <ul class="nav nav-tabs" role="tablist"> <!-- Desktop tags -->
+            <li role="presentation" class="active hidden-xs hidden-sm desktoptabs">
+                <a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions
+                </a>
+            </li>
+            <li role="presentation" class=" hidden-xs hidden-sm  desktoptabs">
+                <a href="#repos2" aria-controls="repos2" role="tab" data-toggle="tab">Repositories
+                </a>
+            </li>
+            <li role="presentation" class="hidden-xs hidden-sm desktoptabs">
+            <a href="#publicactivity" aria-controls="publicactivity" role="tab" data-toggle="tab">Public Activity
+            </a>
+            </li>
+        </ul> <!-- Desktop tags -->
+        
+        <div class="tab-content"> <!-- Desktop Panels-->
+            <div role="tabpanel" class="tab-pane active" id="contributions"> <!-- contributions panel -->
+                
+                    <div class="gback"> <!-- about populars repos -->
+                        <div class="panel panel-default">
+                            <div class="panel-body gborder">
+                                <strong>Popular repositories</strong>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-code-fork pull-left"></i>
+                                <a href>sak55/FEE--2015--SPRING</a>
+                                <i class="glyphicon glyphicon-star pull-right">0</i>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-book pull-left"></i>
+                                <a href>sak55/First-Code</a>
+                                <i class="fa fa-star pull-right">0</i>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-book pull-left"></i>
+                                <a href>sak55/hello-world</a>
+                                <i class="fa fa-star pull-right">0</i>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-code-fork pull-left"></i>
+                                <a href>sak55/javascript-koans</a>
+                                <i class="fa fa-star pull-right">0</i>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-code-fork pull-left"></i>
+                                <a href>sak55/prezto</a>
+                                <i class="fa fa-star pull-right">0</i>
+                            </div>
+                        </div>
+                    </div> <!-- about populars repos -->
+
+                    <div class=""> <!--  about repo contributed to -->
+                        <div class="panel panel-default">
+                            <div class="panel-body gborder">
+                                <strong>Repositories contributed to</strong>
+                            </div>
+                            <div class="panel-body gborder">
+                                <i class="fa fa-book pull-left"></i>
+                                    <a href>TheIronYard--Orlando/FEE--2015--SPRING</a>
+                                <i class="fa fa-star pull-right">13</i>
+                            </div>
+                        </div>
+                    </div>  <!--  about repo contributed to -->
+
+            </div> <!-- contributions panel -->
+            <div role="tabpanel" class="tab-pane" id="repos2"> <!-- repos2 panel-->
+                  <div class="gback">
+                    <div class="panel panel-default">
+                        <div class="panel-body gborder">
+                            <i class="fa fa-book pull-left"></i>
+                            <a href class="repo0">{{full_name2}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-book pull-left"></i>
+                            <a href class="repo1">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-book pull-left"></i>
+                            <a href class="repo2">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-code-fork pull-left"></i>
+                            <a href class="repo3">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-code-fork pull-left"></i>
+                            <a href class="repo4">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-code-fork pull-left"></i>
+                            <a href class="repo5">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-book pull-left"></i>
+                            <a href class="repo6">{{full_name}}</a>
+                            <i class="glyphicon glyphicon-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-book pull-left"></i>
+                            <a href class="repo7">{{full_name}}</a>
+                            <i class="fa fa-star pull-right">0</i>
+                        </div>
+                        <div class="panel-body gborder">
+                            <i class="fa fa-code-fork pull-left"></i>
+                            <a href class="repo8">{{full_name}}</a>
+                            <i class="fa fa-star pull-right">0</i>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- repos2 panel-->
+            <div role="tabpanel" class="tab-pane active" id="publicactivity"> <!-- Public Activity Panel -->
+                 
+            </div> <!-- Public Activity Panel -->
+        </div> <!-- Desktop Panels-->
+    </section> <!-- Main Section Desktop -->
+    
+    
+    </div> <!-- row -->
+    
+        
+    <footer> <!-- comment box-->
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form action="https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/257/comments?access_token=46045169c764de2548ed9b3bd28b3bc88c58daf4" method="post" enctype="text/plain" id="usrcomments">
+                    <label>Comment Box</label>
+                    <textarea id="mytextarea" name="textarea" form="usrcomments" rows="10" cols="50" placeholder="Leave a comment" class="col-xs-12 gborder" required></textarea>
+                </form>
+                <button class="postme" name="mycomment" value="submit" type="button" onclick="submitme()" form="usrcomments">Comment
+                </button>
+            </div>
         </div>
-        <div  class= "row row2">
-            <ul class= "ilove2count"> <!-- row2 counts -->
-                <li class= "col-xs-4">
-                    <p><strong>a#</strong></p>
-                    <h6>Follower</h6>
-                </li>
-                <li class= "col-xs-4 ilove2count">
-                    <p><strong>a#</strong></p>
-                    <h6>Starred</h6>
-                </li>
-                <li class= "col-xs-4 ilove2count">
-                    <p><strong>a#</strong></p>
-                    <h6>following</h6>
-                </li>            
-            </ul> <!-- row2 counts -->
-        </div>
-        <div class= "row row3">
-            <ul> <!-- row3 counts -->
-                <li>sak/FEE--2015--SPRING</li>
-                <li>sak55/First-Code</li>
-                <li>sak55/hello-world</li>
-                <li>sak55/javascript-koans</li>
-                <li>sak55/prezto</li>
-            </ul> <!-- row2 counts -->
-        </div>
-        <ul class= "row"> <!-- row3 counts -->
-            <li><h3>Repositories</h3></li>
-            <li><a href>TheIronYard--Orlando/FEE--2015--Spring</a></li>
-        </ul> <!-- row3 counts -->
-    </section> <!-- panel1 -->
+    </footer> <!-- comment box-->
+    
 </div> <!-- Container -->
         
 
@@ -132,8 +379,8 @@
         <!--endbower-->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
