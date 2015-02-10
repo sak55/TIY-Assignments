@@ -6,11 +6,11 @@ var assert = require("assert");
  * @param String name of Piece, e.g. "queen", "rook", "knight"
  * @param String position of Piece, e.g. "a7", "d8"
  */
-function Piece(color, name, position) {
+function Piece(_color, _name, _position) {
   // Constructor
-    this.color = color;
-    this.name = name;
-    this.position = position;
+    this._color = _color;
+    this._name = _name;
+    this._position = _position;
 }
 
 it("should have Piece", function(){
@@ -36,16 +36,16 @@ it("should have Piece", function(){
  * @returns String current position, e.g. "a8", "f3"
  */
 Piece.prototype = {
-    getPosition: function() {
-        return this.position;
+    position: function() {
+        return this._position;
     }
 };
 /** @method color
  * @returns String color of Piece: "white" or "black"
  */
 Piece.prototype = {
-    getColor: function() {
-        return this.color;
+    color: function() {
+        return this._color;
     }
 };
 /** @method name
@@ -53,8 +53,8 @@ Piece.prototype = {
  */
 
 Piece.prototype = {
-    getName: function() {
-        return this.name;
+    name: function() {
+        return this._name;
     }
 };
 
@@ -64,8 +64,8 @@ Piece.prototype = {
  */
 
 Piece.prototype = {
-    getAbbrev: function() {
-        return this.name.substring(0,1)
+    abbrev: function() {
+        return this._name.substring(0,1)
     }
 }
  /** @method toString()
@@ -73,13 +73,21 @@ Piece.prototype = {
  */
 
 Piece.prototype = {
-    geToHTML: function() {
-        return this.color + " " + this.name + " " + this.position
+    toString: function() {
+        return this._color + " " + this._name + " " + this._position
     }
-};
+}
+
  /** @method toHTML()
  * @return String HTML entity, e.g. "black knight" == "&#x265e"
  */
- /* @method toUTF8()
+Piece.prototype = {
+    toHTML: function() {
+        return 
+    }
+};
+
+
+/* @method toUTF8()
  * @return String UTF8 character, e.g. "black knight" == "\u265e"
  */
