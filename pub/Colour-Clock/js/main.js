@@ -36,8 +36,10 @@ function showTime() {
 
         //colors the background to the per second color
        document.body.style.background = colorTime;
-        //writes to document the color
+        
+    
         if (s % 2 == 0) {
+        //writes to document the color
             document.getElementById("thecolor").innerHTML =  colorTime;}
         //writes to document the time
        else {
