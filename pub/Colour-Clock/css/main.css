@@ -107,7 +107,7 @@ textarea {
 
 #thecolor {
     text-align: center;
-    top: 50%; 
+    margin-top: 50%; 
 }
 #drk {
     color: white;

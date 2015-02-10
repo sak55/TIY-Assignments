@@ -19,7 +19,8 @@ var d = new Date(), h, m, s, colorTime;
 function showTime() {
     document.getElementById("thecolor").innerHTML =  "";
     document.getElementById("theclock").innerHTML =  "";
-   d.setSeconds(d.getSeconds() + 1); //Date is a JS function be sure to use a capital D
+   
+    d.setSeconds(d.getSeconds() + 1); //Date is a JS function be sure to use a capital D
     
    h = d.getHours(); //returns just the Hours
    m = d.getMinutes();//returns just the 
