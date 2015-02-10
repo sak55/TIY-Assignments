@@ -5,389 +5,161 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title></title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-                
-<div class= "container gback"> <!-- Container -->    
-   <div class="row"> <!-- row -->
-    <section role="tabpanel" class="tabpanel col-md-3"><!--mobile section-->
         
-        <ul class="nav nav-tabs" role="tablist"> 
-            <li role="presentation" class="active visible-xs visible-sm mobiletabs">
-                <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About
-                </a>
-            </li>
-            <li role="presentation" class=" visible-xs visible-sm  mobiletabs">
-                <a href="#repos" aria-controls="repos" role="tab" data-toggle="tab">Repositories
-                </a>
-            </li>
-        </ul>
-      
-        <div class="tab-content"><!-- Mobile Tab content -->
+        <div class= "piece white queen"></div>
 
-                <div role="tabpanel" class="tab-pane active" id="about"> <!-- About Panel -->
-                    <div class="wback">
-                        <img class="" src="/img/headshot.jpeg">
-                        <div class="myinfounderpict hidden-lg hidden-md">
-                            <h4 class="fullname">{{name}}</h4>
-                            <h5 class="login">{{login}}</h5>
-                            <p >
-                                <i class="fa fa-envelope-o myemail pull-left"></i>
-                                <a href="mailto:samuelkauffman@gmail.com" class="email">{{email}}</a>
-                            </p>
-                            <p class="since">
-                                <i class="fa fa-clock-o pull-left"></i>
-                                Joined on {{since}}
-                            </p>
-                        </div>
-                        
-                        <div class="myinfounderpictlg hidden-sm hidden-xs">
-                            <h4 class="fullname">{{name}}</h4>
-                            <h5 class="login">{{login}}</h5>
-                            <p >
-                                <i class="fa fa-envelope-o myemail pull-left"></i>
-                                <a href="mailto:samuelkauffman@gmail.com" class="email">{{email}}</a>
-                            </p>
-                            <p class="since">
-                                <i class="fa fa-clock-o pull-left"></i>
-                                Joined on {{since}}
-                            </p>
-                        </div>
-                                <div class="hidden-xs hidden-sm gback"><!-- num count row -->
-                                    <div class="numbox col-sm-4">
-                                        <p class="numlabel">
-                                            <strong class="numcount followers">{{#}}</strong>
-                                        </p>
-                                        <p class="numlabel">Followers</p>
-                                    </div>
-                                    <div class="numbox col-sm-4">
-                                        <p class="numlabel">
-                                            <strong class="numcount starrednum">{{#}}</strong>
-                                        </p>
-                                        <p class="numlabel">Starred</p>
-                                    </div>
-                                    <div class="numbox col-sm-4">
-                                        <p class="numlabel">
-                                            <strong class="numcount following">{{#}}</strong>
-                                        </p>
-                                        <p class="numlabel">Following</p>
-                                    </div>
-                                    <br>
-                                </div><!-- panel1row2 -->
-                                <div class="row boxme hidden-sm hidden-xs">
-                                    <p>
-                                        <strong>Organizations</strong>
-                                    </p>
-                                    <p>
-                                        <img class="col-md-4" src="https://avatars2.githubusercontent.com/u/8798300?v=3&s=84">
-                                    </p>
-                                </div>
-                    </div>
-                    <br>
-                    
-
-                    <div class="gback hidden-md hidden-lg"> <!-- about populars repos -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <div><!-- num count row -->
-                                    <div class="numbox col-sm-4">
-                                        <p class="numlabel">
-                                            <strong class="numcount followers">{{#}}</strong>
-                                        </p>
-                                        <p class="numlabel">Followers</p>
-                                    </div>
-                                    <div class="numbox col-sm-4">
-                                        <p class="numlabel">
-                                            <strong class="numcount starrednum">{{#}}</strong>
-                                        </p>
-                                        <p class="numlabel">Starred</p>
-                                    </div>
-                                    <div class="numbox col-sm-4">
-                                        <p class="numlabel">
-                                            <strong class="numcount following">{{#}}</strong>
-                                        </p>
-                                        <p class="numlabel">Following</p>
-                                    </div>
-                                    <br>
-                                </div><!-- panel1row2 -->
-                            </div>
-                            <div class="panel-body gborder">
-                                <strong>Popular repositories</strong>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-code-fork pull-left"></i>
-                                <a href>sak55/FEE--2015--SPRING</a>
-                                <i class="fa fa-star pull-right">0</i>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-book pull-left"></i>
-                                <a href>sak55/First-Code</a>
-                                <i class="fa fa-star pull-right">0</i>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-book pull-left"></i>
-                                <a href>sak55/hello-world</a>
-                                <i class="fa fa-star pull-right">0</i>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-code-fork pull-left"></i>
-                                <a href>sak55/javascript-koans</a>
-                                <i class="fa fa-star pull-right">0</i>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-code-fork pull-left"></i>
-                                <a href>sak55/prezto</a>
-                                <i class="fa fa-star pull-right">0</i>
-                            </div>
-                        </div>
-                    </div> <!-- panel1row3 -->
-
-                    <div class="hidden-md hidden-lg"> <!--  about repo contributed to -->
-                        <div class="panel panel-default">
-                            <div class="panel-body gborder">
-                            <strong>Repositories contributed to</strong>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-book pull-left"></i>
-                                <a href>TheIronYard--Orlando/FEE--2015--SPRING</a>
-                                <i class="fa fa-star pull-right">13</i>
-                            </div>
-                        </div>
-                    </div> <!-- panel1row4 -->
-                </div> <!-- About Panel -->
-
-                <div role="tabpanel" class="tab-pane hidden-md hidden-lg" id="repos"> <!-- Repo Panel -->
-                  <div class="gback">
-                    <div class="panel panel-default">
-                        <div class="panel-body gborder">
-                            <i class="fa fa-book pull-left"></i>
-                            <a href class="repo0">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-book pull-left"></i>
-                            <a href class="repo1">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-book pull-left"></i>
-                            <a href class="repo2">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-code-fork pull-left" ></i>
-                            <a href class="repo3">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-code-fork pull-left"></i>
-                            <a href class="repo4">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-code-fork pull-left" ></i>
-                            <a href class="repo5">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-book pull-left" ></i>
-                            <a href class="repo6">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-book pull-left" ></i>
-                            <a href class="repo7">{{full_name}}</a>
-                            <i class="fa fa-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-code-fork pull-left" ></i>
-                            <a href class="repo8">{{full_name}}</a>
-                            <i class="fa fa-star pull-right">0</i>
-                        </div>
-                    </div>
-                </div>
-              </div> <!-- Repo Panel -->  
-
-        </div>  <!-- Mobile Tab content --> 
-    </section><!--mobile section-->
-    
-    <section role="tabpanel" class="tabpanel col-md-9 hidden-sm hidden-xs"> <!-- Main Section Desktop -->
-        <ul class="nav nav-tabs" role="tablist"> <!-- Desktop tags -->
-            <li role="presentation" class="active hidden-xs hidden-sm desktoptabs">
-                <a href="#contributions" aria-controls="contributions" role="tab" data-toggle="tab">Contributions
-                </a>
-            </li>
-            <li role="presentation" class=" hidden-xs hidden-sm  desktoptabs">
-                <a href="#repos2" aria-controls="repos2" role="tab" data-toggle="tab">Repositories
-                </a>
-            </li>
-            <li role="presentation" class="hidden-xs hidden-sm desktoptabs">
-            <a href="#publicactivity" aria-controls="publicactivity" role="tab" data-toggle="tab">Public Activity
-            </a>
-            </li>
-        </ul> <!-- Desktop tags -->
-        
-        <div class="tab-content"> <!-- Desktop Panels-->
-            <div role="tabpanel" class="tab-pane active" id="contributions"> <!-- contributions panel -->
-                
-                    <div class="gback"> <!-- about populars repos -->
-                        <div class="panel panel-default">
-                            <div class="panel-body gborder">
-                                <strong>Popular repositories</strong>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-code-fork pull-left"></i>
-                                <a href>sak55/FEE--2015--SPRING</a>
-                                <i class="glyphicon glyphicon-star pull-right">0</i>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-book pull-left"></i>
-                                <a href>sak55/First-Code</a>
-                                <i class="fa fa-star pull-right">0</i>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-book pull-left"></i>
-                                <a href>sak55/hello-world</a>
-                                <i class="fa fa-star pull-right">0</i>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-code-fork pull-left"></i>
-                                <a href>sak55/javascript-koans</a>
-                                <i class="fa fa-star pull-right">0</i>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-code-fork pull-left"></i>
-                                <a href>sak55/prezto</a>
-                                <i class="fa fa-star pull-right">0</i>
-                            </div>
-                        </div>
-                    </div> <!-- about populars repos -->
-
-                    <div class=""> <!--  about repo contributed to -->
-                        <div class="panel panel-default">
-                            <div class="panel-body gborder">
-                                <strong>Repositories contributed to</strong>
-                            </div>
-                            <div class="panel-body gborder">
-                                <i class="fa fa-book pull-left"></i>
-                                    <a href>TheIronYard--Orlando/FEE--2015--SPRING</a>
-                                <i class="fa fa-star pull-right">13</i>
-                            </div>
-                        </div>
-                    </div>  <!--  about repo contributed to -->
-
-            </div> <!-- contributions panel -->
-            <div role="tabpanel" class="tab-pane" id="repos2"> <!-- repos2 panel-->
-                  <div class="gback">
-                    <div class="panel panel-default">
-                        <div class="panel-body gborder">
-                            <i class="fa fa-book pull-left"></i>
-                            <a href class="repo0">{{full_name2}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-book pull-left"></i>
-                            <a href class="repo1">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-book pull-left"></i>
-                            <a href class="repo2">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-code-fork pull-left"></i>
-                            <a href class="repo3">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-code-fork pull-left"></i>
-                            <a href class="repo4">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-code-fork pull-left"></i>
-                            <a href class="repo5">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-book pull-left"></i>
-                            <a href class="repo6">{{full_name}}</a>
-                            <i class="glyphicon glyphicon-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-book pull-left"></i>
-                            <a href class="repo7">{{full_name}}</a>
-                            <i class="fa fa-star pull-right">0</i>
-                        </div>
-                        <div class="panel-body gborder">
-                            <i class="fa fa-code-fork pull-left"></i>
-                            <a href class="repo8">{{full_name}}</a>
-                            <i class="fa fa-star pull-right">0</i>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- repos2 panel-->
-            <div role="tabpanel" class="tab-pane active" id="publicactivity"> <!-- Public Activity Panel -->
-                 
-            </div> <!-- Public Activity Panel -->
-        </div> <!-- Desktop Panels-->
-    </section> <!-- Main Section Desktop -->
-    
-    
-    </div> <!-- row -->
-    
-        
-    <footer> <!-- comment box-->
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <form action="https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/257/comments?access_token=46045169c764de2548ed9b3bd28b3bc88c58daf4" method="post" enctype="text/plain" id="usrcomments">
-                    <label>Comment Box</label>
-                    <textarea id="mytextarea" name="textarea" form="usrcomments" rows="10" cols="50" placeholder="Leave a comment" class="col-xs-12 gborder" required></textarea>
-                </form>
-                <button class="postme" name="mycomment" value="submit" type="button" onclick="submitme()" form="usrcomments">Comment
-                </button>
+        <div class="container"> <!-- Container -->
+            <div class="Row0">
+                <div class= "label-text">&nbsp</div>
+                <div class= "label-text">A</div>
+                <div class= "label-text">B</div>
+                <div class= "label-text">C</div>
+                <div class= "label-text">D</div>
+                <div class= "label-text">E</div>
+                <div class= "label-text">F</div>
+                <div class= "label-text">G</div>
+                <div class= "label-text">H</div>
+                <div class= "label-text">&nbsp</div>
             </div>
-        </div>
-    </footer> <!-- comment box-->
-    
-</div> <!-- Container -->
-        
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <!--bower:js-->
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <!--endbower-->
+            <div class="Row8">
+                <div class= "label-text">8</div>
+                <div id= "a8" class= "odd black rook">&nbsp</div>
+                <div id= "b8" class= "even">&nbsp</div>
+                <div id= "c8" class= "odd">&nbsp</div>
+                <div id= "d8" class= "even">&nbsp</div>
+                <div id= "e8" class= "odd">&nbsp</div>
+                <div id= "f8" class= "even">&nbsp</div>
+                <div id= "g8" class= "odd">&nbsp</div>
+                <div id= "h8" class= "even">&nbsp</div>
+                <div class= "label-text">8</div>
+            </div>
+
+            <div class="Row7">
+                <div class= "label-text">7</div>
+                <div id= "a7" class= "even">&nbsp</div>
+                <div id= "b7" class= "odd">&nbsp</div>
+                <div id= "c7" class= "even">&nbsp</div>
+                <div id= "d7" class= "odd">&nbsp</div>
+                <div id= "e7" class= "even">&nbsp</div>
+                <div id= "f7" class= "odd">&nbsp</div>
+                <div id= "g7" class= "even">&nbsp</div>
+                <div id= "h7" class= "odd">&nbsp</div>
+                <div class= "label-text">7</div>
+            </div>
+
+            <div class="Row6">
+                <div class= "label-text">6</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "label-text">6</div>
+            </div>
+
+            <div class="Row5">
+                <div class= "label-text">5</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "label-text">5</div>
+            </div>
+            
+            <div class="Row4">
+                <div class= "label-text">4</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "label-text">4</div>
+            </div>
+            
+            <div class="Row3">
+                <div class= "label-text">3</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "even">&nbsp</div>
+                <div class= "odd">&nbsp</div>
+                <div class= "label-text">3</div>
+            </div>
+            
+            <div class="Row2">
+                <div class= "label-text">2</div>
+                <div id= "a2" class= "odd">&nbsp</div>
+                <div id= "b2" class= "even">&nbsp</div>
+                <div id= "c2" class= "odd">&nbsp</div>
+                <div id= "d2" class= "even">&nbsp</div>
+                <div id= "e2" class= "odd">&nbsp</div>
+                <div id= "f2" class= "even">&nbsp</div>
+                <div id= "g2" class= "odd">&nbsp</div>
+                <div id= "h2" class= "even">&nbsp</div>
+                <div class= "label-text">2</div>
+            </div>
+            
+            <div class="Row1">
+                <div class= "label-text">1</div>
+                <div id= "a1" class= "even">&nbsp</div>
+                <div id= "b1" class= "odd">&nbsp</div>
+                <div id= "c1" class= "even">&nbsp</div>
+                <div id= "d1" class= "odd piece queen white">&nbsp</div>
+                <div id= "e1" class= "even">&nbsp</div>
+                <div id= "f1" class= "odd">&nbsp</div>
+                <div id= "g1" class= "even">&nbsp</div>
+                <div id= "h1" class= "odd">&nbsp</div>
+                <div class= "label-text">1</div>
+            </div>
+            
+            <div class="Row0">
+                <div class= "square label-text">&nbsp</div>
+                <div class= "square label-text">A</div>
+                <div class= "square label-text">B</div>
+                <div class= "square label-text">C</div>
+                <div class= "square label-text">D</div>
+                <div class= "square label-text">E</div>
+                <div class= "square label-text">F</div>
+                <div class= "square label-text">G</div>
+                <div class= "square label-text">H</div>
+                <div class= "square label-text">&nbsp</div>
+            </div>
+            
+            
+
+        </div> <!-- Container -->
+
+        
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
     </body>
 </html>
