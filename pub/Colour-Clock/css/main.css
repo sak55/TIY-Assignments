@@ -97,11 +97,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container{
+    font-size: 5em;
+}
+#theclock {
+    text-align: center;
+    top: 50%; 
+}
 
-
-
-
-
+#thecolor {
+    text-align: center;
+    margin-top: 50%; 
+}
+#drk {
+    color: white;
+}
+#lt{
+    color: black;
+}
 
 
 
