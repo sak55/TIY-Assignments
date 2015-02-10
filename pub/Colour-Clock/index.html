@@ -14,8 +14,6 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -26,31 +24,20 @@
 
         <!-- Add your site or application content here -->
 <div class="container">
-    <div role="tab" class="tab-panel">
-        <ul role="tablist" class="nav nav-tabs">
-            <li role="presentation" class="active">
-                <a href="#lt" aria-controls="light" role="tab" data-toggle="tab">light
-                </a>
-            </li>
-            <li role="presentation" class="active">
-                <a href="#drk" aria-controls="dark" role="tab" data-toggle="tab">dark
-                </a>
-            </li>
-        </ul>
-        <div class="tab-content"><!-- Mobile Tab content -->
-
-                <div >        
-            <div role="tabpanel" class="tab-pane active" id="drk">
-                <div  class="theclock"></div>
-                <div class="thecolor"></div>
+            <div id="drk">
+                <div id="theclock"></div>
+                <div id="thecolor"></div>
             </div>
-            <div role="tabpanel" class="tab-pane " id="lt">
-                <div  class="theclock"></div>
+<!--
+            <div id="lt">
+                <div class="theclock"></div>
                 <div class="thecolor"></div>
-            </div>
-        </div> 
-    </div>
+            </div> 
+-->
 </div>
+
+        
+        
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

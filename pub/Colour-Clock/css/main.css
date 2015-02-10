@@ -98,21 +98,21 @@ textarea {
    ========================================================================== */
 
 .container{
-    background-color: ;
+    font-size: 5em;
 }
-.theclock {
+#theclock {
     text-align: center;
     top: 50%; 
 }
 
-.thecolor {
+#thecolor {
     text-align: center;
     top: 50%; 
 }
-#dark {
+#drk {
     color: white;
 }
-#light{
+#lt{
     color: black;
 }
 
