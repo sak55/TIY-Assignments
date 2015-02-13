@@ -103,7 +103,7 @@ header {
 }
 .headericons {
     border-radius: 5em;
-    border: solid 5px #58A4D7;
+    border: solid 3px #58A4D7;
     color: #58A4D7;
     background-color: white;
     width: 2em;
@@ -111,6 +111,7 @@ header {
     font-size: 2em;
     display: inline-block;
     text-align: center;
+    margin: 0 0.5ex;
 }
 h3 {
     font-weight: 700;
@@ -152,6 +153,8 @@ article:before {
     
 }
 .carrot {
+    font-family: FontAwesome;
+    content: '\xf0d9';
     font-size: 2em;
     transform:           rotate(90deg);
     top: 3.15ex;
@@ -178,7 +181,8 @@ big {
     
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
+    padding-bottom: 1em;
     border-bottom: solid 0.2ex white;
 }
 .iconbox {
@@ -202,17 +206,24 @@ h2 {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .container {
+        margin-left: 20%;
+    }
     li {
    border-left: 0.5ex solid #B6DCF6;
     padding-left: 2em;
     }
     header {
+        margin-right: 15%;
     }
     .titleblock {
         float: left;
+        position: relative;
         display: inline-block;
         text-align: left;
         width: 100%;
+        margin-bottom: 5em;
+        left: 0;
     }
     h1 {
         position: absolute;
@@ -237,31 +248,40 @@ h2 {
     }
     article {
         margin-left: 5%;
+        width: 80%;
     }
-    .carrots {
-        transform:                     rotate(270deg);
-        top: 3.15ex;
-        left: 1.4em;
-        display: inline-block;
+    .byecarrot {
+         display: none;
+    }
+    time {
         position: absolute;
+        margin-left: -5.5em;    
     }
     .effects {
         position: absolute;
         margin-left: -2.6em;
-        margin-top: -2em;
+        margin-top: 0;
+    }
+    .hicarrot {
+        
+    }
+    .carrotd {
+        font-family: FontAwesome;
+        content: '\xf0d9';
+        font-size: 2em;
+        top: 0.1ex;
+        left: 3.63ex;
+        display: inline-block;
+        position: absolute;
     }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    
+    big {
+        font-size: 200%;
+    }
 }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    
-}
-
 
 
 
