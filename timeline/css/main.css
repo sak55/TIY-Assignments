@@ -96,20 +96,53 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* BootStrap xs is default - mobile first*/
+header {
+    text-align: center;
+    color: #59A5D7;
+}
+.headericons {
+    border-radius: 5em;
+    border: solid 5px #58A4D7;
+    color: #58A4D7;
+    background-color: white;
+    width: 2em;
+    height: 2em;
+    font-size: 2em;
+    display: inline-block;
+    text-align: center;
+}
+h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+h1 {
+    font-size: 4.125em;
+    font-weight: 400;
+    line-height: 1.3;
+}
 ol {
     list-style: none;
+    padding-left: 0;
 }
 li {
-   border-left: 0.5ex solid #B6DCF6;
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+        font-family: 'Lato', Calibri, Arial, sans-serif;
+        width: 100%;
 }
-.odd {
-    background-color: #3594CB;
+article {
+    padding: 1em 1em;
     color: white;
+    border-radius: 1ex;
+    margin-bottom: 2em;
+}
+article:before {
+    
+}.odd {
+    background-color: #3594CB;
 }
 .even {
     background-color: #7ABFEB;
-    color: white;
 }
 .oddtime {
     color: #3594CB;
@@ -118,58 +151,116 @@ li {
     color: #7ABFEB;
     
 }
-.carrotseven {
-    color: #7ABFEB;
+.carrot {
     font-size: 2em;
     transform:           rotate(90deg);
-    top: 3.7vw;
-    left: 3vw;
+    top: 3.15ex;
+    left: 1.4em;
     display: inline-block;
     position: absolute;
+}
+.carrotseven {
+    color: #7ABFEB;
 }
 .carrotsodd {
     color: #3594CB;
-    font-size: 2em;
-    transform:           rotate(90deg);
-    top: 3.7vw;
-    left: 3vw;
-    display: inline-block;
-    position: absolute;
-}
+   }
 date {
     color: #ACB9BE;
+    display: block;
 }
 big {
     display: inline-block;
     position: relative;
     font-size: 1.5em;
-    margin-top: 1em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    
 }
 h2 {
     font-size: 1.5em;
+    border-bottom: solid 0.2ex white;
 }
-article {
-    padding: 1em 1em;
-}
-article:before {
-    
-}
-.carrot {
-    
-}
-.icon {
+.iconbox {
+    height: 3em;
+    width: 3em;
+    float:right;
     background-color: #58A4D6;
     border: solid 5px #B5DBF5;
     color: white;
-    float:right;
     padding: 0.5em;
     border-radius: 100px;
-    top: 0;
+    margin-top: ;
+
+}
+.icon {
 }
 
 
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    li {
+   border-left: 0.5ex solid #B6DCF6;
+    padding-left: 2em;
+    }
+    header {
+    }
+    .titleblock {
+        float: left;
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+    }
+    h1 {
+        position: absolute;
+        font-size: 3em;
+        line-height: 1em;
+        margin-top: 0;
+        
+    }
+    .headericonbar {
+        float: right;
+        text-align: right;
+        line-height: 1em;
+        display: inline;
+    }
+    .headericons {
+        font-size: 1em;
+        float: right;
+    }
+    .iconbox {
+        float: left;
+        left: -10;
+    }
+    article {
+        margin-left: 5%;
+    }
+    .carrots {
+        transform:                     rotate(270deg);
+        top: 3.15ex;
+        left: 1.4em;
+        display: inline-block;
+        position: absolute;
+    }
+    .effects {
+        position: absolute;
+        margin-left: -2.6em;
+        margin-top: -2em;
+    }
+}
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
 
 
 
