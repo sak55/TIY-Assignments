@@ -5,6 +5,8 @@
 
 * [Timeline](timeline/index.html)
 
-* [Check Writing](katas/string-calculator.js)
+* [String Calculator](katas/string-calculator.js)
+
+* [Check Writing](katas/check-writing.html)
 
 * [Current WIP](pub/index.html)
