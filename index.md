@@ -7,5 +7,5 @@
 
 * [String Calculator](katas/string-calculator.js)
 
-* [Check Writing](katas/check-writing.html)
+* [Check Writing](katas/check-writing.js)
 

@@ -40,13 +40,39 @@ var dictNum = {'zero' : 0,
 
 function toCheck(n) {
     var stringNum, dollars, last2, numDollars;
-    stringNum = JSON.stringify(n); 
-    numDollars = stringNum.slice(0, -3);
-    last2 = stringNum.slice(-2);
+    stringNum = JSON.stringify(n);
     
+    function mycents() {
+//        if (stringNum.slice(-1) === '.' ) {
+//            last2 = "00";
+//        }
+        if (stringNum.slice(-2, -1) === '.') {
+            last2 = stringNum.slice(-1) + "0";
+            numDollars = stringNum.slice(0, -2);
+        }
+        else if (stringNum.slice(-3, -2) !== '.') {
+            last2 = "00";
+            numDollars = stringNum;
+        }
+        else {
+            last2 = stringNum.slice(-2);
+            numDollars = stringNum.slice(0, -3);
+        }
+    }
+    
+    mycents();
+    
+    console.log(n);
+    console.log(stringNum.slice(-2));
+            
     function tens() {
             if (numDollars.slice(-2) > 20) {
-                return (_.invert(dictNum))[numDollars.slice(-2, -1) + 0] + " - " + (_.invert(dictNum))[numDollars.slice(-1)]
+                if (numDollars.slice(-1) > 0) {
+                    return (_.invert(dictNum))[numDollars.slice(-2, -1) + 0] + "-" + (_.invert(dictNum))[numDollars.slice(-1)]
+                    }
+                else {
+                    return (_.invert(dictNum))[numDollars.slice(-2)]
+                }
             }
             else {
                 return (_.invert(dictNum))[numDollars.slice(-2)]
@@ -65,7 +91,12 @@ function toCheck(n) {
     function tenthousands(){
         var num;
         if (numDollars.slice(0, 2) > 20) {
-                num = (_.invert(dictNum))[numDollars.slice(0, 1) + 0] + " - " + (_.invert(dictNum))[numDollars.slice(1, 2)]
+                if (numDollars.slice(-1) > 0) {
+                    num = (_.invert(dictNum))[numDollars.slice(-2, -1) + 0] + "-" + (_.invert(dictNum))[numDollars.slice(-1)]
+                    }
+                else {
+                    num = (_.invert(dictNum))[numDollars.slice(-2)]
+                }
             }
             else {
                 num = (_.invert(dictNum))[numDollars.slice(0, 2)]
@@ -95,7 +126,7 @@ function toCheck(n) {
        dollars = (_.invert(dictNum))[numDollars];
    }
         
-    
+    mycents();
     console.log(dollars + ' & ' + last2 + '/' + '100s dollars')
     
 } 
@@ -110,6 +141,13 @@ toCheck(123.45);
 toCheck(1234.56);
 toCheck(12345.67);
 toCheck(99999.99);
+
+toCheck(30.23);
+toCheck(30330.33);
+toCheck(1.00);
+toCheck(1.10);
+toCheck(0.00);
+toCheck(0.10);
 
 //assert.equal(toCheck(1.23), "one & 23/100s dollars");
 //assert.equal(toCheck(12.34), "twelve & 34/100s dollars");
