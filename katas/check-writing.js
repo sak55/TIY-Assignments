@@ -61,9 +61,6 @@ function toCheck(n) {
     }
     
     mycents();
-    
-    console.log(n);
-    console.log(stringNum.slice(-2));
             
     function tens() {
             if (numDollars.slice(-2) > 20) {
