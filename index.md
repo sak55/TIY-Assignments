@@ -9,4 +9,3 @@
 
 * [Check Writing](katas/check-writing.html)
 
-* [Current WIP](pub/index.html)
