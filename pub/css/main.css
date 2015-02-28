@@ -55,39 +55,21 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-.container {
-    width: 90%;
-    margin: 0 auto;
-    /* width: 880px;
-    height:827px;*/
-    text-align: center;
-    font-size: 2em;
-    border:2px solid black;
-}
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-.row0, .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
-    clear:both;
+======
+.row0,
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6,
+.row7,
+.row8 {
+    clear: both;
     position: relative;
 }
 
@@ -97,10 +79,11 @@ textarea {
     height: 0;
     /*width:100px;
     height:100px;*/
-    border:1px solid black;
+    
+    border: 1px solid black;
     float: left;
     background-color: black;
-    color: #CCB78B;    
+    color: #CCB78B;
 }
 
 .even {
@@ -109,11 +92,13 @@ textarea {
     height: 0;
     /*width:100px;
     height:100px;*/
-    border:1px solid black;
+    
+    border: 1px solid black;
     float: left;
     background-color: #703842;
     /*color: #CCB78B;*/
-    text-align:center;
+    
+    text-align: center;
     position: relative;
 }
 
@@ -123,11 +108,13 @@ textarea {
     height: 0;
     /* width:100px;
     height:100px;*/
+    
     float: left;
-    border:1px solid black;
+    border: 1px solid black;
     background-color: #CCB78B;
     /*color: #703842;*/
-    text-align:center;
+    
+    text-align: center;
     position: relative;
 }
 /*
@@ -167,7 +154,6 @@ textarea {
     background-color: gray;
 }
 
-
 #b8:before {
     content: "\265E";
 }
@@ -175,7 +161,6 @@ textarea {
 #b8:hover {
     background-color: gray;
 }
-
 
 #c8:before {
     content: "\265D";
@@ -185,7 +170,6 @@ textarea {
     background-color: gray;
 }
 
-
 #d8:before {
     content: "\265B";
 }
@@ -193,7 +177,6 @@ textarea {
 #d8:hover {
     background-color: gray;
 }
-
 
 #e8:before {
     content: "\265A";
@@ -290,9 +273,7 @@ textarea {
 #h7:hover {
     background-color: gray;
 }
-
 /* White Pieces*/
-
 
 #a2:before {
     content: "\2659";
@@ -409,9 +390,8 @@ textarea {
 #g1:before {
     content: "\2658";
 }
->>>>>>> feature/22--living-chessboard
 
-#g1:hover {
+>>>>>>> feature/22--living-chessboard #g1:hover {
     background-color: gray;
 }
 
@@ -422,22 +402,16 @@ textarea {
 #h1:hover {
     background-color: gray;
 }
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
-}
+@media only screen and (min-width: 35em) {}
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
-}
-
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -499,7 +473,6 @@ textarea {
 .clearfix {
     *zoom: 1;
 }
-
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -511,56 +484,45 @@ textarea {
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a,
     a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
         content: "";
     }
-
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     thead {
         display: table-header-group;
     }
-
     tr,
     img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
     @page {
         margin: 0.5cm;
     }
-
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
-
     h2,
     h3 {
         page-break-after: avoid;
